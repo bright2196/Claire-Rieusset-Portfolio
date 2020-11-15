@@ -1,9 +1,9 @@
 import React from "react";
 
-const Home = () => {
+const LibowProject = () => {
   return (
     <p>coucou</p>
   );
 };
 
-export default Home;
+export default LibowProject;
