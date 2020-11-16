@@ -1,16 +1,21 @@
 import React from 'react';
+import styles from "./HomeSection.module.css";
 
 
 
 export default function HomeSection() {
   return (
-      <div className="HomeSectionContainer">
-        <h1>Section 1</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat blanditiis adipisci eaque animi repellat
-          atque assumenda corporis quidem nostrum ea, nulla qui cupiditate suscipit, quisquam voluptas mollitia ex iusto
-          voluptates.
-        </p>
-        </div>
+    <div className={styles.HomeSectionContainer}>
+    <div className={styles.containerText}>
+     
+    <h3 className={styles.Subtitles}> I am_</h3> 
+    <h1 className={styles.title}>CLAIRE RIEUSSET</h1>
+
+    
+
+    
+  </div>
+  </div>
+
   );
 }

@@ -5,7 +5,7 @@ import LogoPortfolio from "./img/logoPortfolio.svg"
 const LogoGlobal = () => {
   return (
     <div className={styles.containerLinkBar}>
-        <img classname={styles.LogoPortfolio} src={LogoPortfolio} alt='' />
+        <img className={styles.LogoPortfolio} src={LogoPortfolio} alt='' />
       
     </div>
   );

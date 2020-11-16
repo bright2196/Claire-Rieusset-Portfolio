@@ -10,7 +10,7 @@ class LinkText extends React.Component {
 
         <a 
         href={this.props.urlLink}>
-            <p classname={styles.LinkText} >
+            <p className={styles.LinkText} >
             
              {this.props.name}  
 

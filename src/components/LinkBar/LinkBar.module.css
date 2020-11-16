@@ -2,28 +2,62 @@ a {
     outline: none;
     text-decoration: none;
     padding: 2px 1px 0;
-    
+    writing-mode: vertical-lr;
+    font-size: 16px;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   
   a:link {
-    color: #265301;
+    color: #E0CF04;
   }
   
   a:visited {
-    color: #437A16;
+    color: #E0CF04;
   }
   
   a:focus {
-    border-bottom: 1px solid;
-    background: #BAE498;
+    color: #E0CF04;
   }
   
   a:hover {
-    border-bottom: 1px solid;     
-    background: #CDFEAA;
+    color: #968902;
   }
   
   a:active {
   
-    color: #CDFEAA;
+    color: #ffea00;
+  }
+
+
+  .containerLinkBar{
+    background-color: #0E0E0E;
+    display: flex;
+    flex-direction: column;
+    width: 4vw;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .LinkModule {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 3vh;
+  }
+
+  .LinkedinLink {
+    padding: 2vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .BehanceLink {
+    padding: 2vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }

@@ -8,7 +8,10 @@ import Libow from "../pages/Libow";
 
 const App = () => {
   return (
+    
     <div className="App">
+
+ 
       <BrowserRouter>
         <Switch>
           <Route path="/" component={Home} />
@@ -17,7 +20,9 @@ const App = () => {
        
         </Switch>
       </BrowserRouter>
+      
     </div>
+  
   );
 };
 
