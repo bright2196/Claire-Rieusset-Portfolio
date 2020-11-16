@@ -1,8 +1,14 @@
-import React from "react";
+
+import LinkBar from "../../components/LinkBar";
+import styles from "./Home.module.css";
+
 
 const Home = () => {
   return (
-    <p>coucou</p>
+    <div className={styles.containerInscription}>
+        <LinkBar/>
+      
+    </div>
   );
 };
 
