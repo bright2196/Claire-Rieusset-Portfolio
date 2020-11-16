@@ -20,8 +20,8 @@ export default function ScrollAnimation() {
     <div>
       <Lottie 
         options={defaultOptions}
-        height={180}
-        width={180}
+        height={100}
+        width={100}
       />
     </div>
   );
