@@ -1,6 +1,6 @@
 import React from 'react';
+import ScrollAnimation from '../ScrollAnimation';
 import styles from "./HomeSection.module.css";
-
 
 
 export default function HomeSection() {
@@ -10,11 +10,10 @@ export default function HomeSection() {
      
     <h3 className={styles.Subtitles}> I am_</h3> 
     <h1 className={styles.title}>CLAIRE RIEUSSET</h1>
-
-    
-
     
   </div>
+
+    <ScrollAnimation/>
   </div>
 
   );
