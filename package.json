@@ -24,6 +24,7 @@
     "react-scripts": "4.0.0",
     "react-scroll": "^1.8.1",
     "react-scrollbar-js": "^1.0.1",
+    "react-slide-menu": "^0.5.1",
     "react-useanimations": "^2.0.5",
     "spotify-web-api-js": "^1.5.1",
     "styled-components": "^5.2.1",

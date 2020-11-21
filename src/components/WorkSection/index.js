@@ -1,16 +1,16 @@
 import React from 'react';
-
+import WorkElementButton from '../WorkElementButton';
+import styles from "./WorkSection.module.css";
 
 
 export default function WorkSection() {
   return (
-      <div className="WorkSectionContainer">
-        <h1>Section 1</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat blanditiis adipisci eaque animi repellat
-          atque assumenda corporis quidem nostrum ea, nulla qui cupiditate suscipit, quisquam voluptas mollitia ex iusto
-          voluptates.
-        </p>
-        </div>
+    <div className={styles.WorkSectionContainer}>
+      <WorkElementButton
+      name= 'LIBOW_'/>
+    <div >
+    </div>
+  </div>
+
   );
 }

@@ -12,7 +12,7 @@ export default function HomeSection() {
     <h1 className={styles.title}>CLAIRE RIEUSSET</h1>
     
   </div>
-    <div className={styles.AnimationScroll}>
+    <div >
     <ScrollAnimation />
     </div>
   </div>
