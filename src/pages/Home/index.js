@@ -9,7 +9,10 @@ const Home = () => {
     
   
     <div className={styles.containerGlobalHome }>
-       <LinkBar className={styles.LinkBar} />
+      <div className={styles.LinkBar}>
+        
+       <LinkBar  />
+       </div>
       <div className={styles.containerHomeSection}>
         <SectionContainer/>
       </div>

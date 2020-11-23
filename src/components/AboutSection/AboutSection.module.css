@@ -1,0 +1,53 @@
+
+
+
+
+
+.containerText {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    position: relative;
+    left: 10vw;
+}
+
+
+.AboutSectionContainer {
+    width: 95vw;
+    min-height: 100vh;
+    position: relative;
+    left: 5vw;
+    display: flex;
+    justify-content: space-between;
+    top: 10vh;
+    flex-wrap: wrap;
+}
+
+.TextCorps {
+    width: 20vw;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 4.5vw;
+    line-height: 1.8em;
+
+}
+
+.MyPortrait {
+    filter: brightness(0.4);
+    display: flex;
+    width: 28vw;
+    height: 42vh;
+    position: relative;
+    right: 15vw;
+    top: 14vh;
+    background-color: #e0ce045e;
+   
+}
+
+.ButtonDiscover {
+    position: relative;
+    top: 16vh;
+}
+

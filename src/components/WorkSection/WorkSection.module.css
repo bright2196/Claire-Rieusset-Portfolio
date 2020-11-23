@@ -1,7 +1,49 @@
 .WorkSectionContainer {
     width: 95vw;
-    min-height: 100vw;
-   
+    min-height: 90vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  
+    
+
 
 }
 
+
+
+.ElementContainer {
+    display: flex;
+   
+    position: relative;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5vw;
+
+
+   
+    
+}
+
+.ContainerElementPart2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+
+.Subtitles {
+   
+    margin-bottom: 8vh;
+    display: flex;
+    padding-left: 15vw;
+}
+
+.ButtonMore {
+    display: flex;
+    justify-content: center;
+}
