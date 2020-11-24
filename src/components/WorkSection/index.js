@@ -12,7 +12,7 @@ export default function WorkSection() {
       <div className={styles.Subtitles}>     
       <SousTitre
           name='All my work_' 
-          fontWeight= '500'
+          fontWeight= '600'
           fontSize= '30px'
           color= "#E0CF04"
           /> </div>

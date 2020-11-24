@@ -9,14 +9,14 @@ const LinkBar = () => {
         <LogoGlobal/> 
     <div className={styles.LinkModule}>
       <div className={styles.BehanceLink}>
-        <LinkText
+        <LinkText className={styles.textStyles}
         name= "Behance"
         urlLink= "https://www.behance.net/clairerieusset1"
 
         /> 
         </div>
         <div className={styles.LinkedinLink}>
-        <LinkText
+        <LinkText className={styles.textStyles}
         name= "Linkedin"
         urlLink= "https://www.linkedin.com/in/claire-rieusset-882633182/"
 

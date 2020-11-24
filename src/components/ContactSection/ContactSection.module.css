@@ -1,0 +1,81 @@
+
+
+
+
+
+.containerText {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    position: relative;
+    left: 10vw;
+}
+
+
+.AboutSectionContainer {
+    width: 95vw;
+    min-height: 100vh;
+    position: relative;
+    left: 5vw;
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+}
+
+.TextCorps {
+    width: 20vw;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+    line-height: 1.5em;
+
+}
+
+.ContainerNumeroMail{
+    
+    display: flex;
+    width: 28vw;
+    height: 42vh;
+    position: relative;
+    right: 13vw;
+    top: 45vh;
+   
+    flex-direction: column;
+   
+}
+.mail {
+    writing-mode: horizontal-tb;
+    text-decoration: underline;
+}
+
+.mail:hover {
+    color: #a59702;
+}
+
+.ContactInformation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.icon {
+
+    width: 5vw;
+    height: 5vh;
+}
+
+.IconReseauSociaux {
+    display: flex;
+    justify-content: center;
+}
+
+.iconLinkedin, .iconBehance {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 2vh;
+
+}

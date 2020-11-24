@@ -14,7 +14,7 @@ export default function AboutSection() {
     <div className={styles.Subtitles}>
           <SousTitre
           name='About me_' 
-          fontWeight= '500'
+          fontWeight= '600'
           fontSize= '2vw'
           color= "#E0CF04"
           /> 

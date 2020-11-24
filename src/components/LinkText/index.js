@@ -8,9 +8,9 @@ class LinkText extends React.Component {
   render() {
     return (
 
-        <a 
+        <a className={styles.LinkText}
         href={this.props.urlLink}>
-            <p className={styles.LinkText} >
+            <p>
             
              {this.props.name}  
 
