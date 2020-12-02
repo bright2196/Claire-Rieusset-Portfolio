@@ -12,19 +12,18 @@ const Home = () => {
     <div className={styles.containerGlobalHome }>
     
      
-      <div className={styles.LinkBar}>
-        
-       <LinkBar/>
-       </div>
+      
       <div className={styles.containerHomeSection}>
-      <div className={styles.NavBar}>
-        
+     
+      <LinkBar/>
         <NavBar/>
-        </div>
+        
+       
         <SectionContainer/>
-      </div>
+      
      
        
+    </div>
     </div>
   
    
