@@ -1,0 +1,25 @@
+.containerGlobalLibow {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    
+    }
+    
+    
+    .containerLibowSection {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20vh;
+        
+        
+    }
+    
+    .LinkBarContainer {
+        position: fixed;
+        display: block;
+        left: 0;
+        top:0;
+    }

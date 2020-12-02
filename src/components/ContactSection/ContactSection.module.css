@@ -13,7 +13,7 @@
 }
 
 
-.AboutSectionContainer {
+.ContactSectionContainer {
     width: 95vw;
     min-height: 100vh;
     position: relative;
@@ -78,4 +78,13 @@
     padding-right: 1vw;
     padding-top: 2vh;
 
+}
+
+.ContactInformationTelephone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: 48vw;
+    top: 31vh;
 }

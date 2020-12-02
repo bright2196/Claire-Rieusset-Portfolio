@@ -8,27 +8,40 @@
     border: none;
     padding: none;
     margin-left: none;
-    text-align: left;
-    border-right: 2px #E0CF04 solid ;
-    border-bottom: 2px #E0CF04 solid ;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
     
 }
 
-.Button:hover {
-    background-color: RGBA(207,192,5,0.08);
-    color: #0E0E0E;
-    font-size: 20px;
-    font-family: roboto-condensed,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    border: none;
-    padding: none;
-    margin-left: none;
-    text-align: left;
-    border-right: 2px #8a7e01 solid ;
-    border-bottom: 2px #8a7e01 solid ;
+
+
+.circleButton {
+    width: 55px;
+    height: 55px;
+    background-color: RGBA(207,192,5,0.2);
+    border-radius: 50%;
+    z-index: 0;
+    display: flex;
+    position: absolute;
+    margin-top: -1.5vh;
     
+
 }
+.ContainerButton {
+    transition: all .2s ease-in-out;
+    margin: none;
+    width: 150px;
+}
+.ContainerButton:hover .circleButton {
+    transform: scale(1.5);
+    transition: .2s;
+}
+
 
 /* 
 .line1Button {

@@ -7,7 +7,7 @@ import styles from "./WorkSection.module.css";
 
 export default function WorkSection() {
   return (
-    <div className={styles.WorkSectionContainer}>
+    <div className={styles.WorkSectionContainer} id="Work">
 
       <div className={styles.Subtitles}>     
       <SousTitre
@@ -24,6 +24,7 @@ export default function WorkSection() {
       <div className={styles.Element1}>
         
         <WorkElementButton
+        number= '1_Intership'
       name= 'LIBOW_'/>
     
     </div>
@@ -64,7 +65,7 @@ export default function WorkSection() {
               <ButtonProject
               name='See more projects' 
               fontWeight= '600'
-              fontSize= '1.1vw'
+              fontSize= '18px'
               color= "#E0E0E0"/>
              
     </div>

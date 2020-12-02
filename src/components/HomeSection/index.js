@@ -6,7 +6,7 @@ import SousTitre from '../Subtitles';
 
 export default function HomeSection() {
   return (
-    <div className={styles.HomeSectionContainer}>
+    <div className={styles.HomeSectionContainer} id="Home">
     <div className={styles.containerText}>
      
     <div className={styles.Subtitles}> <SousTitre

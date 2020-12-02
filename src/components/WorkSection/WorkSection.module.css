@@ -38,7 +38,8 @@
 
 .Subtitles {
    
-    margin-bottom: 8vh;
+    margin-top: 12vh;
+    margin-bottom: 10vh;
     display: flex;
     padding-left: 15vw;
 }
@@ -46,4 +47,6 @@
 .ButtonMore {
     display: flex;
     justify-content: center;
+    margin-top: 8vh;
+    margin-left: 10%;
 }

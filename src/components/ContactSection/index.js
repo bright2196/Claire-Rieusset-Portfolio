@@ -7,18 +7,19 @@ import LinkedinIcon from '../ContactSection/img/linkedinIcon.svg'
 
 import BehanceIcon from '../ContactSection/img/BehanceIcon.svg'
 
+import TelephoneIcon from '../ContactSection/img/telephoneIcon.svg'
 
 
 export default function ContactSection() {
   return (
-    <div className={styles.AboutSectionContainer}>
+    <div className={styles.ContactSectionContainer} id="Contact">
     <div className={styles.containerText}>
      
     <div className={styles.SubtitlesContact}>
           <SousTitre
           name='Get in touch_' 
           fontWeight= '600'
-          fontSize= '5vw'
+          fontSize= '65px'
           color= "#E0CF04"
           /> 
     
@@ -34,7 +35,7 @@ export default function ContactSection() {
           aliquyam erat, sed diam voluptua. At vero eos 
           et accusam et justo duo dolores et ea rebum. ' 
           fontWeight= '400'
-          fontSize= '1vw'
+          fontSize= '16px'
           color= "#E0E0E0"
           /> 
 
@@ -46,7 +47,7 @@ export default function ContactSection() {
           <SousTitre
           name='Work with me_' 
           fontWeight= '600'
-          fontSize= '2vw'
+          fontSize= '30px'
           color= "#E0CF04"
           /> 
     
@@ -64,7 +65,7 @@ export default function ContactSection() {
           <CorpsText
           name='clairerieusset.pro@gmail.com' 
           fontWeight= '400'
-          fontSize= '1.5vw'
+          fontSize= '20px'
           color= "#E0E0E0"
           /> 
           </a>  
@@ -84,9 +85,29 @@ export default function ContactSection() {
 
              </div>
       </div>
+      <div className={styles.ContactInformationTelephone}>
 
+        <div className={styles.icon}>
+              <img className={styles.icon} src={TelephoneIcon} alt="Icon téléphone"/>
+
+        </div>
+        <div className={styles.TextCorps}>
+
+        <div className={styles.numeroTel} >
+        <CorpsText
+        name='06.02.03.03.20' 
+        fontWeight= '400'
+        fontSize= '20px'
+        color= "#E0E0E0"
+        /> 
+        </div>  
+
+        </div>
+
+</div>
      </div>
- 
+  
+  
   
   </div>
      

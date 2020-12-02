@@ -3,14 +3,14 @@ import styles from './LinkText.module.css';
 import PropTypes from 'prop-types';
 
 
-class LinkText extends React.Component {
+class AText extends React.Component {
   
   render() {
     return (
 
         <a className={styles.LinkText}
         href={this.props.urlLink}>
-            <p>
+            <p className={styles.text}>
             
              {this.props.name}  
 
@@ -22,11 +22,11 @@ class LinkText extends React.Component {
 }
 
 
-LinkText.propTypes = {
+AText.propTypes = {
     name: PropTypes.string,
     urlLink: PropTypes.string,
     color: PropTypes.string
 
 
   }
-  export default LinkText;
+  export default AText;

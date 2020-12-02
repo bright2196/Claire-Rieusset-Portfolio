@@ -1,0 +1,86 @@
+.RandomSectionContainer {
+    min-height: 100vh;
+    width: 100vw;
+   
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 7vh;
+    justify-content: center;
+    align-items: center;
+    
+   
+   
+  
+}
+
+
+.circleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+
+
+
+.circle:hover {
+    transform: scale(1.2);
+    background-image: url(../RandomSection/assets/photos/randomHoverBackground.png);
+    background-size: contain;
+   
+    opacity: 1;
+}
+
+.circle:active {
+    transform: scale(2);
+ 
+   
+    opacity: 1;
+}
+
+
+.circle {
+   
+    transition: all .2s ease-in-out;
+    opacity: 0.3;
+    display: flex;
+    width: 420px;
+    height: 420px;
+    background-color: #E0CF04;
+    border-radius: 50%;
+    justify-content: center;
+
+    
+
+}
+
+
+.textContainer {
+    width: 500px;
+    position: absolute;
+    left: 50%;
+}
+
+
+.Title {
+    color: #E0E0E0;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+   
+
+.SousTitre {
+    
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}

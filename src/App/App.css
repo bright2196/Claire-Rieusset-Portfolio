@@ -9,8 +9,10 @@
 }
 
 .App {
-  background-image: url(./Background.png);
+  background-image: url(./backgroundImage1.jpeg);
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100vh;
 
 }

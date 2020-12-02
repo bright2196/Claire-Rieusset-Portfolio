@@ -1,9 +1,26 @@
-import React from "react";
+import React from 'react';
+import LinkBar from '../../components/LinkBar';
+import styles from "./Libow.module.css";
 
-const LibowProject = () => {
+
+const Libow = () => {
   return (
-    <p>coucou</p>
+    
+  
+    <div className={styles.containerGlobalLibow }>
+      <div className={styles.LinkBar}>
+        
+       <LinkBar className={styles.LinkBarContainer}/>
+       </div>
+      <div className={styles.containerLibowSection}>
+   
+      </div>
+     
+       
+    </div>
+  
+   
   );
 };
 
-export default LibowProject;
+export default Libow;

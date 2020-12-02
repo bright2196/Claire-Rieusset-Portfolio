@@ -15,34 +15,37 @@
 
 .AboutSectionContainer {
     width: 95vw;
-    min-height: 100vh;
+    min-height: 90vh;
     position: relative;
     left: 5vw;
     display: flex;
     justify-content: space-between;
-    top: 10vh;
+    align-items: center;
+    
     flex-wrap: wrap;
 }
 
 .TextCorps {
-    width: 20vw;
+    width: 350px;
     font-family: roboto-condensed,sans-serif;
     font-weight: 400;
+    font-size: 20px;
     font-style: normal;
     padding-left: 4.5vw;
-    line-height: 1.8em;
+    line-height: 1.5em;
+
 
 }
 
 .MyPortrait {
-    filter: brightness(0.4);
+    
     display: flex;
     width: 28vw;
     height: 42vh;
     position: relative;
-    right: 15vw;
-    top: 14vh;
-    background-color: #e0ce045e;
+    right: 23vw;
+    top: 12vh;
+  
    
 }
 

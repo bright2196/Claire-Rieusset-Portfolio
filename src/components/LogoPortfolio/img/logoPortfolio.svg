@@ -1,1 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="42" height="90" viewBox="0 0 42 90"><defs><style>.a{fill:#e0cf04;font-size:40px;font-family:RobotoCondensed-Bold, Roboto Condensed;font-weight:700;}.b{fill:none;stroke:#e0cf04;}</style></defs><g transform="translate(-50.5 2)"><g transform="translate(59 -2)"><text class="a"><tspan x="0" y="42">C</tspan></text></g><text class="a" transform="translate(59 35)"><tspan x="0" y="42">R</tspan></text><line class="b" x2="42" transform="translate(50.5 44.5)"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="77.044" height="97.863" viewBox="0 0 77.044 97.863">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e0cf04;
+        opacity: 0.476;
+      }
+
+      .cls-2 {
+        fill: #b9b9b9;
+        font-size: 70px;
+        font-family: Avenir-Black, Avenir;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <g id="Groupe_44" data-name="Groupe 44" transform="translate(4.57 4)">
+    <path id="Soustraction_1" data-name="Soustraction 1" class="cls-1" d="M35.761,69.521h-1A34.77,34.77,0,0,1,21.23,2.732,34.543,34.543,0,0,1,34.761,0h1Z" transform="matrix(0.602, -0.799, 0.799, 0.602, -4.57, 52.024)"/>
+    <text id="C" class="cls-2" transform="translate(16 66)"><tspan x="0" y="0">C</tspan></text>
+  </g>
+</svg>

@@ -19,8 +19,9 @@ class ButtonProject extends React.Component {
       >
 
       {this.props.name} 
-      
+      <div className={styles.circleButton}></div>
       </button>
+      
     
       </div>
    

@@ -8,15 +8,17 @@ const LinkBar = () => {
     <div className={styles.containerLinkBar}>   
         <LogoGlobal/> 
     <div className={styles.LinkModule}>
-      <div className={styles.BehanceLink}>
+      <div className={styles.BehanceLink} >
         <LinkText className={styles.textStyles}
+        id='LinkRS'
         name= "Behance"
         urlLink= "https://www.behance.net/clairerieusset1"
 
         /> 
         </div>
-        <div className={styles.LinkedinLink}>
+        <div className={styles.LinkedinLink} >
         <LinkText className={styles.textStyles}
+        id='LinkRS'
         name= "Linkedin"
         urlLink= "https://www.linkedin.com/in/claire-rieusset-882633182/"
 

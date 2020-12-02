@@ -2,6 +2,7 @@ import React from 'react';
 import HomeSection from '../../components/HomeSection';
 import AboutSection from '../AboutSection';
 import ContactSection from '../ContactSection';
+import RandomSection from '../RandomSection';
 import WorkSection from '../WorkSection';
 import styles from "./SectionComponent.module.css";
 
@@ -11,17 +12,29 @@ const SectionContainer = () => {
     
   
     <div className={styles.containerGlobalSection }>
+     
+      
       <div className={styles.containerHomeSection}>
-      <HomeSection/>
+      <HomeSection id="Home"/>
+
+
+      <div className={styles.containerWorkSection}>
+      <WorkSection id="Work"/>
+      </div>
+
+      
       </div>
       <div className={styles.containerAboutSection}>
-      <AboutSection/>
+      <AboutSection id="About"/>
       </div>
-      <div className={styles.containerWorkSection}>
-      <WorkSection/>
+
+      <div className={styles.containerRandomSection}>
+      <RandomSection id="Random"/>
       </div>
+
+      
       <div className={styles.containerContactSection}>
-        <ContactSection/>
+        <ContactSection name="Contact"/>
       </div>
        
     </div>
