@@ -27,15 +27,12 @@ export default function ContactSection() {
 
 
 
-    <div className={styles.TextCorps}>
+    <div className={styles.TextGeneral}>
           <CorpsText
-          name='Lorem ipsum dolor sit amet, consetetur 
-          sadipscing elitr, sed diam nonumy eirmod 
-          tempor invidunt ut labore et dolore magna 
-          aliquyam erat, sed diam voluptua. At vero eos 
-          et accusam et justo duo dolores et ea rebum. ' 
+          name='I am open to meet new people and love to collaborate ! You can 
+          contact me for general communication or work inquiries.' 
           fontWeight= '400'
-          fontSize= '16px'
+          fontSize= '17px'
           color= "#E0E0E0"
           /> 
 

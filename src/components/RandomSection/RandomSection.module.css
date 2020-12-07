@@ -31,21 +31,17 @@
     transform: scale(1.2);
     background-image: url(../RandomSection/assets/photos/randomHoverBackground.png);
     background-size: contain;
-   
-    opacity: 1;
+    opacity: 0.5;
 }
 
-.circle:active {
-    transform: scale(2);
- 
-   
-    opacity: 1;
-}
+
 
 
 .circle {
    
-    transition: all .2s ease-in-out;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 700ms;
     opacity: 0.3;
     display: flex;
     width: 420px;

@@ -6,7 +6,7 @@ import styles from "./LinkBar.module.css";
 const LinkBar = () => {
   return (
     <div className={styles.containerLinkBar}>   
-        <LogoGlobal/> 
+       <a href='/'><LogoGlobal/> </a> 
     <div className={styles.LinkModule}>
       <div className={styles.BehanceLink} >
         <LinkText className={styles.textStyles}
