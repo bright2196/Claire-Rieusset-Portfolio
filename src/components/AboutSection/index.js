@@ -13,7 +13,7 @@ export default function AboutSection() {
      
     <div className={styles.Subtitles}>
           <SousTitre
-          name='About me_' 
+          name='A propos' 
           fontWeight= '600'
           fontSize= '28px'
           color= "#E0CF04"
@@ -38,7 +38,7 @@ export default function AboutSection() {
 <div className={styles.ButtonDiscover}>
       <ButtonProject
       
-      name='More about me' 
+      name="Quelques détails en plus_" 
       fontWeight= '600'
       fontSize= '18px'
       color= "#E0E0E0"/>

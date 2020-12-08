@@ -1,0 +1,4 @@
+.containerGlobalSection {
+
+    scroll-snap-type: y proximity;
+}

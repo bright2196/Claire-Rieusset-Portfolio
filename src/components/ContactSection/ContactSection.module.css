@@ -57,7 +57,14 @@
 }
 .mail {
     writing-mode: horizontal-tb;
-    text-decoration: underline;
+    text-decoration: none;
+    color:  #dadada;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: normal;
+    
+
 }
 
 .mail:hover {
@@ -86,6 +93,23 @@
     padding-left: 1vw;
     padding-right: 1vw;
     padding-top: 2vh;
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+
+
+.iconLinkedin:hover{
+    transform: rotate(-5deg);
+
+    fill: #6c6302;
+}
+
+.iconBehance:hover{
+   
+    transform: rotate(-5deg);
+
+    fill: #6c6302;
 
 }
 

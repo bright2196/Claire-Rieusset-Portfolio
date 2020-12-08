@@ -11,31 +11,31 @@ const SectionContainer = () => {
   return (
     
   
-    <div className={styles.containerGlobalSection }>
+    <div className={styles.containerGlobalSection} dir="ltr">
      
       
-      <div className={styles.containerHomeSection}>
-      <HomeSection id="Home"/>
+      <section className={styles.containerHomeSection}>
+        <HomeSection id="Home"/>
+      </section>
 
-
-      <div className={styles.containerWorkSection}>
+      <section className={styles.containerWorkSection}>
       <WorkSection id="Work"/>
-      </div>
+      </section>
 
       
-      </div>
-      <div className={styles.containerAboutSection}>
+      
+      <section className={styles.containerAboutSection}>
       <AboutSection id="About"/>
-      </div>
+      </section>
 
-      <div className={styles.containerRandomSection}>
+      <section className={styles.containerRandomSection}>
       <RandomSection id="Random"/>
-      </div>
+      </section>
 
       
-      <div className={styles.containerContactSection}>
+      <section className={styles.containerContactSection}>
         <ContactSection name="Contact"/>
-      </div>
+      </section>
        
     </div>
   

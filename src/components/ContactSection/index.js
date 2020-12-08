@@ -29,8 +29,7 @@ export default function ContactSection() {
 
     <div className={styles.TextGeneral}>
           <CorpsText
-          name='I am open to meet new people and love to collaborate ! You can 
-          contact me for general communication or work inquiries.' 
+          name="Un projet, une idée, une question ? N'hésitez pas à me contacter !"
           fontWeight= '400'
           fontSize= '17px'
           color= "#E0E0E0"
@@ -42,7 +41,7 @@ export default function ContactSection() {
   <div className={styles.ContainerNumeroMail}>
   <div className={styles.SubtitlesContact}>
           <SousTitre
-          name='Work with me_' 
+          name='Travaillons ensemble_' 
           fontWeight= '600'
           fontSize= '30px'
           color= "#E0CF04"
@@ -59,12 +58,7 @@ export default function ContactSection() {
     <div className={styles.TextCorps}>
 
         <a className={styles.mail} href="mailto:clairerieusset.pro@gmail.com">
-          <CorpsText
-          name='clairerieusset.pro@gmail.com' 
-          fontWeight= '400'
-          fontSize= '20px'
-          color= "#E0E0E0"
-          /> 
+          clairerieusset.pro@gmail.com
           </a>  
 
     </div>

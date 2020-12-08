@@ -18,17 +18,18 @@ export default function RandomSection() {
     <div className={styles.textContainer}>
 
       <div id="title">
-    <h2 className={styles.Title}> Random Project_</h2>
+    <h2 className={styles.Title}>Essaye l'aléatoire_</h2>
     </div>
     <div id="sousTitre" className={styles.SousTitre}>
     <CorpsText
-          name='Discover something. 
-          You don’t know what projects could interest you ? 
-          No problem, click on the circle and you will see_' 
+          name='Découvre quelque chose sur moi. 
+          Clique sur ce bouton pour explorer un de mes projets_' 
           fontWeight= '400'
           fontSize= '25px'
           color= "#E0E0E0"
           /> 
+
+          
     </div>
 
     </div>
