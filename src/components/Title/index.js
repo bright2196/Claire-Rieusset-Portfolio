@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './SousTitre.module.css';
+import styles from './Title.module.css';
 import PropTypes from 'prop-types';
 
 

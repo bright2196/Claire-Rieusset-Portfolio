@@ -11,31 +11,31 @@ const SectionContainer = () => {
   return (
     
   
-    <div className={styles.containerGlobalSection} dir="ltr">
+    <div className='container y mandatory-scroll-snapping' dir="ltr">
      
       
-      <section className={styles.containerHomeSection}>
+      <div className={styles.containerHomeSection}>
         <HomeSection id="Home"/>
-      </section>
+      </div>
 
-      <section className={styles.containerWorkSection}>
+      <div className={styles.containerWorkSection}>
       <WorkSection id="Work"/>
-      </section>
+      </div>
 
       
       
-      <section className={styles.containerAboutSection}>
+      <div className={styles.containerAboutSection}>
       <AboutSection id="About"/>
-      </section>
+      </div>
 
-      <section className={styles.containerRandomSection}>
+      <div className={styles.containerRandomSection}>
       <RandomSection id="Random"/>
-      </section>
+      </div>
 
       
-      <section className={styles.containerContactSection}>
+      <div className={styles.containerContactSection}>
         <ContactSection name="Contact"/>
-      </section>
+      </div>
        
     </div>
   

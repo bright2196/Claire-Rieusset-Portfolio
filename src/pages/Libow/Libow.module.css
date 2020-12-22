@@ -8,13 +8,45 @@
     
     .containerLibowSection {
         display: flex;
-        justify-content: space-between;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 20vh;
+        margin-right: 70px;
+        margin-left: 70px;
+      
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        min-width: 80vw;
         
-        
+    }
+    .containerTextHeader {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .descriptionProject {
+        padding-left: 130px;
+        width: 280px;
+      
+        font-family: roboto-condensed,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.5em;
+
+    }
+
+
+    .SousTitreProject {
+        padding-left: 130px;
+        margin-top: -7vh;
+
+
+    }
+    .titlePage {
+        font-family: linotype-didot,serif;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: left;
+        padding-left: 130px;
     }
     
     .LinkBarContainer {

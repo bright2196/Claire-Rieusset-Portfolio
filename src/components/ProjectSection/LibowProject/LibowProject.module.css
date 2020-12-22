@@ -1,0 +1,46 @@
+
+.titlePage {
+    font-family: linotype-didot,serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-left: 150px;
+
+}
+
+.designation {
+    margin-left: 150px;
+}
+
+.containerGlobalLibow {
+   margin: 0;
+}
+
+.TextCorps {
+    width: 350px;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+   
+    display: flex;
+    line-height: 1.5em;
+}
+
+.ButtonContainer {
+    
+    display: flex;
+    margin-left: 90px;
+
+}
+
+.TextAndButtonContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;  
+    justify-content: space-between;
+    height: 270px;
+
+}

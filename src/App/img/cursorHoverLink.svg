@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e0cf04;
+        mix-blend-mode: difference;
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_40" data-name="Ellipse 40" class="cls-1" cx="4" cy="4" r="4"/>
+</svg>

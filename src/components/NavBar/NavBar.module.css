@@ -7,96 +7,108 @@
     position: fixed;
     right: 50px;
     top: 19vh;
-    height: 500px;
+    height: 100px;
     
   
 }
 
 
 .circleHome  {
-    background-color: #5f5f5f;
-    width: 10px;
-    height: 10px;
+    background-color: #433E00;
+    width: 45px;
+    height: 6px;
     z-index: 1001;
-    border-radius: 50%;
+    transition-duration: 400ms
+    
 
 }
 .circleWork {
-    background-color: #5f5f5f;
-    width: 10px;
-    height: 10px;
+    background-color: #433E00;
+    width: 45px;
+    height: 6px;
     z-index: 1001;
-    border-radius: 50%;
+    transition-duration: 400ms
+
 }
 
 .circleAbout  {
-    background-color: #5f5f5f;
-    width: 10px;
-    height: 10px;
+    background-color: #433E00;
+    width: 45px;
+    height: 6px;
     z-index: 1001;
-    border-radius: 50%;
-
+    transition-duration: 400ms
 }
 .circleRandom {
-    background-color: #5f5f5f;
-    width: 10px;
-    height: 10px;
+    background-color: #433E00;
+    width: 45px;
+    height: 6px;
     z-index: 1001;
-    border-radius: 50%;
+    transition-duration: 400ms
+
 }
 .circleContact {
-    background-color: #5f5f5f;
-    width: 10px;
-    height: 10px;
+    background-color: #433E00;
+    width: 45px;
+    height: 6px;
     z-index: 1001;
-    border-radius: 50%;
+    transition-duration: 400ms
+
 }
 
 
 .circleHome:hover  {
     background-color: #ad9f05;
-    transform: scale(1.8);
+    transform: scale(1.5);
+    transform: translateX(-10px);
 
 }
 .circleWork:hover {
     background-color: #ad9f05;
-    transform: scale(1.8);
+    transform: scale(1.5);
+    transform: translateX(-10px);
 }
 
 .circleAbout:hover  {
     background-color: #ad9f05;
-    transform: scale(1.8);
-
+    transform: scale(1.5);
+    transform: translateX(-10px);
 }
 .circleRandom:hover {
     background-color: #ad9f05;
-    transform: scale(1.8);
+    transform: scale(1.5);
+    transform: translateX(-10px);
 }
 .circleContact:hover {
     background-color: #ad9f05;
-    transform: scale(1.8);
+    transform: scale(1.5);
+    transform: translateX(-10px);
 }
 
 .circleHome:visited  {
     background-color: #ad9f05;
-    transform: scale(1.8);
+    transform: scale(1.5);
+    transform: translateX(-10px);
 
 }
 .circleWork:visited {
     background-color: #ad9f05;
-    transform: scale(1.8);
+    transform: scale(1.5);
+    transform: translateX(-10px);
 }
 
 .circleAbout:visited  {
     background-color: #ad9f05;
-    transform: scale(1.8);
+    transform: scale(1.5);
+    transform: translateX(-10px);
 
 }
 .circleRandom:visited {
     background-color: #ad9f05;
-    transform: scale(1.8);
+    transform: scale(1.5);
+    transform: translateX(-10px);
 }
-.circleContact:visited {
+.circleContact:active {
     background-color: #ad9f05;
-    transform: scale(1.8);
+    transform: scale(1.5);
+    transform: translateX(-10px);
 }

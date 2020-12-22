@@ -1,34 +1,43 @@
 import React from 'react';
-import LinkBar from "../../components/LinkBar";
-import NavBar from '../../components/NavBar';
-import SectionContainer from '../../components/SectionComponent';
-import styles from "./Home.module.css";
+import ReactFullpage from '@fullpage/react-fullpage';
+import HomeSection from '../../components/HomeSection';
+import LinkBar from '../../components/LinkBar';
+import LibowProject from '../../components/ProjectSection/LibowProject';
+import styles from './Home.module.css'
+import MedFocusProject from '../../components/ProjectSection/MedFocusProject';
 
-
-const Home = () => {
-  return (
-    
+const Home = () => (
   
-    <div className={styles.containerGlobalHome }>
-    
-     
-      <div className={styles.LinkBar}>
+ 
+  
+  <ReactFullpage
+    //fullpage options
+    licenseKey = {'7756740D-1A7C4402-93E96B54-EBE84341'}
+    scrollingSpeed = {1500} /* Options here */
+
+    render={({ state, fullpageApi }) => {
+      return (
+      
         
-       <LinkBar/>
-       </div>
-      <div className={styles.containerHomeSection}>
-      <div className={styles.NavBar}>
-        
-        <NavBar/>
-        </div>
-        <SectionContainer/>
-      </div>
-     
+        <ReactFullpage.Wrapper>
+        <div className={styles.LinkBar}>
+         <LinkBar/>
+         </div>
+          <div className="section">
+           <HomeSection/>
+          </div>
+          <div className="section">
+            <LibowProject/>
+          </div>
+          <div className="section">
+            <MedFocusProject/>
+          </div>
+          
+        </ReactFullpage.Wrapper>
        
-    </div>
-  
-   
-  );
-};
-
+        
+      );
+    }}
+  />
+);
 export default Home;

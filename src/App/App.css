@@ -4,6 +4,7 @@
   --secondary-color: #f68d28;
   background-color: #0E0E0E;
   scroll-behavior: smooth;
+  
 
 
  
@@ -17,9 +18,15 @@
   min-width: 100vh;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  
 }
 
 a {
   text-decoration: none;
+  cursor: url("./img/cursorHoverLink.svg"), pointer;
   
+}
+
+button {
+  cursor: url("./img/cursorHoverLink.svg"), pointer;
 }

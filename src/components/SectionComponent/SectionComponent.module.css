@@ -1,4 +1,31 @@
-.containerGlobalSection {
 
-    scroll-snap-type: y proximity;
+
+.container > div {
+    text-align: center;
+    scroll-snap-align: center;
+    flex: none;
+    
+  }
+
+.y.mandatory-scroll-snapping {
+    scroll-snap-type: y mandatory;
+  }
+  
+
+.containerHomeSection {
+    scroll-snap-align: center;
 }
+
+
+.containerWorkSection {
+    scroll-snap-align: center;
+}
+
+.containerAboutSection {
+    scroll-snap-align: center;}
+
+.containerRandomSection {
+    scroll-snap-align: center;}
+
+.containerContactSection {
+    scroll-snap-align: center;}

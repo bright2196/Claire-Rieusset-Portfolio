@@ -38,13 +38,14 @@
 .ContainerButton {
    
     margin: none;
-    width: 150px;
+    width: 200px;
     transform: scale(1);
     transition-property: transform;
     transition-duration: 400ms;
 }
 .ContainerButton:hover .circleButton {
     transform: scale(1.5);
+    
    
 }
 
