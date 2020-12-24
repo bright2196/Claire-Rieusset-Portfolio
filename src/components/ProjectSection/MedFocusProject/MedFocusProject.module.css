@@ -15,7 +15,10 @@
 }
 
 .containerGlobalLibow {
-   margin: 0;
+    margin: 0;
+   background-color: RGBA(11,82,143,0.18) ;
+   width: 100vw;
+   height: 100vh;
 }
 
 .TextCorps {
@@ -43,4 +46,12 @@
     justify-content: space-between;
     height: 270px;
 
+}
+.leftSide {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    height: 100vh;
 }

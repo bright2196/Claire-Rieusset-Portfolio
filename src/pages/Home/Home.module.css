@@ -20,16 +20,7 @@ flex-direction: row;
     
 }
 
-.LinkBar {
-    
-    
-    overflow-x: hidden;
-  
-    z-index: 1;
-    position: fixed;
-    
-    
-}
+
 
 
 .NavBar {

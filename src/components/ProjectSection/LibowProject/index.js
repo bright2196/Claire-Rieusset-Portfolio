@@ -4,6 +4,8 @@ import CorpsText from '../../CorpsText';
 import SousTitre from '../../Subtitles';
 import Title from '../../Title';
 import styles from "./LibowProject.module.css";
+// import AnimatedImage from '../../AnimatedImage'
+import PropTypes from 'prop-types';
 
 
 
@@ -58,8 +60,11 @@ const LibowProject = () => {
     
         </div>
         </div>
+        
         </div>
-       
+       <div className={styles.rightSide}>
+    
+       </div>
        
       </div>
      
@@ -70,5 +75,13 @@ const LibowProject = () => {
    
   );
 };
+
+LibowProject.propTypes = {
+  width: PropTypes.string,
+  height: PropTypes.string,
+  color: PropTypes.string, 
+
+
+}
 
 export default LibowProject;

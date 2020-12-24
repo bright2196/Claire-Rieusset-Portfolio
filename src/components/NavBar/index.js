@@ -1,48 +1,55 @@
-import React from 'react'
+import React from 'react';
+    import { NavLink } from 'react-router-dom';
+    import './NavBar.css';
+    
+    const Navbar = () => (
+      <nav className='navbar'>
 
-import styles from "./NavBar.module.css";
-
-
-const NavBar = () => {
-  return (
-    <div className={styles.containerLinkBar}>   
-       
-   
-     
-            <div className='itemHome'>
-            
-                <a  href="#Home" id="HomeContent"><div className={styles.circleHome}></div></a>
-            </div>
-
-
-            <div className='itemWork'>
-               
-                <a  href="#Work" id="WorkContent" > <div className={styles.circleWork}></div></a>
-
-            </div>
+         <NavLink
+            exact
+          activeClassName="navbarLinkActive"
+          className="navbar__link"
+          to="/"
+        >
+          Home
+        </NavLink>
 
 
-            <div className='itemAbout'>
+       <NavLink
+          activeClassName="navbarLinkActive"
+          className="navbar__link"
+          to="/About"
+        >
+         A propos
+        </NavLink>
 
-                <a href="#About" id="AboutContent">  <div className={styles.circleAbout}></div></a>
-            </div>
+        <NavLink
+          activeClassName="navbarLinkActive"
+          className="navbar__link"
+          to="/AuHasard"
+        >
+          🙈
+        </NavLink>
 
 
-            <div className='itemRandom'>
+        <NavLink
+          activeClassName="navbarLinkActive"
+          className="navbar__link"
+          to="/Work"
+        >
+          Tous mes projets
+        </NavLink>
 
-                <a  href="#Random" id="RandomContent"> <div className={styles.circleRandom}></div></a>
-            </div>
+        <NavLink
+          activeClassName="navbarLinkActive"
+          className="navbar__link"
+          to="/products"
+        >
+          Contact
+        </NavLink>
+      </nav>
+    );
+    
+    export default Navbar;
 
 
-            <div className='itemContact'>
-        
-                <a  href="#Contact" id="ContactContent"> <div className={styles.circleContact}></div></a>
-            </div>
-       
-
-        
-    </div>
-  );
-};
-
-export default NavBar;
