@@ -1,5 +1,4 @@
 import React from 'react';
-import ButtonProject from '../ButtonProject';
 import CorpsText from '../CorpsText';
 import SousTitre from '../Subtitles';
 import styles from "./AboutSection.module.css";
@@ -13,7 +12,7 @@ export default function AboutSection() {
      
     <div className={styles.Subtitles}>
           <SousTitre
-          name='Salut_' 
+          name='Hi 👋 _' 
           fontWeight= '600'
           fontSize= '28px'
           color= "#E0CF04"
@@ -34,15 +33,6 @@ export default function AboutSection() {
           fontSize= '16px'
           color= "#E0E0E0"
           /> 
-
-<div className={styles.ButtonDiscover}>
-      <ButtonProject
-      
-      name="Quelques détails en plus_" 
-      fontWeight= '600'
-      fontSize= '18px'
-      color= "#E0E0E0"/>
-      </div>
     </div>
     
   </div>

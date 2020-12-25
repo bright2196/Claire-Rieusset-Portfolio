@@ -48,22 +48,20 @@ export default function ContactSection() {
           /> 
     
     </div> 
+    <div className={styles.containerMailTel}>
+            <div className={styles.mailContact}>
+                  <div className={styles.mailIcon}>
+                        <img src={MailIcon} alt=''/>
+                  </div>
+                  <div className={styles.mailText}>
+                        <a href='mailto:clairerieusset.pro@gmail.com'>clairerieusset.pro@gmail.com</a>
+                  </div>
+            </div>
+
+    </div>
      
-    <div className={styles.ContactInformation}>
-
-             <div className={styles.icon}>
-                    <img className={styles.icon} src={MailIcon} alt="Icon mail"/>
-
-             </div>
-    <div className={styles.TextCorps}>
-
-        <a className={styles.mail} href="mailto:clairerieusset.pro@gmail.com">
-          clairerieusset.pro@gmail.com
-          </a>  
-
-    </div>
-    
-    </div>
+   
+   
     <div className={styles.IconReseauSociaux}>
               <div className={styles.iconLinkedin}>
               <a href="https://www.linkedin.com/in/claire-rieusset-882633182/" target="blank">  <img className={styles.iconLinkedin} src={LinkedinIcon} alt="Icon Linkedin"/> </a>
@@ -76,26 +74,7 @@ export default function ContactSection() {
 
              </div>
       </div>
-      <div className={styles.ContactInformationTelephone}>
-
-        <div className={styles.icon}>
-              <img className={styles.icon} src={TelephoneIcon} alt="Icon téléphone"/>
-
-        </div>
-        <div className={styles.TextCorps}>
-
-        <div className={styles.numeroTel} >
-        <CorpsText
-        name='06.02.03.03.20' 
-        fontWeight= '400'
-        fontSize= '20px'
-        color= "#E0E0E0"
-        /> 
-        </div>  
-
-        </div>
-
-</div>
+  
      </div>
   
   

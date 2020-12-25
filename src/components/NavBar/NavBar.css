@@ -42,7 +42,7 @@
   .navbar__link {
     margin: 1em;
     font-size: 1em;
-    font-family: 'Roboto', sans-serif;
+    font-family: roboto-condensed,sans-serif;
     cursor: pointer;
     text-decoration: none;
     z-index: 1000;
