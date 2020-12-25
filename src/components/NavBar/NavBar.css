@@ -10,6 +10,34 @@
 
     
   }
+
+  .circleButton {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    background-color:#00000000 ;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    position: absolute;
+    
+    border-radius: 50%;
+    transition-property: transform;
+    transition-duration: 400ms;
+    
+
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-property: transform;
+    transition-duration: 400ms;
+    
+   
+  }
+  
   
   .navbar__link {
     margin: 1em;
@@ -17,17 +45,18 @@
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
     text-decoration: none;
-   
+    z-index: 1000;
+
     color: #ffffff;
     border-bottom: 3px solid transparent;
   }
   
-  .navbar__link:hover {
-    transform: translateY(-2px);
-    color: rgb(221, 251, 51);
+  .item:hover .circleButton {
+    transform: scale(1.5);
+    background-color: #e0ce0446;
   }
   
   .navbarLinkActive{
-    border-bottom: 3px solid #E0CF04;
+    border-bottom: 1px solid #E0CF04;
     transition: border-bottom .5s ease-in-out;
   }

@@ -4,7 +4,7 @@ import React from 'react';
     
     const Navbar = () => (
       <nav className='navbar'>
-
+    <div className='item'>
          <NavLink
             exact
           activeClassName="navbarLinkActive"
@@ -13,8 +13,10 @@ import React from 'react';
         >
           Home
         </NavLink>
+        <div className='circleButton'></div>
+    </div>
 
-
+    <div className='item'>
        <NavLink
           activeClassName="navbarLinkActive"
           className="navbar__link"
@@ -22,16 +24,23 @@ import React from 'react';
         >
          A propos
         </NavLink>
+        <div className='circleButton'></div>
+    </div>
+
+    <div className='item'>
 
         <NavLink
           activeClassName="navbarLinkActive"
           className="navbar__link"
           to="/AuHasard"
         >
-          🙈
+          La roue de la fortune
         </NavLink>
+        <div className='circleButton'></div>
+    </div>
 
-
+    
+    <div className='item'>
         <NavLink
           activeClassName="navbarLinkActive"
           className="navbar__link"
@@ -39,14 +48,20 @@ import React from 'react';
         >
           Tous mes projets
         </NavLink>
+        <div className='circleButton'></div>
+    </div>
+
+    <div className='item'>
 
         <NavLink
           activeClassName="navbarLinkActive"
           className="navbar__link"
-          to="/products"
+          to="/Contact"
         >
           Contact
         </NavLink>
+        <div className='circleButton'></div>
+    </div>
       </nav>
     );
     

@@ -8,6 +8,7 @@ import LinkBar from "../components/LinkBar";
 import NavBar from "../components/NavBar";
 import Work from "../pages/Work";
 import Random from "../pages/Random";
+import Contact from "../pages/Contact";
 
 
 
@@ -32,6 +33,7 @@ const App = () => {
           <Route path="/Libow" component={Libow} />
           <Route path="/Work" component={Work} />
           <Route path="/AuHasard" component={Random} />
+          <Route path="/Contact" component={Contact} />
        
         </Switch>
        
