@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="111" height="70" viewBox="0 0 111 70"><defs><style>.a{fill:#e0cf04;}.b{fill:#030303;font-size:22px;font-family:RobotoCondensed-Regular, Roboto Condensed;letter-spacing:0.04em;}</style></defs><g transform="translate(-1161 -800)"><circle class="a" cx="35" cy="35" r="35" transform="translate(1161 800)"/><text class="b" transform="translate(1192 844)"><tspan x="0" y="0">Link</tspan><tspan class="a" y="0">edin</tspan></text></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 97.8 97.8" style="enable-background:new 0 0 97.8 97.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E0CF04;}
+	.st1{fill:#191919;}
+</style>
+<ellipse class="st0" cx="48.9" cy="48.9" rx="48.9" ry="48.9"/>
+<g>
+	<rect x="25.3" y="35.3" class="st1" width="11.5" height="34.9"/>
+	<path class="st1" d="M31.1,30.6L31.1,30.6c-3.9,0-6.4-2.7-6.4-6c0-3.4,2.6-6,6.5-6s6.4,2.6,6.4,6C37.6,27.9,35.1,30.6,31.1,30.6z"
+		/>
+	<path class="st1" d="M78.4,70.3H66.9V51.6c0-4.7-1.7-7.9-5.8-7.9c-3.2,0-5.1,2.2-5.9,4.2c-0.3,0.7-0.4,1.8-0.4,2.8v19.5H43.2
+		c0,0,0.2-31.7,0-34.9h11.5v4.9c1.5-2.4,4.3-5.8,10.4-5.8c7.6,0,13.3,5,13.3,15.7V70.3z"/>
+</g>
+</svg>

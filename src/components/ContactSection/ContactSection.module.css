@@ -3,13 +3,19 @@
 
 
 
-.containerText {
-    display: flex;
-    flex-direction: column;
 
-    justify-content: flex-start;
+.leftContent {
     position: relative;
-    left: 10vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    background-color: RGBA(224,224,224,0.15);
+    border-radius: 50%;
+
+
 }
 
 
@@ -17,10 +23,12 @@
     width: 95vw;
     min-height: 100vh;
     position: relative;
-    left: 5vw;
+    
     display: flex;
-    justify-content: space-between;
-    top: 15vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    
 }
 
 .TextCorps {
@@ -38,23 +46,29 @@
     font-family: roboto-condensed,sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: -40px;
+  
     line-height: 1.5em; 
+}
+
+.WordTitle {
+    writing-mode: vertical-lr;
+    display: flex;
+    align-items: center;
+ 
 }
 
 .ContainerNumeroMail{
     
     display: flex;
-    width: 28vw;
-    height: 42vh;
-    position: relative;
-    right: 13vw;
-    top: 28vh;
    
+   
+    position: relative;
+    left: 5vw;
     flex-direction: column;
+    top: 2vh;
    
 }
-.mail {
+.mailText {
     writing-mode: horizontal-tb;
     text-decoration: none;
     color:  #dadada;
@@ -62,40 +76,108 @@
     font-weight: 400;
     font-size: 19px;
     font-style: normal;
+    display: inline;
+
     
 
 }
 
+.mailText:after {
+    content: '';
+    display: block;
+    
+    bottom: 2px;
+    width: 0%;
+    left: 0px;
+    height: 1px;
+    transition: 0.5s cubic-bezier(0.72,-0.01, 0.19, 0.92);
+    background: #E0CF04;
+}
+a:hover:after {
+    width: 100%;
+  }
+.mailText:visited {
+    text-decoration: none;
+    color:  #dadada;
+  
+}
+
+
+.mailText::after {
+    text-decoration: none;
+    color:  #dadada;
+  
+}
 .mail:hover {
     color: #a59702;
 }
 
-.ContactInformation {
+.telText {
+    text-decoration: none;
+    color:  #dadada;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: normal;
+}
+
+.mailContact {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    
     align-items: center;
 } 
-
+.telContact {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+} 
 .mailIcon {
 
     width: 30px;
     height: 30px;
-    fill: #e6d200;
+    margin-right: 20px;
+  
 }
-.iconTel {
+.telIcon {
     width: 30px;
     height: 30px;
+    margin-right: 20px;
+
 }
 .IconReseauSociaux {
     display: flex;
-    justify-content: center;
+    
+    
 }
 
-.iconLinkedin, .iconBehance {
+.iconMedium {
     padding-left: 1vw;
     padding-right: 1vw;
     padding-top: 2vh;
+    width: 30px;
+    height: 30px;
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+.iconLinkedin   {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 2vh;
+    width: 30px;
+    height: 30px;
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+.iconBehance {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 2vh;
+    width: 30px;
+    height: 30px;
     transition-property: transform;
     transition-duration: 400ms;
 }
@@ -116,10 +198,10 @@
 
 }
 
-.ContactInformationTelephone {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: absolute;
-    top: 31vh;
+.iconMedium:hover{
+   
+    transform: rotate(-5deg);
+
+    fill: #6c6302;
+
 }
