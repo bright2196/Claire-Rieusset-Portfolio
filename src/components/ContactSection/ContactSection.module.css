@@ -93,7 +93,7 @@
     transition: 0.5s cubic-bezier(0.72,-0.01, 0.19, 0.92);
     background: #E0CF04;
 }
-a:hover:after {
+.mailText:hover:after {
     width: 100%;
   }
 .mailText:visited {

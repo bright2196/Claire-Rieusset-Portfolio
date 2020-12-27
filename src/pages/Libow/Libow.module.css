@@ -1,57 +1,48 @@
 .containerGlobalLibow {
     display: flex;
     flex-direction: row;
+    padding-top: 2vh;
+   
+    overflow: hidden;
     min-height: 100vh;
-    
+    z-index: 10;
+    margin-left: 70px;
+    margin-right: 70px;
     }
     
     
-    .containerLibowSection {
+
+ 
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-color:RGBA(0,112,91,0.096) ;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+    }
+
+
+.HeaderContent {
         display: flex;
         flex-direction: column;
-        margin-right: 70px;
-        margin-left: 70px;
-      
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-between;
-        min-width: 80vw;
-        
     }
-    .containerTextHeader {
-        display: flex;
-        flex-direction: column;
-    }
+.titleHeader {
+    display: flex;
+   
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 10vh;
+}
 
-    .descriptionProject {
-        padding-left: 130px;
-        width: 280px;
-      
-        font-family: roboto-condensed,sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        line-height: 1.5em;
-
-    }
+.designation {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -70px;
+}
 
 
-    .SousTitreProject {
-        padding-left: 130px;
-        margin-top: -7vh;
-
-
-    }
-    .titlePage {
-        font-family: linotype-didot,serif;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        text-align: left;
-        padding-left: 130px;
-    }
-    
-    .LinkBarContainer {
-        position: fixed;
-        display: block;
-        left: 0;
-        top:0;
-    }
+   

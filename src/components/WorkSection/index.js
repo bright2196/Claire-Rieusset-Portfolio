@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ButtonProject from '../ButtonProject';
 import SousTitre from '../Subtitles';
 import WorkElementButton from '../WorkElementButton';
@@ -20,44 +21,60 @@ export default function WorkSection() {
      
      
        <div className={styles.ContainerElementPart1}>
-     
-      <div className={styles.Element1}>
+       <Link to='/Libow' className={styles.LinkContainer}>
+      <div className={styles.Element}>
         
         <WorkElementButton
-        number= '1_Intership'
-      name= 'LIBOW_'/>
+            number= '1_Intership'
+            name= 'LIBOW_'
+            link='/Libow'/>
+       
     
     </div>
+    </Link>
 
-    <div className={styles.Element2}>
+    <Link to='/Libow' className={styles.LinkContainer}>
+    <div className={styles.Element}>
         
         <WorkElementButton
       name= 'MAIN DANS LA MAIN_'/>
     
     </div>
+    </Link>
 
-    <div className={styles.Element3}>
+
+ <Link to='/Libow' className={styles.LinkContainer}>
+    <div className={styles.Element}>
         
         <WorkElementButton
       name= 'HORRY BORD_'/>
     
     </div>
+    </Link>
+
+
     </div>
 
     <div className={styles.ContainerElementPart2}>
-    <div className={styles.Element4}>
+
+    <Link to='/Libow' className={styles.LinkContainer}>
+    <div className={styles.ElementR}>
         
         <WorkElementButton
       name= 'MOTION DESIGN_'/>
     
     </div>
+    </Link>
 
-    <div className={styles.Element5}>
+
+ <Link to='/Libow' className={styles.LinkContainer}>
+    <div className={styles.ElementR}>
         
         <WorkElementButton
       name= "MUSEE D'AQUITAIRE"/>
     
     </div>
+    </Link>
 
     </div>
     </div>

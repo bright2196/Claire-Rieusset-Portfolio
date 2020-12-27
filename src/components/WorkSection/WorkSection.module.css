@@ -10,7 +10,19 @@
 
 }
 
+.LinkContainer .Element {
+    transition: transform 330ms ease-in-out;
+   
+}
+.LinkContainer .ElementR {
+    transition: transform 330ms ease-in-out;
+   
+}
+.LinkContainer .ElementR:hover {
+    transform: translateX(-50px);}
 
+.LinkContainer .Element:hover {
+    transform: translateX(50px);}
 
 .ElementContainer {
     display: flex;

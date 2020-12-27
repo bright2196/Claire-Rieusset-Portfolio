@@ -56,6 +56,8 @@ const LibowProject = () => {
             fontWeight= '600'
             fontSize= '18px'
             color= "#E0E0E0"
+            link="/Libow"
+            
             />
     
         </div>

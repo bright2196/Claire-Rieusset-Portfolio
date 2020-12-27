@@ -1,6 +1,7 @@
 import React from "react";
 import styles from './ButtonProject.module.css';
 import PropTypes from 'prop-types';
+import { Link } from "react-router-dom";
 
 
 
@@ -10,7 +11,7 @@ class ButtonProject extends React.Component {
     return (
     <div className= {styles.ContainerButton}>
        
-      <button className={styles.Button} 
+      <Link className={styles.Button} to = {this.props.link}
       style={{
     
         color: this.props.color,
@@ -20,7 +21,7 @@ class ButtonProject extends React.Component {
 
       {this.props.name} 
       <div className={styles.circleButton}></div>
-      </button>
+      </Link>
       
     
       </div>
