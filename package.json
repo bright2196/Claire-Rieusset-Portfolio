@@ -18,6 +18,7 @@
     "node-fetch": "^2.6.1",
     "node-sass": "^4.14.1",
     "react": "^17.0.1",
+    "react-alice-carousel": "^2.2.0",
     "react-blob": "^2.1.0",
     "react-bootstrap": "^1.4.0",
     "react-burger-menu": "^2.9.0",

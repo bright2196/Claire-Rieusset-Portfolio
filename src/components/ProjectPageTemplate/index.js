@@ -1,7 +1,9 @@
 import React from 'react';
 
+
 import styles from "./ProjectPageTemplate.module.css";
 import PropTypes from 'prop-types';
+import "react-alice-carousel/lib/alice-carousel.css";
 // import Title from '../../components/Title';
 
 
@@ -68,6 +70,21 @@ class ProjectPageTemplate extends React.Component {
                     
                     <img src={this.props.sketchImage} alt=''/>
                 </div>
+             
+          </div>
+
+          <div className={styles.UXSection}>
+              <div className={styles.Ux}>
+                  <h2 className={styles.Ux}>
+                  Recherche utilisateur_
+                  </h2>
+              </div>
+              <div className={styles.descriptionUX}>
+                  <p className={styles.descriptionUX}>
+                  {this.props.descriptionUX}
+                  </p>
+              </div>
+             
              
           </div>
           <div className={styles.colorSection}>
