@@ -84,6 +84,11 @@ class ProjectPageTemplate extends React.Component {
                   {this.props.descriptionUX}
                   </p>
               </div>
+              <div className={styles.PdfUX}>
+              <embed src={this.props.userResearch} width='800' height='500' type='application/pdf'/>
+              
+
+              </div>
              
              
           </div>
