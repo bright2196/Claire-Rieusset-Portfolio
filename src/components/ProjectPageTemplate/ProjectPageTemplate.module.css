@@ -178,10 +178,37 @@
   }
 
 
-  .sliderimg{
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
+  .PdfUX {
+
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    
   }
+
+  .rightSide {
+      display: flex;
+      flex-direction: column;
+      margin-top: 200px;
+    
+  
+     
+      
+  }
+
+  .leftSide {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .item {
+      margin: 20px;
+      filter: hue-rotate(357deg) brightness(70%) ;
+  }
+
+  
+
+
 
 

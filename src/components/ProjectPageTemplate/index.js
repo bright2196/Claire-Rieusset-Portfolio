@@ -3,8 +3,10 @@ import React from 'react';
 
 import styles from "./ProjectPageTemplate.module.css";
 import PropTypes from 'prop-types';
-import "react-alice-carousel/lib/alice-carousel.css";
-// import Title from '../../components/Title';
+
+
+
+
 
 
 
@@ -85,9 +87,24 @@ class ProjectPageTemplate extends React.Component {
                   </p>
               </div>
               <div className={styles.PdfUX}>
-              <embed src={this.props.userResearch} width='800' height='500' type='application/pdf'/>
-              
+                  <div className={styles.leftSide}>
+                    <img class ={styles.item} src={this.props.ImageUx1} alt='' width='550' />
+                    <img class ={styles.item} src={this.props.ImageUx3} alt='' width='550' /> 
+                    <img class ={styles.item}src={this.props.ImageUx5} alt=''width='550'/>
+                  </div>
 
+                  <div className={styles.rightSide}>
+                    <img class = {styles.item} src={this.props.ImageUx2} alt=''  width='550'/>
+                    <img class ={styles.item} src={this.props.ImageUx4} alt='' width='550' />
+                    <img class ={styles.item} src={this.props.ImageUx6} alt='' width='550' />
+                  </div>
+                  
+                    
+                    
+                   
+                    
+                   
+                    
               </div>
              
              

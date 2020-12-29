@@ -6,7 +6,14 @@ import sketchImage from '../Libow/img/sketchImage.png'
 import color1 from '../Libow/img/color1.svg'
 import color2 from '../Libow/img/color2.svg'
 import color3 from '../Libow/img/color3.svg'
-import uxResearch from '../Libow/ressources/diapoworkshop.pdf'
+import uxImage1 from '../Libow/ressources/uxImage1.png'
+import uxImage2 from '../Libow/ressources/uxImage2.png'
+import uxImage3 from '../Libow/ressources/uxImage3.png'
+import uxImage4 from '../Libow/ressources/uxImage4.png'
+import uxImage5 from '../Libow/ressources/uxImage5.png'
+import uxImage6 from '../Libow/ressources/uxImage6.png'
+
+
 
 
 
@@ -64,7 +71,19 @@ const Libow = () => {
           voluptua. At vero eos et accusam et justo duo dolores 
           et ea rebum'
 
-          userResearch={uxResearch}
+          ImageUx1={uxImage1}
+
+          ImageUx2={uxImage2}
+
+          ImageUx3={uxImage3}
+
+          ImageUx4={uxImage4}
+
+          ImageUx5={uxImage5}
+
+          ImageUx6={uxImage6}
+         
+         
 
         />
     </section>
