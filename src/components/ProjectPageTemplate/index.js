@@ -4,6 +4,8 @@ import Popup from 'reactjs-popup';
 import styles from "./ProjectPageTemplate.module.css";
 import PropTypes from 'prop-types';
 import 'reactjs-popup/dist/index.css';
+import WorkElementButton from '../WorkElementButton';
+import { Link } from 'react-router-dom';
 const contentStyle = { background: '#e0ce044d', width: '75%', height: '96%', display:'flex', justifyContent:'center', alignItems:'center', border:'none'  };
 const overlayStyle = { background: 'rgba(0,0,0,0.5)' };
 
@@ -269,6 +271,53 @@ class ProjectPageTemplate extends React.Component {
               </div>
              
              
+          </div>
+
+          <div className={styles.typoSection}>
+              <div className={styles.typo}>
+                  <h2 className={styles.typo}>
+                  Typographie_
+                  </h2>
+              </div>
+              <div className={styles.descriptionTypo}>
+                  <p className={styles.descriptionTypo}>
+                  {this.props.descriptionColor}
+                  </p>
+              </div>
+              <div className={styles.TypoImage}>
+                    <img src={this.props.typoImg} alt='' className={styles.typoImage}/>
+              </div> 
+          </div>
+
+          <div className={styles.otherSection}>
+              <div className={styles.other}>
+                  <h2 className={styles.other}>
+                  Typographie_
+                  </h2>
+              </div>
+              <div className={styles.otherContainerButton}>
+                 
+                  <Link to='/Home' className={styles.ContainerLink}>
+                        <div className={styles.MyElement}>
+        
+                             <WorkElementButton
+                            name= 'HORRY BORD_'/>
+    
+                         </div>
+                    </Link>
+                
+                 
+                  <Link to='/Home' className={styles.ContainerLink}>
+                        <div className={styles.MyElement}>
+        
+                             <WorkElementButton
+                            name= 'MOTION DESIGN_'/>
+    
+                         </div>
+                    </Link>
+                
+              </div>
+              
           </div>
 
     </div>

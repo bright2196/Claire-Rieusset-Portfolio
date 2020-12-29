@@ -13,6 +13,7 @@ import uxImage4 from '../Libow/ressources/uxImage4.png'
 import uxImage5 from '../Libow/ressources/uxImage5.png'
 import uxImage6 from '../Libow/ressources/uxImage6.png'
 import uxImage2PU from '../Libow/ressources/uxImage2PU.png'
+import typo from '../Libow/ressources/typographie.png'
 
 
 
@@ -96,7 +97,7 @@ const Libow = () => {
 
           ImageUx6PU={uxImage2PU}
          
-         
+          typoImg={typo}
 
         />
     </section>

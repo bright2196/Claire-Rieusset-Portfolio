@@ -267,3 +267,58 @@
 
 
 
+
+.descriptionTypo{
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF ; 
+
+    width: 350px;
+    line-height: 1.7em;
+}
+
+.typo {
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+    color: #E0CF04 ; 
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+.typoImage {
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
+.ContainerLink .MyElement {
+    transition: transform 330ms ease-in-out;
+    
+   
+}
+
+
+.ContainerLink .MyElement:hover {
+    transform: translateX(50px);}
+
+.other {
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+    color: #E0CF04 ; 
+    margin-top: 50px;
+    display: flex;
+        
+    }
+
+
+.otherContainerButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
