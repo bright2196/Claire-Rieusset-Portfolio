@@ -103,7 +103,7 @@ class ProjectPageTemplate extends React.Component {
                                 </button>
                                 <div className={styles.content}>
                             
-                                <img class ={styles.item} src={this.props.ImageUx1PU} alt=''  />
+                                <img class ={styles.itemPU} src={this.props.ImageUx1PU} alt=''  />
                                 </div>
                             </div>
                         )}
@@ -127,7 +127,7 @@ class ProjectPageTemplate extends React.Component {
                                 &times;
                                 </button>
                                 <div className={styles.content}>
-                                <img class ={styles.item} src={this.props.ImageUx1PU} alt=''  />
+                                <img class ={styles.itemPU} src={this.props.ImageUx1PU} alt=''  />
                                 </div>
                             </div>
                         )}
@@ -150,7 +150,7 @@ class ProjectPageTemplate extends React.Component {
                                 &times;
                                 </button>
                                 <div className={styles.content}>
-                                <img class ={styles.item} src={this.props.ImageUx1PU} alt=''  />
+                                <img class ={styles.itemPU} src={this.props.ImageUx1PU} alt=''  />
                                 </div>
                             </div>
                         )}
@@ -176,7 +176,7 @@ class ProjectPageTemplate extends React.Component {
                                 &times;
                                 </button>
                                 <div className={styles.content}>
-                                <img class ={styles.item} src={this.props.ImageUx1PU} alt=''  />
+                                <img class ={styles.itemPU} src={this.props.ImageUx1PU} alt=''  />
                                 </div>
                             </div>
                         )}
@@ -201,7 +201,7 @@ class ProjectPageTemplate extends React.Component {
                                 &times;
                                 </button>
                                 <div className={styles.content}>
-                                <img class ={styles.item} src={this.props.ImageUx1PU} alt=''  />
+                                <img class ={styles.itemPU} src={this.props.ImageUx1PU} alt=''  />
                                 </div>
                             </div>
                         )}
@@ -225,7 +225,7 @@ class ProjectPageTemplate extends React.Component {
                                 &times;
                                 </button>
                                 <div className={styles.content}>
-                                <img class ={styles.item} src={this.props.ImageUx1PU} alt=''  />
+                                <img class ={styles.itemPU} src={this.props.ImageUx1PU} alt=''  />
                                 </div>
                             </div>
                         )}
