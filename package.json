@@ -36,6 +36,7 @@
     "react-scrolling-nav": "^1.1.5",
     "react-slide-menu": "^0.5.1",
     "react-useanimations": "^2.0.5",
+    "reactjs-popup": "^2.0.4",
     "spotify-web-api-js": "^1.5.1",
     "styled-components": "^5.2.1",
     "three": "^0.123.0",

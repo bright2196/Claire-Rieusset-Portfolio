@@ -12,6 +12,7 @@ import uxImage3 from '../Libow/ressources/uxImage3.png'
 import uxImage4 from '../Libow/ressources/uxImage4.png'
 import uxImage5 from '../Libow/ressources/uxImage5.png'
 import uxImage6 from '../Libow/ressources/uxImage6.png'
+import uxImage2PU from '../Libow/ressources/uxImage2PU.png'
 
 
 
@@ -82,6 +83,18 @@ const Libow = () => {
           ImageUx5={uxImage5}
 
           ImageUx6={uxImage6}
+
+          ImageUx1PU={uxImage2PU}
+
+          ImageUx2PU={uxImage2PU}
+
+          ImageUx3PU={uxImage2PU}
+
+          ImageUx4PU={uxImage2PU}
+
+          ImageUx5PU={uxImage2PU}
+
+          ImageUx6PU={uxImage2PU}
          
          
 

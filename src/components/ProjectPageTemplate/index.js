@@ -1,13 +1,11 @@
 import React from 'react';
 
-
+import Popup from 'reactjs-popup';
 import styles from "./ProjectPageTemplate.module.css";
 import PropTypes from 'prop-types';
-
-
-
-
-
+import 'reactjs-popup/dist/index.css';
+const contentStyle = { background: '#e0ce044d', width: '75%', height: '96%', display:'flex', justifyContent:'center', alignItems:'center', border:'none'  };
+const overlayStyle = { background: 'rgba(0,0,0,0.5)' };
 
 
 class ProjectPageTemplate extends React.Component {
@@ -88,21 +86,153 @@ class ProjectPageTemplate extends React.Component {
               </div>
               <div className={styles.PdfUX}>
                   <div className={styles.leftSide}>
-                    <img class ={styles.item} src={this.props.ImageUx1} alt='' width='550' />
-                    <img class ={styles.item} src={this.props.ImageUx3} alt='' width='550' /> 
-                    <img class ={styles.item}src={this.props.ImageUx5} alt=''width='550'/>
+                  <div className={styles.modalContainer}>
+                    <Popup
+                            className={styles.modalContainer}
+                            trigger={<img class ={styles.item} src={this.props.ImageUx1} alt='' width='550' />}
+                            modal
+                            nested
+                            contentStyle= {contentStyle}
+                            overlayStyle= {overlayStyle}
+                            position= 'center center'
+                     >
+                        {close => (
+                            <div className={styles.modal}>
+                                <button className={styles.close} onClick={close}>
+                                &times;
+                                </button>
+                                <div className={styles.content}>
+                            
+                                <img class ={styles.item} src={this.props.ImageUx1PU} alt=''  />
+                                </div>
+                            </div>
+                        )}
+                    </Popup>
+                    </div>
+                    
+                    <div className={styles.modalContainer}>
+                    <Popup
+                            trigger={<img class ={styles.item} src={this.props.ImageUx3} alt='' width='550' /> }
+                            modal
+                            nested
+                            contentStyle= {contentStyle}
+                            overlayStyle= {overlayStyle}
+                            position= 'center center'
+                            className={styles.modalContainer}
+                     >
+                        {close => (
+                            <div className={styles.modal}>
+                                <button className={styles.close} onClick={close}>
+                                &times;
+                                </button>
+                                <div className="content">
+                                <img class ={styles.item} src={this.props.ImageUx1PU} alt=''  />
+                                </div>
+                            </div>
+                        )}
+                    </Popup>
+                    </div>
+
+                    <div className={styles.modalContainer}>
+                    <Popup
+                            trigger={ <img class ={styles.item}src={this.props.ImageUx5} alt=''width='550'/> }
+                            modal
+                            nested
+                            contentStyle= {contentStyle}
+                            overlayStyle= {overlayStyle}
+                            position= 'center center'
+                            className={styles.modalContainer}
+                     >
+                        {close => (
+                            <div className={styles.modal}>
+                                <button className={styles.close} onClick={close}>
+                                &times;
+                                </button>
+                                <div className="content">
+                                <img class ={styles.item} src={this.props.ImageUx1PU} alt=''  />
+                                </div>
+                            </div>
+                        )}
+                    </Popup>
+                    </div>
+                   
                   </div>
 
                   <div className={styles.rightSide}>
-                    <img class = {styles.item} src={this.props.ImageUx2} alt=''  width='550'/>
-                    <img class ={styles.item} src={this.props.ImageUx4} alt='' width='550' />
-                    <img class ={styles.item} src={this.props.ImageUx6} alt='' width='550' />
+                  <div className={styles.modalContainer}>
+                  <Popup
+                            trigger={ <img class = {styles.item} src={this.props.ImageUx2} alt=''  width='550'/> }
+                            modal
+                            nested
+                            contentStyle= {contentStyle}
+                            overlayStyle= {overlayStyle}
+                            position= 'center center'
+                            className={styles.modalContainer}
+                     >
+                        {close => (
+                            <div className={styles.modal}>
+                                <button className={styles.close} onClick={close}>
+                                &times;
+                                </button>
+                                <div className="content">
+                                <img class ={styles.item} src={this.props.ImageUx1PU} alt=''  />
+                                </div>
+                            </div>
+                        )}
+                    </Popup>
+                    </div>
+
+
+                    <div className={styles.modalContainer}>
+                    <Popup
+                            trigger={ <img class ={styles.item} src={this.props.ImageUx4} alt='' width='550' /> }
+                            modal
+                            nested
+                            contentStyle= {contentStyle}
+                            overlayStyle= {overlayStyle}
+                            position= 'center center'
+                            className={styles.modalContainer}
+                     >
+                        {close => (
+                            <div className={styles.modal}>
+                                <button className={styles.close} onClick={close}>
+                                &times;
+                                </button>
+                                <div className="content">
+                                <img class ={styles.item} src={this.props.ImageUx1PU} alt=''  />
+                                </div>
+                            </div>
+                        )}
+                    </Popup>
+                    </div>
+
+                     <div className={styles.modalContainer}>
+                    <Popup
+                            trigger={ <img class ={styles.item} src={this.props.ImageUx6} alt='' width='550' /> }
+                            modal
+                            nested
+                            contentStyle= {contentStyle}
+                            overlayStyle= {overlayStyle}
+                            className={styles.modalContainer}
+                            position= 'center center'
+                     >
+                        {close => (
+                            <div className={styles.modal}>
+                                <button className={styles.close} onClick={close}>
+                                &times;
+                                </button>
+                                <div className={styles.content}>
+                                <img class ={styles.item} src={this.props.ImageUx1PU} alt=''  />
+                                </div>
+                            </div>
+                        )}
+                    </Popup>
+                    </div>
+                    
+           
                   </div>
                   
-                    
-                    
-                   
-                    
+                           
                    
                     
               </div>

@@ -205,10 +205,47 @@
   .item {
       margin: 20px;
       filter: hue-rotate(357deg) brightness(70%) ;
+ 
   }
 
   
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 3px 9px;
+   
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #e0ce04;
+    border-radius: 18px;
+   
+  }
 
+
+  
+    .modal > .content {
+        width: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+  
+.modalContainer-overlay {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.modalContainer-content {
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    padding: 5px;
+}
+ 
 
 
 
