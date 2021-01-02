@@ -17,7 +17,7 @@ class ProjectPageTemplate extends React.Component {
     
   
     <div className={styles.containerGlobalLibow}>
-    <div className={styles.background}></div>
+   
         <div className={styles.contentContainer}>
             <div className={styles.headerContent}>
                 <div className={styles.titleHeader}>
@@ -292,30 +292,30 @@ class ProjectPageTemplate extends React.Component {
           <div className={styles.otherSection}>
               <div className={styles.other}>
                   <h2 className={styles.other}>
-                  Typographie_
+                        Explorez mes autres projets_
                   </h2>
               </div>
               <div className={styles.otherContainerButton}>
-                 
-                  <Link to='/Home' className={styles.ContainerLink}>
-                        <div className={styles.MyElement}>
+                     
+                    <Link to='/Libow' className={styles.LinkContainer}>
+                        <div className={styles.ElementL}>
         
-                             <WorkElementButton
-                            name= 'HORRY BORD_'/>
-    
-                         </div>
-                    </Link>
-                
-                 
-                  <Link to='/Home' className={styles.ContainerLink}>
-                        <div className={styles.MyElement}>
+                                <WorkElementButton
+                            name= 'MAIN DANS LA MAIN_'/>
         
-                             <WorkElementButton
-                            name= 'MOTION DESIGN_'/>
-    
-                         </div>
+                        </div>
                     </Link>
-                
+                    
+                        
+                    <Link to='/Libow' className={styles.LinkContainer}>
+                         <div className={styles.ElementR}>
+        
+                            <WorkElementButton
+                        name= 'MAIN DANS LA MAIN_'/>
+    
+                        </div>
+                    </Link>
+                                        
               </div>
               
           </div>

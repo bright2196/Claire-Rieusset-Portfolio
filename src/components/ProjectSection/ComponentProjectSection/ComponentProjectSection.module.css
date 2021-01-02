@@ -4,33 +4,29 @@
     font-weight: 600;
     font-style: normal;
     color: #FFFFFF;
-    font-size: 35px;
+    font-size: 40px;
     text-transform: uppercase;
-    margin-left: 150px;
 
-}
-
-.designation {
-    margin-left: 150px;
 }
 
 .containerGlobalLibow {
-    margin: 0;
-   background-color: RGBA(11,82,143,0.08) ;
+   margin: 0;
    width: 100vw;
    height: 100vh;
-  
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
 }
 
 .TextCorps {
     width: 350px;
     font-family: roboto-condensed,sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
-   
+    color: #FFFFFF;
     display: flex;
-    line-height: 1.5em;
+    line-height: 1.9em;
 }
 
 .ButtonContainer {
@@ -43,16 +39,39 @@
 .TextAndButtonContainer {
     display: flex;
     flex-direction: column;
-    margin-left: 300px;  
+    margin-left: 150px;  
     justify-content: space-between;
     height: 270px;
 
 }
+
+.SousTitre {
+    font-size: 20px;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #E0CF04;
+}
+
 .leftSide {
 
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: auto;
+    
     height: 100vh;
+}
+
+.libowImage {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

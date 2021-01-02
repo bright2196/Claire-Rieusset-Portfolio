@@ -1,48 +1,11 @@
-.containerGlobalLibow {
-    display: flex;
-    flex-direction: row;
-    padding-top: 2vh;
-   
-    overflow: hidden;
-    min-height: 100vh;
-    z-index: 10;
-    margin-left: 70px;
-    margin-right: 70px;
-    }
+
     
     
 
  
-.background {
-    width: 100vw;
-    height: 100vh;
+
+.LibowPageContainer {
     background-color:RGBA(0,112,91,0.096) ;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    z-index: 0;
-    }
 
-
-.HeaderContent {
-        display: flex;
-        flex-direction: column;
-    }
-.titleHeader {
-    display: flex;
-   
-    flex-direction: column;
-    margin-left: 150px;
-    margin-top: 10vh;
 }
 
-.designation {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: -70px;
-}
-
-
-   

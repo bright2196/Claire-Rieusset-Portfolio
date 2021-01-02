@@ -2,8 +2,7 @@ import React from 'react';
 import ReactFullpage from '@fullpage/react-fullpage';
 import HomeSection from '../../components/HomeSection';
 import LibowProject from '../../components/ProjectSection/LibowProject';
-import MedFocusProject from '../../components/ProjectSection/MedFocusProject';
-
+import AdaptProject from '../../components/ProjectSection/AdaptProject'
 
 
 const Home = () => (
@@ -35,7 +34,15 @@ const Home = () => (
                 <LibowProject/>
               </div>
               <div className="section" data-anchor='MedFocus' id='MedFocus' data-tooltip='Projet 2'>
-                <MedFocusProject/>
+                <AdaptProject/>
+              </div>
+
+              <div className="section" data-anchor='Re-Steam' id='Re-Steam' data-tooltip='Projet 3'>
+              <LibowProject/>
+              </div>
+
+              <div className="section" data-anchor='Main dans la main' id='Main dans la main' data-tooltip='Projet 4'>
+              <AdaptProject/>
               </div>
           
         </ReactFullpage.Wrapper>

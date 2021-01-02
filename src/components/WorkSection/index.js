@@ -12,7 +12,7 @@ export default function WorkSection() {
 
       <div className={styles.Subtitles}>     
       <SousTitre
-          name='All my work_' 
+          name='Tous mes projets_' 
           fontWeight= '600'
           fontSize= '30px'
           color= "#E0CF04"
@@ -25,7 +25,7 @@ export default function WorkSection() {
       <div className={styles.Element}>
         
         <WorkElementButton
-            number= '1_Intership'
+            number= '1_Stage'
             name= 'LIBOW_'
             link='/Libow'/>
        

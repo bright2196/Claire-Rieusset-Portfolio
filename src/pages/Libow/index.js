@@ -24,8 +24,8 @@ const Libow = () => {
   return (
     
 
-    <section>
-    <div className={styles.background}></div>
+    <section className={styles.LibowPageContainer}>  
+      
         <ProjectPageTemplate
           projectName='Libow_'
 
@@ -99,7 +99,11 @@ const Libow = () => {
          
           typoImg={typo}
 
+          linkOther1='/Home'
+          linkOther2='/Home'
+
         />
+        
     </section>
 
   
