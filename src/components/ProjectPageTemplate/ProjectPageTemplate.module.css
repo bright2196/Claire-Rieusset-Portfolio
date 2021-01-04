@@ -323,3 +323,12 @@
 .LinkContainer .ElementL:hover {
     transform: translateX(-30px);}
 
+
+
+.buttonContainer {
+    display: flex;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    justify-content: space-around;
+
+}

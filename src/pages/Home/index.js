@@ -13,8 +13,10 @@ const Home = () => (
     //fullpage options
     licenseKey = {'7756740D-1A7C4402-93E96B54-EBE84341'}
     scrollingSpeed = {1500}
+    responsiveHeight= {'600'}
+
     fadingEffect= {true}
-    menu= '#myMenu'
+    menu= {'#myMenu'}
     navigation = {true}
     showActiveTooltip = {true}
     slideNavigation= {true}
@@ -28,7 +30,7 @@ const Home = () => (
         
           
               <div className="section" data-anchor='Home' id='Home' data-tooltip='Home'>
-              <HomeSection data-tooltip='Home'/>
+              <HomeSection/>
               </div>
               <div className="section" data-anchor='Libow' id='Libow' data-tooltip='Projet 1'>
                 <LibowProject/>
@@ -39,10 +41,6 @@ const Home = () => (
 
               <div className="section" data-anchor='Re-Steam' id='Re-Steam' data-tooltip='Projet 3'>
               <LibowProject/>
-              </div>
-
-              <div className="section" data-anchor='Main dans la main' id='Main dans la main' data-tooltip='Projet 4'>
-              <AdaptProject/>
               </div>
           
         </ReactFullpage.Wrapper>

@@ -6,6 +6,7 @@ import PropTypes from 'prop-types';
 import 'reactjs-popup/dist/index.css';
 import WorkElementButton from '../WorkElementButton';
 import { Link } from 'react-router-dom';
+import ButtonProject from '../ButtonProject';
 const contentStyle = { background: '#e0ce044d', width: '75%', height: '96%', display:'flex', justifyContent:'center', alignItems:'center', border:'none'  };
 const overlayStyle = { background: 'rgba(0,0,0,0.5)' };
 
@@ -301,7 +302,8 @@ class ProjectPageTemplate extends React.Component {
                         <div className={styles.ElementL}>
         
                                 <WorkElementButton
-                            name= 'MAIN DANS LA MAIN_'/>
+                            name= 'ADAPT_'
+                            backgroundColor={this.props.backgroundColorOtherButton}/>
         
                         </div>
                     </Link>
@@ -311,8 +313,48 @@ class ProjectPageTemplate extends React.Component {
                          <div className={styles.ElementR}>
         
                             <WorkElementButton
-                        name= 'MAIN DANS LA MAIN_'/>
+                        name= 'HORRY BORD_'
+                        backgroundColor={this.props.backgroundColorOtherButton}/>
     
+                        </div>
+                    </Link>
+                                        
+              </div>
+              
+          </div>
+
+          <div className={styles.ContactSection}>
+              <div className={styles.contact}>
+                  <h2 className={styles.other}>
+                       Restons en contact_
+                  </h2>
+              </div>
+              <div className={styles.buttonContainer}>
+                     
+                    <Link to='/Libow' className={styles.linkCV}>
+                        <div className={styles.myCV}>
+        
+                                <ButtonProject
+                                name='Explorez mon CV'
+                                fontWeight= '600'
+                                fontSize= '18px'
+                                color= "#E0E0E0"
+                                />
+        
+                        </div>
+                    </Link>
+                    
+                        
+                    <Link to='/Libow' className={styles.linkCV}>
+                        <div className={styles.myCV}>
+        
+                                <ButtonProject
+                                name='Contactez-moi'
+                                fontWeight= '600'
+                                fontSize= '18px'
+                                color= "#E0E0E0"
+                                />
+        
                         </div>
                     </Link>
                                         

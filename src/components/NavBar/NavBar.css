@@ -41,7 +41,7 @@
   
   .navbar__link {
     margin: 1em;
-    font-size: 1em;
+    font-size: 16px;
     font-family: roboto-condensed,sans-serif;
     cursor: pointer;
     text-decoration: none;
@@ -60,3 +60,29 @@
     border-bottom: 1px solid #E0CF04;
     transition: border-bottom .5s ease-in-out;
   }
+
+
+
+  /*phone only*/
+@media (max-width: 599px) {
+
+  }
+
+
+/*tablet portrait up*/
+@media (min-width: 600px) {
+  
+}
+
+/*tablet landspace up*/
+@media (min-width: 900px) {
+  
+}
+/*desktop up*/
+@media (min-width: 1200px) {
+
+/* big desktop  */
+@media (max-width: 1800px) {
+  
+}
+}

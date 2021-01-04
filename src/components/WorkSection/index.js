@@ -27,7 +27,8 @@ export default function WorkSection() {
         <WorkElementButton
             number= '1_Stage'
             name= 'LIBOW_'
-            link='/Libow'/>
+            link='/Libow'
+            backgroundColor='RGBA(207,192,5,0.3)'/>
        
     
     </div>
@@ -37,7 +38,8 @@ export default function WorkSection() {
     <div className={styles.Element}>
         
         <WorkElementButton
-      name= 'MAIN DANS LA MAIN_'/>
+      name= 'MAIN DANS LA MAIN_'
+      backgroundColor='RGBA(207,192,5,0.3)'/>
     
     </div>
     </Link>
@@ -47,7 +49,8 @@ export default function WorkSection() {
     <div className={styles.Element}>
         
         <WorkElementButton
-      name= 'HORRY BORD_'/>
+      name= 'HORRY BORD_'
+      backgroundColor='RGBA(207,192,5,0.3)'/>
     
     </div>
     </Link>
@@ -61,7 +64,8 @@ export default function WorkSection() {
     <div className={styles.ElementR}>
         
         <WorkElementButton
-      name= 'MOTION DESIGN_'/>
+      name= 'MOTION DESIGN_'
+      backgroundColor='RGBA(207,192,5,0.3)'/>
     
     </div>
     </Link>
@@ -71,7 +75,8 @@ export default function WorkSection() {
     <div className={styles.ElementR}>
         
         <WorkElementButton
-      name= "MUSEE D'AQUITAIRE"/>
+      name= "MUSEE D'AQUITAIRE"
+      backgroundColor='RGBA(207,192,5,0.3)'/>
     
     </div>
     </Link>

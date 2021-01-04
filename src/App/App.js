@@ -5,10 +5,11 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Libow from "../pages/Libow";
 import LinkBar from "../components/LinkBar";
-import NavBar from "../components/NavBar";
+// import NavBar from "../components/NavBar";
 import Work from "../pages/Work";
 import Random from "../pages/Random";
 import Contact from "../pages/Contact";
+import Navbar2 from "../components/NavBar2";
 
 
 
@@ -25,7 +26,7 @@ const App = () => {
          
       <BrowserRouter>
       <div className='NavBar'>
-         <NavBar/>
+          <Navbar2/>     
          </div>
         <Switch>
           <Route path="/" exact component={Home} />

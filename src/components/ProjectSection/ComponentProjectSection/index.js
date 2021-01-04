@@ -13,6 +13,10 @@ class ComponentProjectSection extends React.Component {
     
   
     <div className={styles.containerGlobalLibow }>
+      <div>
+        
+      </div>
+
    <div className={styles.leftSide}>
         <div className={styles.designation}>
 

@@ -11,7 +11,13 @@ class WorkElementButton extends React.Component {
   render() {
     return (
         <Link className={styles.ProjectElement} to={this.props.link}>
-        <div className={styles.containerElement }>
+        <div className={styles.containerElement }
+        style={{
+    
+          backgroundColor: this.props.backgroundColor,
+         }}
+        >
+        
         
         <h2 className={styles.ProjectName}>{this.props.name} </h2>
         

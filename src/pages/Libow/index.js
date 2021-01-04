@@ -101,6 +101,7 @@ const Libow = () => {
 
           linkOther1='/Home'
           linkOther2='/Home'
+          backgroundColorOtherButton='rgba(2, 52, 42, 0.70)'
 
         />
         
