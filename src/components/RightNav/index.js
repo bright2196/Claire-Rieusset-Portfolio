@@ -71,11 +71,42 @@ const Ul = styled.ul`
         transform: scale(1.5);
         background-color: #e0ce0446;
       }
+
+      @media (max-width: 768px) {
+        flex-flow: column nowrap;
+        position: fixed;
+        transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 70vw;
+        padding-top: 3.5rem;
+        transition: transform 0.3s ease-in-out;
+
+        .navbar__link {
+            color: #E0CF04;
+            margin: 50px 10px;
+            text-align: center;
+            font-size: 40px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-transform: uppercase;
+            font-family: linotype-didot,serif;
+            font-weight: 550;
+            font-style: normal;
+            text-align: center;
+            transition: transform 0.5s ease-in-out;
+            
+          }
+       
+      }
+    `;
    
 
 
-  }
-`;
+  
+
 
 const RightNav = ({ open }) => {
   return (

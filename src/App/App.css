@@ -36,3 +36,32 @@ a {
 button {
   cursor: url("./img/cursorHoverLink.svg"), pointer;
 }
+
+/*phone only*/
+@media (max-width: 599px) {
+  .LinkBar {
+    display: none;
+  }
+}
+
+/*tablet portrait up*/
+@media (min-width: 600px) {
+  .LinkBar {
+    display: none;
+  }
+}
+
+/*tablet landspace up*/
+@media (min-width: 900px) {
+ 
+}
+/*desktop up*/
+@media (min-width: 1200px) {
+  
+  
+
+@media (max-width: 1800px) {
+
+    
+}
+}

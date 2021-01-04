@@ -18,7 +18,6 @@ const Home = () => (
     fadingEffect= {true}
     menu= {'#myMenu'}
     navigation = {true}
-    showActiveTooltip = {true}
     slideNavigation= {true}
 
     render={({ state, fullpageApi }) => {

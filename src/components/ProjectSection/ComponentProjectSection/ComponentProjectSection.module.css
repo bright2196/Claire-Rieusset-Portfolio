@@ -51,6 +51,7 @@
     font-weight: 400;
     font-style: normal;
     color: #E0CF04;
+    text-align: left;
 }
 
 .leftSide {
@@ -82,6 +83,8 @@
 
     .titlePage {
         font-size: 50px;
+        text-align: center;
+        
 
     }
     .libowImage {
@@ -91,14 +94,20 @@
     .TextAndButtonContainer {
        
         margin-left: 0; 
+        display: flex;
+        align-items: center;
+
 
     }
     .TextCorps {
 
-        text-align: center;
+        text-align: left;
+        width: 60vw;
     }
     .leftSide {
         align-items: center;
+        width: 100vw;
+
     }
 
     .rightSide { 
@@ -110,6 +119,8 @@
     .ButtonContainer {
     
         display: flex;
+        margin-top: 50px;
+
         
     
     }
