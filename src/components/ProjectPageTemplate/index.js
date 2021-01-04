@@ -92,7 +92,7 @@ class ProjectPageTemplate extends React.Component {
                   <div className={styles.modalContainer}>
                     <Popup
                             className={styles.modalContainer}
-                            trigger={<img class ={styles.item} src={this.props.ImageUx1} alt=''  />}
+                            trigger={<img className ={styles.item} src={this.props.ImageUx1} alt=''  />}
                             modal
                             nested
                             contentStyle= {contentStyle}
@@ -106,7 +106,7 @@ class ProjectPageTemplate extends React.Component {
                                 </button>
                                 <div className={styles.content}>
                             
-                                <img class ={styles.itemPU} src={this.props.ImageUx1PU} alt=''  />
+                                <img className ={styles.itemPU} src={this.props.ImageUx1PU} alt=''  />
                                 </div>
                             </div>
                         )}
@@ -115,7 +115,7 @@ class ProjectPageTemplate extends React.Component {
                     
                     <div className={styles.modalContainer}>
                     <Popup
-                            trigger={<img class ={styles.item} src={this.props.ImageUx3} alt=''  /> }
+                            trigger={<img className ={styles.item} src={this.props.ImageUx3} alt=''  /> }
                             modal
                             nested
                             contentStyle= {contentStyle}
@@ -130,7 +130,7 @@ class ProjectPageTemplate extends React.Component {
                                 &times;
                                 </button>
                                 <div className={styles.content}>
-                                <img class ={styles.itemPU} src={this.props.ImageUx1PU} alt=''  />
+                                <img className ={styles.itemPU} src={this.props.ImageUx1PU} alt=''  />
                                 </div>
                             </div>
                         )}
@@ -139,7 +139,7 @@ class ProjectPageTemplate extends React.Component {
 
                     <div className={styles.modalContainer}>
                     <Popup
-                            trigger={ <img class ={styles.item}src={this.props.ImageUx5} alt=''/> }
+                            trigger={ <img className ={styles.item}src={this.props.ImageUx5} alt=''/> }
                             modal
                             nested
                             contentStyle= {contentStyle}
@@ -153,7 +153,7 @@ class ProjectPageTemplate extends React.Component {
                                 &times;
                                 </button>
                                 <div className={styles.content}>
-                                <img class ={styles.itemPU} src={this.props.ImageUx1PU} alt=''  />
+                                <img className ={styles.itemPU} src={this.props.ImageUx1PU} alt=''  />
                                 </div>
                             </div>
                         )}
@@ -165,7 +165,7 @@ class ProjectPageTemplate extends React.Component {
                   <div className={styles.rightSide}>
                   <div className={styles.modalContainer}>
                   <Popup
-                            trigger={ <img class = {styles.item} src={this.props.ImageUx2} alt='' /> }
+                            trigger={ <img className = {styles.item} src={this.props.ImageUx2} alt='' /> }
                             modal
                             nested
                             contentStyle= {contentStyle}
@@ -179,7 +179,7 @@ class ProjectPageTemplate extends React.Component {
                                 &times;
                                 </button>
                                 <div className={styles.content}>
-                                <img class ={styles.itemPU} src={this.props.ImageUx1PU} alt=''  />
+                                <img className={styles.itemPU} src={this.props.ImageUx1PU} alt=''  />
                                 </div>
                             </div>
                         )}
@@ -189,7 +189,7 @@ class ProjectPageTemplate extends React.Component {
 
                     <div className={styles.modalContainer}>
                     <Popup
-                            trigger={ <img class ={styles.item} src={this.props.ImageUx4} alt=''  /> }
+                            trigger={ <img className ={styles.item} src={this.props.ImageUx4} alt=''  /> }
                             modal
                             nested
                             contentStyle= {contentStyle}
@@ -204,7 +204,7 @@ class ProjectPageTemplate extends React.Component {
                                 &times;
                                 </button>
                                 <div className={styles.content}>
-                                <img class ={styles.itemPU} src={this.props.ImageUx1PU} alt=''  />
+                                <img className={styles.itemPU} src={this.props.ImageUx1PU} alt=''  />
                                 </div>
                             </div>
                         )}
@@ -213,7 +213,7 @@ class ProjectPageTemplate extends React.Component {
 
                      <div className={styles.modalContainer}>
                     <Popup
-                            trigger={ <img class ={styles.item} src={this.props.ImageUx6} alt='' /> }
+                            trigger={ <img className ={styles.item} src={this.props.ImageUx6} alt='' /> }
                             modal
                             nested
                             contentStyle= {contentStyle}
@@ -228,7 +228,7 @@ class ProjectPageTemplate extends React.Component {
                                 &times;
                                 </button>
                                 <div className={styles.content}>
-                                <img class ={styles.itemPU} src={this.props.ImageUx1PU} alt=''  />
+                                <img className ={styles.itemPU} src={this.props.ImageUx1PU} alt=''  />
                                 </div>
                             </div>
                         )}

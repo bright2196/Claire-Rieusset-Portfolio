@@ -332,3 +332,119 @@
     justify-content: space-around;
 
 }
+
+
+/*phone only*/
+@media (max-width: 599px) {
+    .containerGlobalLibow {
+        display: flex;
+        flex-direction: row;
+        padding-top: 2vh;
+       
+        overflow: hidden;
+        min-height: 100vh;
+        margin-left: 40px;
+    
+        margin-right: 40px;
+        }
+
+        .contentContainer {
+            width: 100vw;
+        }
+
+        .headerImage, .SketchImage {
+            object-fit: cover;
+            width: 20vw;
+           
+        }
+
+        .description1, .description2 {
+            font-family: roboto-condensed,sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #FFFFFF ; 
+            margin-top: 100px;
+            width: 500px;
+            line-height: 1.7em;
+            
+        }
+        
+        .description2 {
+           margin-top: 170px;
+        }
+        
+        .ProjectDescription {
+            display: flex;
+            flex-direction: column;
+        }
+    
+  
+  }
+  
+  /*tablet portrait up*/
+  @media (max-width: 800px) {
+
+    .containerGlobalLibow {
+        display: flex;
+        flex-direction: row;
+        padding-top: 2vh;
+       
+        overflow: hidden;
+        min-height: 100vh;
+        margin-left: 60px;
+    
+        margin-right: 40px;
+        }
+    .ProjectName {
+        
+        margin-top: 2vh;
+    
+    }
+
+    .contentContainer {
+        width: 100vw;
+    }
+
+    .headerImage, .SketchImage {
+        object-fit: cover;
+        width: 20vw;
+       
+    }
+
+    .description1, .description2 {
+        font-family: roboto-condensed,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #FFFFFF ; 
+        margin-top: 50px;
+        width: 80vw;
+        line-height: 1.7em;
+        
+    }
+    
+    .description2 {
+       margin-top: 10px;
+    }
+    
+    .ProjectDescription {
+        display: flex;
+        flex-direction: column;
+    }
+
+  }
+  
+  /*tablet landspace up*/
+  @media (min-width: 900px) {
+   
+  }
+  /*desktop up*/
+  @media (min-width: 1200px) {
+    
+    
+  
+  @media (max-width: 1800px) {
+  
+      
+  }
+  }
+  

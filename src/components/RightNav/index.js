@@ -11,7 +11,7 @@ const Ul = styled.ul`
     border-radius: 30px 0 30px 0;
     margin:0;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
     right: 0;
