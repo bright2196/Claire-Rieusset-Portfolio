@@ -15,7 +15,7 @@
 
 .AboutSectionContainer {
     width: 95vw;
-    min-height: 90vh;
+    min-height: 100vh;
     position: relative;
     left: 5vw;
     display: flex;
@@ -49,5 +49,44 @@
    
 }
 
+/*phone only*/
+@media (max-width: 599px) {
+    .MyPortrait {
+    display: none;   
+    }
 
+    .AboutSectionContainer {
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        left: 5vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+    }
+  }
+  
+  /*tablet portrait up*/
+  @media (max-width: 800px) {
+    .MyPortrait {
+        display: none;   
+        }
+  }
+  
+  /*tablet landspace up*/
+  @media (min-width: 900px) {
+  }
+  /*desktop up*/
+  @media (min-width: 1200px) {
+    
+    
+  
+  @media (max-width: 1800px) {
+  
+      
+  }
+  }
+  
 

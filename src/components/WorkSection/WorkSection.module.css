@@ -26,7 +26,7 @@
 
 .ElementContainer {
     display: flex;
-   
+    
     position: relative;
     width: 100%;
     height: auto;
@@ -38,6 +38,14 @@
    
     
 }
+
+
+.ContainerElementPart1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
 
 .ContainerElementPart2 {
     display: flex;
@@ -62,3 +70,36 @@
     margin-top: 8vh;
     margin-left: 10%;
 }
+
+
+/*phone only*/
+@media (max-width: 599px) {
+    .ElementContainer {
+       flex-direction: column;  
+    }
+  
+  
+  }
+  
+  /*tablet portrait up*/
+  @media (max-width: 800px) {
+    .ElementContainer {
+        flex-direction: column;  
+     }
+  }
+  
+  /*tablet landspace up*/
+  @media (min-width: 900px) {
+   
+  }
+  /*desktop up*/
+  @media (min-width: 1200px) {
+    
+    
+  
+  @media (max-width: 1800px) {
+  
+      
+  }
+  }
+  

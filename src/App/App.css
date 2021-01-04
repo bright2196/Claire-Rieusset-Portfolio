@@ -42,6 +42,12 @@ button {
   .LinkBar {
     display: none;
   }
+
+  .App { 
+    min-width: 0;
+  }
+
+
 }
 
 /*tablet portrait up*/
@@ -49,11 +55,17 @@ button {
   .LinkBar {
     display: none;
   }
+
+  .App { 
+    min-width: 0;
+  }
 }
 
 /*tablet landspace up*/
 @media (min-width: 900px) {
- 
+  .App { 
+    min-width: 0;
+  }
 }
 /*desktop up*/
 @media (min-width: 1200px) {
