@@ -14,10 +14,14 @@ class ProjectPageTemplate extends React.Component {
     
   
     <div className={styles.containerGlobalLibow}>
-   
+                <div className={styles.fullscreenHeader}>
+                <img src={this.props.headerImage} alt='' width='100%'/>
+                </div>
+
         <div className={styles.contentContainer}>
             <div className={styles.headerContent}>
-               
+               <h1 className={styles.projectName}>{this.props.projectName}</h1>
+               <p className={styles.labelHeader}>{this.props.designationProject}</p>
           </div>
         
 

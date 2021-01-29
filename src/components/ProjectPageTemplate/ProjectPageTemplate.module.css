@@ -11,12 +11,7 @@
         max-height: 100vh;
         
     }
-.titleHeader {
-    display: flex;
-   
-    flex-direction: column;
-    margin-top: 10vh;
-}
+
 
 
 .contentContainer {
@@ -31,90 +26,36 @@
     overflow: hidden;
 }
     
-.headerImage, .SketchImage {
-    display: flex;
-    justify-content: center;
-    filter: hue-rotate(357deg) brightness(70%) ;
+.projectName {
+    padding-top: 20vh;
+
+    font-size: 65px;
+    color: #E0E0E0;
+    font-family: linotype-didot,serif;
+    font-weight: 550;
+    font-style: normal;
+    text-transform: uppercase;
 }
 
-.SketchImage {
-    margin-top: 30px;
-    margin-bottom: 100px;
+.labelHeader {
+    font-size: 20px;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #E0CF04;
+    text-align: left;
+    margin-top: -10px;
 }
+
    
 
-.description1, .description2 {
-    font-family: roboto-condensed,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #FFFFFF ; 
-    margin-top: 100px;
-    width: 500px;
-    line-height: 1.7em;
-    
-}
-
-.description2 {
-   margin-top: 170px;
-}
-
-.ProjectDescription {
-    display: flex;
-    flex-direction: row;
-}
-
-.SketchAndIdeation {
-    font-family: roboto-condensed,sans-serif;
-    font-weight: 400;
-    font-size: 25px;
-    font-style: normal;
-    color: #E0CF04 ; 
-    margin-top: 50px;
-    display: flex;
-    
-}
-
-.Ux {
-    font-family: roboto-condensed,sans-serif;
-    font-weight: 400;
-    font-size: 25px;
-    font-style: normal;
-    color: #E0CF04 ; 
-    margin-top: 50px;
-    display: flex;
-    
-}
 
 
-.descriptionSketch {
-    font-family: roboto-condensed,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #FFFFFF ; 
 
-    width: 350px;
-    line-height: 1.7em;
-}
 
-.descriptionUX {
-    font-family: roboto-condensed,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #FFFFFF ; 
 
-    width: 350px;
-    line-height: 1.7em;
-}
 
-.descriptionColor{
-    font-family: roboto-condensed,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #FFFFFF ; 
 
-    width: 350px;
-    line-height: 1.7em;
-}
 
 .color {
     font-family: roboto-condensed,sans-serif;
@@ -142,105 +83,14 @@
   }
 
 
-  .PdfUX {
-
-    display: flex;
-    flex-direction: row;
-    width: 80vw;
-    
-  }
-
-  .rightSide {
-      display: flex;
-      flex-direction: column;
-      margin-top: 200px;
-    
-  
-     
-      
-  }
-
-  .leftSide {
-    display: flex;
-    flex-direction: column;
-    
-  }
-
-  .item {
-      margin: 20px;
-      filter: hue-rotate(357deg) brightness(70%) ;
-      width: 100%;
-      transition-property: transform;
-    transition-duration: 700ms;
  
-  }
 
-  .item:hover {
-    margin: 20px;
-    filter: hue-rotate(357deg) brightness(50%) ;
-    width: 100%;
-    transform: scale(1.05);
+ 
 
-}
-
-  
-  .modal > .close {
-    cursor: pointer;
-    position: absolute;
-    display: block;
-    padding: 3px 9px;
-   
-    right: -10px;
-    top: -10px;
-    font-size: 24px;
-    background: #e0ce04;
-    border-radius: 18px;
-   
-  }
-
-  .modal > .close:focus {
-    outline: none;
-   
-  }
-
-
-  
-    .modal > .content {
-        width: 550px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-      }
-  
-.modalContainer-overlay {
-    width: 100%;
-    background: rgba(0, 0, 0, 0.5);
-
-}
-.rightSide {
-    margin-left: 5vw;
-}
-.modalContainer-content {
-    margin: auto;
-    background: rgb(255, 255, 255);
-    width: 100%;
-    padding: 5px;
-}
  
 
 
-
-
-.descriptionTypo{
-    font-family: roboto-condensed,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #FFFFFF ; 
-
-    width: 350px;
-    line-height: 1.7em;
-}
+  
 
 .typo {
     font-family: roboto-condensed,sans-serif;
