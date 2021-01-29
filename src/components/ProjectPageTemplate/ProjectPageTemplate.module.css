@@ -1,19 +1,15 @@
 
-.containerGlobalLibow {
-    display: flex;
-    flex-direction: row;
-    padding-top: 2vh;
-   
-    overflow: hidden;
-    min-height: 100vh;
-    margin-left: 150px;
 
-    margin-right: 70px;
+.containerGlobalLibow {
+   
+    min-height: 100vh;
+  
     }
     
 .HeaderContent {
-        display: flex;
-        flex-direction: column;
+        width: 100%;
+        max-height: 100vh;
+        
     }
 .titleHeader {
     display: flex;
@@ -22,38 +18,17 @@
     margin-top: 10vh;
 }
 
-.designation, .Poste {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: -30px;
-    font-family: roboto-condensed,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #E0CF04 ;
-}
 
-.labelHeader {
-    font-family: roboto-condensed,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #FFFFFF ; 
-    margin-top: 100px;
-    letter-spacing: 1px;
-}
-
-.title {
-    font-family: linotype-didot,serif;
-    font-weight: 600;
-    font-style: normal;
-    color: #FFFFFF;
-    font-size: 50px;
-    text-transform: uppercase;
-    
-}
-    
 .contentContainer {
     display: flex;
+    margin-left: 150px;
+    padding-top: 2vh;
+
+    margin-right: 70px;
+    display: flex;
     flex-direction: column;
+   
+    overflow: hidden;
 }
     
 .headerImage, .SketchImage {
@@ -336,47 +311,7 @@
 
 /*phone only*/
 @media (max-width: 599px) {
-    .containerGlobalLibow {
-        display: flex;
-        flex-direction: row;
-        padding-top: 2vh;
-       
-        overflow: hidden;
-        min-height: 100vh;
-        margin-left: 40px;
-    
-        margin-right: 40px;
-        }
-
-        .contentContainer {
-            width: 100vw;
-        }
-
-        .headerImage, .SketchImage {
-            object-fit: cover;
-            width: 20vw;
-           
-        }
-
-        .description1, .description2 {
-            font-family: roboto-condensed,sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            color: #FFFFFF ; 
-            margin-top: 100px;
-            width: 500px;
-            line-height: 1.7em;
-            
-        }
         
-        .description2 {
-           margin-top: 170px;
-        }
-        
-        .ProjectDescription {
-            display: flex;
-            flex-direction: column;
-        }
     
   
   }
@@ -384,52 +319,7 @@
   /*tablet portrait up*/
   @media (max-width: 800px) {
 
-    .containerGlobalLibow {
-        display: flex;
-        flex-direction: row;
-        padding-top: 2vh;
-       
-        overflow: hidden;
-        min-height: 100vh;
-        margin-left: 60px;
     
-        margin-right: 40px;
-        }
-    .ProjectName {
-        
-        margin-top: 2vh;
-    
-    }
-
-    .contentContainer {
-        width: 100vw;
-    }
-
-    .headerImage, .SketchImage {
-        object-fit: cover;
-        width: 20vw;
-       
-    }
-
-    .description1, .description2 {
-        font-family: roboto-condensed,sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        color: #FFFFFF ; 
-        margin-top: 50px;
-        width: 80vw;
-        line-height: 1.7em;
-        
-    }
-    
-    .description2 {
-       margin-top: 10px;
-    }
-    
-    .ProjectDescription {
-        display: flex;
-        flex-direction: column;
-    }
 
   }
   

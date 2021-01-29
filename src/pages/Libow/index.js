@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Libow.module.css'
 import ProjectPageTemplate from '../../components/ProjectPageTemplate';
-import HeaderImage from '../Libow/img/headerImage.png'
+import HeaderImage from '../Libow/img/headerTest.png'
 import sketchImage from '../Libow/img/sketchImage.png'
 import color1 from '../Libow/img/color1.svg'
 import color2 from '../Libow/img/color2.svg'
@@ -27,25 +27,23 @@ const Libow = () => {
     <section className={styles.LibowPageContainer}>  
       
         <ProjectPageTemplate
-          projectName='Libow_'
-
-          desinationPoste= 'Stage_'
+          
 
           headerImage={HeaderImage}
 
           roleProject='Rédaction web | Design Graphique | Motion design'
 
-          description1='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
-          eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
-          voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita 
-          kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy'
+          description1='Une semaine, six étudiants, une marque. 
+          Le concept de « Ma ville, mon shopping » est simple : 
+          permettre aux commerçants locaux d’évoluer avec leur temps 
+          et d’avoir une présence en ligne. La crise sanitaire actuelle 
+          a permis à cette entreprise de se développer.' 
 
-          description2='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
-          eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
-          voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita 
-          kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy'
+          description2='Notre objectif était de trouver une nouvelle charte graphique 
+          ainsi qu’un axe de positionnement intéressant pour que 
+          « Ma ville, mon shopping » prenne une plus grande ampleur. 
+          Dans ce projet, j’avais le rôle d’UX designer. 
+          Ainsi, j’ai eu l’occasion de suivre la recherche utilisateur de A à Z.'
 
           descriptionSketch='Lorem ipsum dolor sit amet, consetetur sadipscing 
           elitr, sed diam nonumy eirmod tempor invidunt ut 

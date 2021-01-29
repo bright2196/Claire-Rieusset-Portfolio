@@ -41,6 +41,10 @@ const Home = () => (
               <div className="section" data-anchor='Re-Steam' id='Re-Steam' data-tooltip='Projet 3'>
               <LibowProject/>
               </div>
+
+              <div className="section" data-anchor='Re-Steam' id='Re-Steam' data-tooltip='Projet 3'>
+              <LibowProject/>
+              </div>
           
         </ReactFullpage.Wrapper>
        

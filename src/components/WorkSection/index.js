@@ -40,7 +40,7 @@ export default function WorkSection() {
     <div className={styles.Element}>
         
         <WorkElementButton
-      name= 'MAIN DANS LA MAIN_'
+      name= 'ADAPT_'
       backgroundColor='RGBA(207,192,5,0.3)'/>
     
     </div>
@@ -51,7 +51,7 @@ export default function WorkSection() {
     <div className={styles.Element}>
         
         <WorkElementButton
-      name= 'HORRY BORD_'
+      name= "VITRINE VERTE_"
       backgroundColor='RGBA(207,192,5,0.3)'/>
     
     </div>
@@ -66,7 +66,7 @@ export default function WorkSection() {
     <div className={styles.ElementR}>
         
         <WorkElementButton
-      name= 'MOTION DESIGN_'
+      name= 'NILK2GO_'
       backgroundColor='RGBA(207,192,5,0.3)'/>
     
     </div>
@@ -77,7 +77,7 @@ export default function WorkSection() {
     <div className={styles.ElementR}>
         
         <WorkElementButton
-      name= "MUSEE D'AQUITAIRE"
+      name= "MES ADRESSES_"
       backgroundColor='RGBA(207,192,5,0.3)'/>
     
     </div>

@@ -17,6 +17,8 @@ export default function AboutSection() {
           fontSize= '28px'
           color= "#E0CF04"
           /> 
+
+          
     
     </div> 
 

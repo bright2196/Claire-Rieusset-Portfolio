@@ -205,3 +205,30 @@
     fill: #6c6302;
 
 }
+
+
+
+/*phone only*/
+@media (max-width: 599px) {
+    
+    
+  }
+  
+  /*tablet portrait up*/
+  @media (max-width: 900px) {
+   
+  }
+  
+
+  /*desktop up*/
+  @media (min-width: 1200px) {
+    
+    
+  
+  @media (max-width: 1800px) {
+  
+      
+  }
+  }
+  
+

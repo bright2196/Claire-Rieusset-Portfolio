@@ -76,6 +76,8 @@ const Ul = styled.ul`
         flex-flow: column nowrap;
         position: fixed;
         transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
+        transform: ${({ close }) => close ? 'translateX(100%)' : 'translateX(0)'};
+
         top: 0;
         right: 0;
         height: 100vh;
@@ -108,11 +110,11 @@ const Ul = styled.ul`
   
 
 
-const RightNav = ({ open }) => {
+const RightNav = ({ open, close }) => {
   return (
     <div className='container'>
     <Ul open={open}>
-    <div className='item'>
+    <div className='item' onClick="open={open}">
             <NavLink
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
@@ -122,7 +124,7 @@ const RightNav = ({ open }) => {
             </NavLink>
             <div className='circleButton'></div>
     </div>
-    <div className='item'>
+    <div className='item' onClick="open={open}">
             <NavLink
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
@@ -132,7 +134,7 @@ const RightNav = ({ open }) => {
             </NavLink>
             <div className='circleButton'></div>
     </div>
-    <div className='item'>
+    <div className='item' onClick="open={open}">
             <NavLink
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
@@ -142,7 +144,7 @@ const RightNav = ({ open }) => {
             </NavLink>
             <div className='circleButton'></div>
     </div>
-    <div className='item'>
+    <div className='item' onClick="open={open}">
             <NavLink
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
