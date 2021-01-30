@@ -49,9 +49,100 @@
 
    
 
+.containerDescriptionProject {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 90px;
+
+}
+
+.descriptionTitle1, .descriptionTitle2  {
+    font-size: 16px;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #E0E0E0;
+    text-align: left;
+}
+
+.description1, .description2 {
+    font-size: 16px;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #E0E0E0;
+    text-align: left;
+    width: 500px;
+}
+
+.infoProjectContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.titleInfo1, .titleInfo2, .titleInfo3, .titleInfo4 {
+    font-size: 16px;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #E0E0E0;
+}
+
+.descriptionInfo1, .descriptionInfo2, .descriptionInfo3, .descriptionInfo4 {
+    font-size: 16px;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #E0E0E0;
+}
+
+.titleSection1 {
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+    color: #E0CF04 ; 
+    margin-top: 190px;
+
+}
 
 
 
+
+.textSection1 {
+    font-size: 16px;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #E0E0E0;
+    margin-top: 10px;
+
+    width: 500px;
+}
+
+.carouselContainer {
+    margin-top: 70px;
+}
+
+.section2Title {
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+    color: #E0CF04 ; 
+    margin-top: 190px;
+    margin-bottom: 50px;
+}
+.wireframeImage1, .wireframeImage2, .wireframeImage3, .wireframeImage4{
+    margin-bottom: 40px;
+}
+
+.wireframeImage2, .wireframeImage4 {
+    margin-left: 100px;
+}
 
 
 
@@ -109,6 +200,17 @@
     margin-bottom: 100px;
 }
 
+.titlePrototype {
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+    color: #E0CF04 ; 
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 50px;
+
+} 
 
 
 .other {
@@ -119,7 +221,8 @@
     color: #E0CF04 ; 
     margin-top: 50px;
     display: flex;
-        
+    margin-bottom: 30px;
+
     }
 
 

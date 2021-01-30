@@ -10,6 +10,7 @@ import Work from "../pages/Work";
 import Random from "../pages/Random";
 import Contact from "../pages/Contact";
 import Navbar2 from "../components/NavBar2";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 

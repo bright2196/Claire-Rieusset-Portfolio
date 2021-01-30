@@ -4,12 +4,14 @@ import PropTypes from 'prop-types';
 import WorkElementButton from '../WorkElementButton';
 import { Link } from 'react-router-dom';
 import ButtonProject from '../ButtonProject';
+import Carousel from 'react-bootstrap/Carousel'
 
 
 
 class ProjectPageTemplate extends React.Component {
   
   render() {
+  
     return (
     
   
@@ -20,8 +22,96 @@ class ProjectPageTemplate extends React.Component {
 
         <div className={styles.contentContainer}>
             <div className={styles.headerContent}>
+                <div className={styles.titleHeader}>
                <h1 className={styles.projectName}>{this.props.projectName}</h1>
                <p className={styles.labelHeader}>{this.props.designationProject}</p>
+               </div>
+
+            <div className={styles.containerDescriptionProject}>
+                <div className={styles.leftSideDescription}>
+                    <h3 className={styles.descriptionTitle1}>{this.props.descriptionTitle1}</h3>
+                    <p className={styles.description1}>{this.props.description1}</p>
+                </div>
+                <div className={styles.rightSideDescription}>
+                    <h3 className={styles.descriptionTitle2}>{this.props.descriptionTitle2}</h3>
+                    <p className={styles.description2}>{this.props.description2}</p>
+                </div>
+            </div>
+            <div className={styles.infoProjectContainer}>
+                <div className={styles.containerInfo1}>
+                    <h3 className={styles.titleInfo1}>{this.props.titleInfo1}</h3>
+                    <p className={styles.descriptionInfo1}>{this.props.descriptionInfo1}</p>
+                </div>
+
+                <div className={styles.containerInfo2}>
+                    <h3 className={styles.titleInfo2}>{this.props.titleInfo2}</h3>
+                    <p className={styles.descriptionInfo2}>{this.props.descriptionInfo2}</p>
+                </div>
+
+                <div className={styles.containerInfo3}>
+                    <h3 className={styles.titleInfo3}>{this.props.titleInfo3}</h3>
+                    <p className={styles.descriptionInfo3}>{this.props.descriptionInfo3}</p>
+                </div>
+
+                <div className={styles.containerInfo4}>
+                    <h3 className={styles.titleInfo4}>{this.props.titleInfo4}</h3>
+                    <p className={styles.descriptionInfo4}>{this.props.descriptionInfo4}</p>
+                </div>
+            </div>
+
+            <div className={styles.section1}>
+                  
+                        <h2 className={styles.titleSection1}>{this.props.titleSection1}</h2>
+                        <p className={styles.textSection1}>{this.props.textSection1}</p>
+                    <div className={styles.carouselContainer}>
+                    <Carousel>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src={this.props.imageUx1}
+                            alt="First slide"
+                            />
+                           
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src={this.props.imageUx2}
+                            alt="Third slide"
+                            />
+
+                           
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src={this.props.imageUx3}
+                            alt="Third slide"
+                            />
+
+                           
+                        </Carousel.Item>
+                    </Carousel>
+                    </div>
+
+                   
+            </div>
+          </div>
+
+          <div className={styles.section2}>
+              
+                  <h2 className={styles.section2Title}>
+                  {this.props.section2Title}
+                  </h2>
+             
+              
+              <div className={styles.imageContainer}>
+                    <img src={this.props.wireframeImage1} alt='' className={styles.wireframeImage1}/>
+                    <img src={this.props.wireframeImage2} alt='' className={styles.wireframeImage2}/>
+                    <img src={this.props.wireframeImage3} alt='' className={styles.wireframeImage3}/>
+                    <img src={this.props.wireframeImag4} alt='' className={styles.wireframeImage4}/>
+
+              </div> 
           </div>
         
 
@@ -63,6 +153,17 @@ class ProjectPageTemplate extends React.Component {
                     <img src={this.props.typoImg} alt='' className={styles.typoImage}/>
               </div> 
           </div>
+
+          <div className={styles.sectionPrototype}>
+                  <h2 className={styles.titlePrototype}>
+                  Prototype_
+                  </h2>
+              
+              <div className={styles.ProtoVideo}>
+              <iframe width="966" height="543" src="https://www.youtube.com/embed/KGQNrzqrGqw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div> 
+          </div>
+
 
           <div className={styles.otherSection}>
               <div className={styles.other}>
