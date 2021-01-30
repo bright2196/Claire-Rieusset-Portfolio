@@ -128,7 +128,7 @@ const RightNav = ({ open, close }) => {
             <NavLink
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
-                to="/About"
+                to="/a-propos"
             >
                     <li>A propos</li>
             </NavLink>
@@ -138,7 +138,7 @@ const RightNav = ({ open, close }) => {
             <NavLink
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
-                to="/Work"
+                to="/tous-mes-travaux"
             >
                     <li>Tous mes projets</li>
             </NavLink>
@@ -148,7 +148,7 @@ const RightNav = ({ open, close }) => {
             <NavLink
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
-                to="/Contact"
+                to="/contact"
             >
                     <li>Contact</li>
             </NavLink>

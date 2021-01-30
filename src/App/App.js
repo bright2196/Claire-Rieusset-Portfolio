@@ -7,7 +7,6 @@ import Libow from "../pages/Libow";
 import LinkBar from "../components/LinkBar";
 // import NavBar from "../components/NavBar";
 import Work from "../pages/Work";
-import Random from "../pages/Random";
 import Contact from "../pages/Contact";
 import Navbar2 from "../components/NavBar2";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -31,11 +30,10 @@ const App = () => {
          </div>
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/About" component={About} />
-          <Route path="/Libow" component={Libow} />
-          <Route path="/Work" component={Work} />
-          <Route path="/AuHasard" component={Random} />
-          <Route path="/Contact" component={Contact} />
+          <Route path="/a-propos" component={About} />
+          <Route path="/libow-project" component={Libow} />
+          <Route path="/tous-mes-travaux" component={Work} />
+          <Route path="/contact" component={Contact} />
        
         </Switch>
        

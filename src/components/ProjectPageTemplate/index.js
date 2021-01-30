@@ -160,7 +160,7 @@ class ProjectPageTemplate extends React.Component {
                   </h2>
               
               <div className={styles.ProtoVideo}>
-              <iframe width="966" height="543" src="https://www.youtube.com/embed/KGQNrzqrGqw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe title="protoVideo" width="966" height="543" src="https://www.youtube.com/embed/KGQNrzqrGqw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div> 
           </div>
 
