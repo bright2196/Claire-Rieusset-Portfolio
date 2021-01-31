@@ -110,7 +110,7 @@ const Ul = styled.ul`
   
 
 
-const RightNav = ({ open, close }) => {
+const RightNav = ({open}) => {
   return (
     <div className='container'>
     <Ul open={open}>
