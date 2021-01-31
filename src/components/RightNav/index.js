@@ -13,6 +13,7 @@ const Ul = styled.ul`
     flex-direction: column;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
+
     top: 0;
     right: 0;
     height: 100vh;
@@ -76,7 +77,6 @@ const Ul = styled.ul`
         flex-flow: column nowrap;
         position: fixed;
         transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
-        transform: ${({ close }) => close ? 'translateX(100%)' : 'translateX(0)'};
 
         top: 0;
         right: 0;

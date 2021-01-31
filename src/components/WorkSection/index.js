@@ -23,13 +23,13 @@ export default function WorkSection() {
 
      
        <div className={styles.ContainerElementPart1}>
-       <Link to='/Libow' className={styles.LinkContainer}>
+       <Link to='/libow-project' className={styles.LinkContainer}>
       <div className={styles.Element}>
         
         <WorkElementButton
             number= '1_Stage'
             name= 'LIBOW_'
-            link='/Libow'
+            link='/libow-project'
             backgroundColor='RGBA(207,192,5,0.3)'/>
        
     
