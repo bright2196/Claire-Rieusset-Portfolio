@@ -19,11 +19,12 @@ const LibowProject = () => {
       <ComponentProjectSection
           desination= 'Stage_'
           projectName= 'Libow_'
-          descriptionProject='Lorem ipsum dolor sit amet, consetetur 
-          sadipscing elitr, sed diam nonumy eirmod 
-          tempor invidunt ut labore et dolore magna 
-          aliquyam erat, sed diam voluptua. At vero eos 
-          et accusam et justo duo dolores et ea rebum.'
+          descriptionProject='Solaire, autoconsommation, énergie… 
+          Tous ces mots résument mon stage de rédaction web et création de contenus multimédias. 
+          Libow m’a donné l’opportunité de travailler sur des projets comme la création d’une 
+          vidéo de vulgarisation en motion design ou encore la rédaction d’articles sur les 
+          batteries solaires de Tesla. 
+          '
           projectImage={LibowImage}
 
 

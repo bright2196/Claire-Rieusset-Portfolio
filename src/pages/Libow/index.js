@@ -8,8 +8,7 @@ import color2 from '../Libow/img/color2.svg'
 import color3 from '../Libow/img/color3.svg'
 import wireframeImage1 from '../Libow/img/sketchImage.png'
 import wireframeImage2 from '../Libow/img/ImageUx5.png'
-import wireframeImage3 from '../Libow/img/sketchImage.png'
-import wireframeImage4 from '../Libow/img/imageUx2.png'
+
 
 
 import typo from '../Libow/ressources/typographie.png'
@@ -30,50 +29,46 @@ const Libow = () => {
 
           headerImage={HeaderImage}
           projectName="Libow_"
-          designationProject="Projet Étudiant_"
-          descriptionTitle1="Le concept"
-          description1="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
-          eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
-          voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita 
-          kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy"$
+          designationProject="Stage_"
+          descriptionTitle1="Description"
+          description1="Libow est spécialiste en autoconsommation solaire. 
+          Durant trois mois, j’ai occupé le poste de stagiaire en production de contenus 
+          multimédias et rédaction web. Cette expérience m’a permis de développer 
+          mes compétences dans de nombreux domaines, mais aussi de me familiariser 
+          avec la vie en entreprise."
 
-          descriptionTitle2="Le concept"
-          description2="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
-          eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
-          voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita 
-          kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy"
+        
+          description2="J’ai écrit quelques articles sur des concepts liés aux panneaux solaires.
+           Cependant, le projet qui m’a le plus passionné a été la création d’un motion 
+           design pour présenter les études solaires des leads."
 
           titleInfo1="Client"
-          descriptionInfo1="Nilk2go"
+          descriptionInfo1="Libow"
 
-          titleInfo2="Project date"
-          descriptionInfo2="December 2020"
+          titleInfo2="Date du projet"
+          descriptionInfo2="25 juin - 28 août"
 
-          titleInfo3="Category"
-          descriptionInfo3="UX design, strategy com"
+          titleInfo3="Catégories"
+          descriptionInfo3="Rédaction web, motion design, graphisme, User interface"
 
-          titleInfo4="Logiciels"
-          descriptionInfo4="After Effects, Illustrator"
+          titleInfo4="Technologies"
+          descriptionInfo4=" Illustrator, XD, HTML5, CSS3, Google Ads, After Effects, SEO, Pirsonal"
 
 
-          titleSection1="Recherche utilisateur_"
-          SubtitleSection1="Personas and empathy map_"
-          textSection1="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
-          eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
-          voluptua. "
+          titleSection1="Motion design_"
+          textSection1="L'objectif de cette vidéo est de faciliter la compréhension de l'étude de solaire des leads.
+          L'énergie solaire est un secteur complexe. Il est nécessaire de vulgariser certaines informations pour rendre l'information plus accessible.
+          Voici, le processus de création de cette vidéo. "
 
           imageUx1={imageUx1}
           imageUx2={imageUx1}
           imageUx3={imageUx1}
 
 
-          section2Title="Wireframe et prototype_"
+          section2Title="Prototype_"
           wireframeImage1={wireframeImage1}
           wireframeImage2={wireframeImage2}
-          wireframeImage3={wireframeImage3}
-          wireframeImage4={wireframeImage4}
+          
 
 
 

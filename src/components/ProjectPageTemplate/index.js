@@ -106,10 +106,10 @@ class ProjectPageTemplate extends React.Component {
              
               
               <div className={styles.imageContainer}>
-                    <img src={this.props.wireframeImage1} alt='' className={styles.wireframeImage1}/>
-                    <img src={this.props.wireframeImage2} alt='' className={styles.wireframeImage2}/>
-                    <img src={this.props.wireframeImage3} alt='' className={styles.wireframeImage3}/>
-                    <img src={this.props.wireframeImag4} alt='' className={styles.wireframeImage4}/>
+                    <img src={this.props.wireframeImage1} alt='' className={styles.wireframeImage1} width="100%"/>
+                    <img src={this.props.wireframeImage2} alt='' className={styles.wireframeImage2} width="100%"/>
+                    <img src={this.props.wireframeImage3} alt='' className={styles.wireframeImage3} width="100%"/>
+                    <img src={this.props.wireframeImag4} alt='' className={styles.wireframeImage4} width="100%"/>
 
               </div> 
           </div>
@@ -150,7 +150,7 @@ class ProjectPageTemplate extends React.Component {
               </div>
               
               <div className={styles.TypoImage}>
-                    <img src={this.props.typoImg} alt='' className={styles.typoImage}/>
+                    <img src={this.props.typoImg} alt='' className={styles.typoImage} />
               </div> 
           </div>
 
@@ -160,7 +160,7 @@ class ProjectPageTemplate extends React.Component {
                   </h2>
               
               <div className={styles.ProtoVideo}>
-              <iframe title="protoVideo" width="966" height="543" src="https://www.youtube.com/embed/KGQNrzqrGqw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe title="protoVideo" width="100%" height="543" src="https://www.youtube.com/embed/KGQNrzqrGqw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div> 
           </div>
 

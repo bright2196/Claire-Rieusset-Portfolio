@@ -4,12 +4,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ComponentProjectSection from '../ComponentProjectSection';
 import AdaptImage from './img/adaptPhotoTest.png'
-import styles from './AdaptProject.module.css'
+import styles from './HorryBordProject.module.css'
 
 
 
 
-const AdaptProject = () => {
+const HorryBordProject = () => {
   return (
     
 
@@ -18,11 +18,10 @@ const AdaptProject = () => {
 
       <ComponentProjectSection
           desination= 'Projet Étudiant_'
-          projectName= 'Adapt_'
-          descriptionProject='À l’instar de Spotify, Deezer ou encore Apple Music, 
-          notre objectif était de créer une plateforme de streaming audio.
-          Nous avons choisi de créer Adapt. Le service de streaming audio en lien avec
-          votre planning. '
+          projectName= 'HorryBord_'
+          descriptionProject='Le challenge de cette semaine : créer un blog basé sur le thème de 
+          « Bordeaux à travers… ». Pour réaliser ce projet, nous avions trois semaines par groupe de 6.
+          Nous avons choisi de parler des histoires terrifiantes qui hantent la Belle Endormie.'
           projectImage={AdaptImage}
 
 
@@ -39,7 +38,7 @@ const AdaptProject = () => {
   );
 };
 
-AdaptProject.propTypes = {
+HorryBordProject.propTypes = {
   width: PropTypes.string,
   height: PropTypes.string,
   color: PropTypes.string, 
@@ -47,4 +46,4 @@ AdaptProject.propTypes = {
 
 }
 
-export default AdaptProject;
+export default HorryBordProject;

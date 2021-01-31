@@ -3,6 +3,7 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import HomeSection from '../../components/HomeSection';
 import LibowProject from '../../components/ProjectSection/LibowProject';
 import AdaptProject from '../../components/ProjectSection/AdaptProject'
+import HorryBordProject from '../../components/ProjectSection/HorryBordProject';
 
 
 const Home = () => (
@@ -34,16 +35,12 @@ const Home = () => (
               <div className="section" data-anchor='Libow' id='Libow' data-tooltip='Projet 1'>
                 <LibowProject/>
               </div>
-              <div className="section" data-anchor='MedFocus' id='MedFocus' data-tooltip='Projet 2'>
+              <div className="section" data-anchor='Adapt' id='Adapt' data-tooltip='Projet 2'>
                 <AdaptProject/>
               </div>
 
-              <div className="section" data-anchor='Re-Steam' id='Re-Steam' data-tooltip='Projet 3'>
-              <LibowProject/>
-              </div>
-
-              <div className="section" data-anchor='Re-Steam' id='Re-Steam' data-tooltip='Projet 3'>
-              <LibowProject/>
+              <div className="section" data-anchor='HorryBord' id='HorryBord' data-tooltip='Projet 3'>
+              <HorryBordProject/>
               </div>
           
         </ReactFullpage.Wrapper>

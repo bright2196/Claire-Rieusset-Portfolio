@@ -36,23 +36,26 @@ export default function WorkSection() {
     </div>
     </Link>
 
-    <Link to='/Libow' className={styles.LinkContainer}>
+    <Link to='/adapt-project' className={styles.LinkContainer}>
     <div className={styles.Element}>
         
         <WorkElementButton
       name= 'ADAPT_'
-      backgroundColor='RGBA(207,192,5,0.3)'/>
+      backgroundColor='RGBA(207,192,5,0.3)'
+      link='/adapt-project'/>
+      
     
     </div>
     </Link>
 
 
- <Link to='/Libow' className={styles.LinkContainer}>
+ <Link to='/horrybord-project' className={styles.LinkContainer}>
     <div className={styles.Element}>
         
         <WorkElementButton
-      name= "VITRINE VERTE_"
-      backgroundColor='RGBA(207,192,5,0.3)'/>
+      name= "HORRYBORD_"
+      backgroundColor='RGBA(207,192,5,0.3)'
+      link='/horrybord-project'/>
     
     </div>
     </Link>
@@ -62,23 +65,25 @@ export default function WorkSection() {
 
     <div className={styles.ContainerElementPart2}>
 
-    <Link to='/Libow' className={styles.LinkContainer}>
+    <Link to='/nilk2go-project' className={styles.LinkContainer}>
     <div className={styles.ElementR}>
         
         <WorkElementButton
       name= 'NILK2GO_'
-      backgroundColor='RGBA(207,192,5,0.3)'/>
+      backgroundColor='RGBA(207,192,5,0.3)'
+      link='/nilk2go-project'/>
     
     </div>
     </Link>
 
 
- <Link to='/Libow' className={styles.LinkContainer}>
+ <Link to='/mes-petites-adresses-project' className={styles.LinkContainer}>
     <div className={styles.ElementR}>
         
         <WorkElementButton
       name= "MES ADRESSES_"
-      backgroundColor='RGBA(207,192,5,0.3)'/>
+      backgroundColor='RGBA(207,192,5,0.3)'
+      link='/mes-petites-adresses-project'/>
     
     </div>
     </Link>
