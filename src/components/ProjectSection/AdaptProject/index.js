@@ -24,8 +24,7 @@ const AdaptProject = () => {
           Nous avons choisi de créer Adapt. Le service de streaming audio en lien avec
           votre planning. '
           projectImage={AdaptImage}
-
-
+          link="/adapt-project"
       />
   
        

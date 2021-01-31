@@ -2,7 +2,14 @@ import React from 'react';
 import styles from './Adapt.module.css'
 import ProjectPageTemplate from '../../components/ProjectPageTemplate';
 import HeaderImage from '../Libow/img/headerTest.png'
-import imageUx1 from '../Libow/img/imageUx1.png'
+import imageUx1 from '../Adapt/img/img_ux/adapt.png'
+import imageUx2 from '../Adapt/img/img_ux/adapt1.png'
+import imageUx3 from '../Adapt/img/img_ux/adapt2.png'
+import imageUx4 from '../Adapt/img/img_ux/adapt3.png'
+import imageUx5 from '../Adapt/img/img_ux/adapt4.png'
+import imageUx6 from '../Adapt/img/img_ux/adapt5.png'
+import imageUx7 from '../Adapt/img/img_ux/adapt6.png'
+import imageUx8 from '../Adapt/img/img_ux/adapt7.png'
 import color1 from '../Libow/img/color1.svg'
 import color2 from '../Libow/img/color2.svg'
 import color3 from '../Libow/img/color3.svg'
@@ -60,8 +67,13 @@ const Adapt = () => {
           comment il utilise des applications comme Spotify, Deezer…"
 
           imageUx1={imageUx1}
-          imageUx2={imageUx1}
-          imageUx3={imageUx1}
+          imageUx2={imageUx2}
+          imageUx3={imageUx3}
+          imageUx4={imageUx4}
+          imageUx5={imageUx5}
+          imageUx6={imageUx6}
+          imageUx7={imageUx7}
+          imageUx8={imageUx8}
 
 
           section2Title="Prototype_"

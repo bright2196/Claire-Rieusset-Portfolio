@@ -26,6 +26,7 @@ const LibowProject = () => {
           batteries solaires de Tesla. 
           '
           projectImage={LibowImage}
+          link="/libow-project"
 
 
       />

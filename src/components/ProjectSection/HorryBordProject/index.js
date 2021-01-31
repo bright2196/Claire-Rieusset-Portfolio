@@ -23,6 +23,7 @@ const HorryBordProject = () => {
           « Bordeaux à travers… ». Pour réaliser ce projet, nous avions trois semaines par groupe de 6.
           Nous avons choisi de parler des histoires terrifiantes qui hantent la Belle Endormie.'
           projectImage={AdaptImage}
+          link='/horrybord-project'
 
 
       />

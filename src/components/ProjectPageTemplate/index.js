@@ -91,6 +91,53 @@ class ProjectPageTemplate extends React.Component {
 
                            
                         </Carousel.Item>
+
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src={this.props.imageUx4}
+                            alt="4 slide"
+                            />
+
+                           
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src={this.props.imageUx5}
+                            alt="5slide"
+                            />
+
+                           
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src={this.props.imageUx6}
+                            alt="6slide"
+                            />
+
+                           
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src={this.props.imageUx7}
+                            alt="7slide"
+                            />
+
+                           
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src={this.props.imageUx8}
+                            alt="8slide"
+                            />
+
+                           
+                        </Carousel.Item>
                     </Carousel>
                     </div>
 
