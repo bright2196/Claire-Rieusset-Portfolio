@@ -119,7 +119,7 @@ const RightNav = ({open}) => {
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
                 to="/"
-                onClick="open={open}"
+               
             >
                     <li>Home</li>
             </NavLink>
@@ -127,7 +127,7 @@ const RightNav = ({open}) => {
     </div>
     <div className='item' >
             <NavLink
-                onClick="open={open}"
+               
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
                 to="/a-propos"
@@ -147,7 +147,7 @@ const RightNav = ({open}) => {
             <div className='circleButton'></div>
     </div>
     <div className='item' >
-            <NavLink onClick="open={open}"
+            <NavLink 
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
                 to="/contact"
