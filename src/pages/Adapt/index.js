@@ -90,8 +90,9 @@ const Adapt = () => {
          
           typoImg={typo}
 
-          widthProto="375"
+         
           heightProto="812"
+      
           linkProto="https://xd.adobe.com/embed/f27cc361-4c5e-43af-9b00-458a4822cebb-a72f/?fullscreen"
 
           

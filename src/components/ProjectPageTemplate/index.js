@@ -63,6 +63,7 @@ class ProjectPageTemplate extends React.Component {
                   
                         <h2 className={styles.titleSection1}>{this.props.titleSection1}</h2>
                         <p className={styles.textSection1}>{this.props.textSection1}</p>
+                       
                     <div className={styles.carouselContainer}>
                     <Carousel>
                         <Carousel.Item>
@@ -167,23 +168,29 @@ class ProjectPageTemplate extends React.Component {
           <div className={styles.colorSection}>
               <div className={styles.color}>
                   <h2 className={styles.color}>
-                  Couleurs_
+                  {this.props.sectionTitle3}
                   </h2>
               </div>
-             
+              
+            
               <div className={styles.bubbles}>
-                  <div className={styles.bubbles1}>
-                      <img src={this.props.color1} alt='' className={styles.bubble}/>
+               <a href={this.props.linkArticle1} >     
+                    <div className={styles.bubbles1}>
+                    <img src={this.props.color1} alt='' className={styles.bubble}/>
                   </div>
-             
-                  
+                </a>
+            
+                <a href={this.props.linkArticle2} > 
                   <div className={styles.bubbles1}>
                       <img src={this.props.color2} alt='' className={styles.bubble}/>
                   </div>
+                </a>
 
+                <a href={this.props.linkArticle3} > 
                   <div className={styles.bubbles1}>
                       <img src={this.props.color3} alt='' className={styles.bubble}/>
                   </div>
+                  </a>
               </div>
              
              

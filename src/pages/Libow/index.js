@@ -2,20 +2,8 @@ import React from 'react';
 import styles from './Libow.module.css'
 import ProjectPageTemplate from '../../components/ProjectPageTemplate';
 import HeaderImage from '../Libow/img/headerTest.png'
-import imageUx1 from '../Libow/img/imageUx1.png'
-import color1 from '../Libow/img/color1.svg'
-import color2 from '../Libow/img/color2.svg'
-import color3 from '../Libow/img/color3.svg'
 import wireframeImage1 from '../Libow/img/sketchImage.png'
 import wireframeImage2 from '../Libow/img/ImageUx5.png'
-
-
-
-import typo from '../Libow/ressources/typographie.png'
-
-
-
-
 
 
 const Libow = () => {
@@ -52,36 +40,22 @@ const Libow = () => {
           descriptionInfo3="Rédaction web, motion design, graphisme, User interface"
 
           titleInfo4="Technologies"
-          descriptionInfo4=" Illustrator, XD, HTML5, CSS3, Google Ads, After Effects, SEO, Pirsonal"
+          descriptionInfo4=" Illustrator, XD, Wordpress, Divi, Google Ads, After Effects, SEO, Pirsonal"
 
 
-          titleSection1="Motion design_"
-          textSection1="L'objectif de cette vidéo est de faciliter la compréhension de l'étude de solaire des leads.
-          L'énergie solaire est un secteur complexe. Il est nécessaire de vulgariser certaines informations pour rendre l'information plus accessible.
-          Voici, le processus de création de cette vidéo. "
+          titleSection1="Rédaction web_"
+          textSection1="Avant d’arriver à Libow, je ne connaissais absolument rien sur les panneaux solaires. J’ai dû me former grâce à des articles, mais aussi des vidéos explicatives réalisées par les marques spécialisées dans le solaire. 
+          L’objectif de mon stage était de réaliser plusieurs articles pour le blog du site. Ils devaient donc respecter un certain nombre de caractères et booster le SEO. 
+          Face à mon profil créatif, l’entreprise m’a proposé de réaliser les illustrations des articles ainsi que le design de certaines pages web.  "
 
-          imageUx1={imageUx1}
-          imageUx2={imageUx1}
-          imageUx3={imageUx1}
-
+          widthProto=""
+          heightProto=""
+          linkProto=""
 
           section2Title="Prototype_"
           wireframeImage1={wireframeImage1}
           wireframeImage2={wireframeImage2}
           
-
-
-
-
-          color1={color1}
-
-          color2={color2}
-
-          color3={color3}
-
-          
-         
-          typoImg={typo}
 
           linkOther1='/Home'
           linkOther2='/Home'

@@ -114,18 +114,20 @@ const RightNav = ({open}) => {
   return (
     <div className='container'>
     <Ul open={open}>
-    <div className='item' onClick="open={open}">
+    <div className='item' >
             <NavLink
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
                 to="/"
+                onClick="open={open}"
             >
                     <li>Home</li>
             </NavLink>
             <div className='circleButton'></div>
     </div>
-    <div className='item' onClick="open={open}">
+    <div className='item' >
             <NavLink
+                onClick="open={open}"
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
                 to="/a-propos"
@@ -134,8 +136,8 @@ const RightNav = ({open}) => {
             </NavLink>
             <div className='circleButton'></div>
     </div>
-    <div className='item' onClick="open={open}">
-            <NavLink
+    <div className='item' >
+            <NavLink onClick="open={open}"
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
                 to="/tous-mes-travaux"
@@ -144,8 +146,8 @@ const RightNav = ({open}) => {
             </NavLink>
             <div className='circleButton'></div>
     </div>
-    <div className='item' onClick="open={open}">
-            <NavLink
+    <div className='item' >
+            <NavLink onClick="open={open}"
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
                 to="/contact"
