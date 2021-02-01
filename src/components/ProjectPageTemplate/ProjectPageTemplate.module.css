@@ -125,6 +125,7 @@
 
 .carouselContainer {
     margin-top: 70px;
+    width: 70%;
 }
 
 .section2Title {
@@ -138,6 +139,8 @@
 }
 .wireframeImage1, .wireframeImage2, .wireframeImage3, .wireframeImage4{
     margin-bottom: 40px;
+    width:70%; 
+    height: auto;
 }
 
 .wireframeImage2, .wireframeImage4 {
@@ -172,16 +175,6 @@
     opacity: 1;
     animation: fade-in 3s forwards, float 2s ease infinite alternate;
   }
-
-
- 
-
- 
-
- 
-
-
-  
 
 .typo {
     font-family: roboto-condensed,sans-serif;
@@ -334,19 +327,27 @@
     }
 
     .other {
-       
         margin-bottom: 20px;
-    
         }
 
     .otherContainerButton {
             display: flex;
-           flex-direction: column;
+            flex-direction: column;
             width: 100%;
             height: auto;
             justify-content: space-between;
             align-items: center;
             margin-left: 30px;
+        }
+
+        .carouselContainer {
+            
+            width: 100%;
+        }
+
+        .wireframeImage1, .wireframeImage2, .wireframeImage3, .wireframeImage4{
+            width:100%; 
+            
         }
   }
   
@@ -363,10 +364,10 @@
         margin-left: 30px;
     }
     .contentContainer {
-        margin-left: 50px;
+        margin-left: 30px;
         padding-top: 2vh;
     
-        margin-right: 50px;
+        margin-right: 30px;
         
     }
 
@@ -401,6 +402,16 @@
     }
 
     .wireframeImage2, .wireframeImage4 {
+        margin-left: 0;
+    }
+
+    .wireframeImage1, .wireframeImage2, .wireframeImage3, .wireframeImage4{
+        width:100%; 
+        
+    }
+
+    .otherContainerButton {
+       
         margin-left: 0;
     }
   }

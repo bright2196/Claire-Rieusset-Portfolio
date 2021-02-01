@@ -72,13 +72,13 @@ const Adapt = () => {
           imageUx8={imageUx8}
 
 
-          section2Title="Prototype_"
+          section2Title="Wireframes et maquettes_"
           wireframeImage1={wireframeImage1}
           wireframeImage2={wireframeImage2}
           
 
 
-
+          sectionTitle3="Couleurs_"
 
           color1={color1}
 
@@ -90,7 +90,7 @@ const Adapt = () => {
          
           typoImg={typo}
 
-         
+          width="auto"
           heightProto="812"
       
           linkProto="https://xd.adobe.com/embed/f27cc361-4c5e-43af-9b00-458a4822cebb-a72f/?fullscreen"

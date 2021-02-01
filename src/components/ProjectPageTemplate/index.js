@@ -144,6 +144,19 @@ class ProjectPageTemplate extends React.Component {
 
                    
             </div>
+
+
+
+          </div>
+
+          <div className={styles.sectionPrototype}>
+                  <h2 className={styles.titlePrototype}>
+                  Prototype_
+                  </h2>
+              
+              <div className={styles.ProtoVideo}>
+              <iframe title="proto" width={this.props.widthProto} height={this.props.heightProto} src={this.props.linkProto} frameborder="0" allowfullscreen></iframe>
+              </div> 
           </div>
 
           <div className={styles.section2}>
@@ -208,15 +221,7 @@ class ProjectPageTemplate extends React.Component {
               </div> 
           </div>
 
-          <div className={styles.sectionPrototype}>
-                  <h2 className={styles.titlePrototype}>
-                  Prototype_
-                  </h2>
-              
-              <div className={styles.ProtoVideo}>
-              <iframe title="proto" width={this.props.widthProto} height={this.props.heightProto} src={this.props.linkProto} frameborder="0" allowfullscreen></iframe>
-              </div> 
-          </div>
+        
 
 
           <div className={styles.otherSection}>
