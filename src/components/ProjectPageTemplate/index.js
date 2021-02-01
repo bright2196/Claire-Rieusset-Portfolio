@@ -207,7 +207,7 @@ class ProjectPageTemplate extends React.Component {
                   </h2>
               
               <div className={styles.ProtoVideo}>
-              <iframe title="protoVideo" width="100%" height="543" src="https://www.youtube.com/embed/KGQNrzqrGqw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe title="proto" width={this.props.widthProto} height={this.props.heightProto} src={this.props.linkProto} frameborder="0" allowfullscreen></iframe>
               </div> 
           </div>
 
@@ -220,23 +220,25 @@ class ProjectPageTemplate extends React.Component {
               </div>
               <div className={styles.otherContainerButton}>
                      
-                    <Link to='/Libow' className={styles.LinkContainer}>
+                    <Link to={this.props.linkOtherProject1} className={styles.LinkContainer}>
                         <div className={styles.ElementL}>
         
                                 <WorkElementButton
-                            name= 'ADAPT_'
-                            backgroundColor={this.props.backgroundColorOtherButton}/>
+                            name= {this.props.nameProjectOther1}
+                            backgroundColor={this.props.backgroundColorOtherButton}
+                            link={this.props.linkOtherProject1}/>
         
                         </div>
                     </Link>
                     
                         
-                    <Link to='/Libow' className={styles.LinkContainer}>
+                    <Link to={this.props.linkOtherProject2} className={styles.LinkContainer}>
                          <div className={styles.ElementR}>
         
                             <WorkElementButton
-                        name= 'HORRY BORD_'
-                        backgroundColor={this.props.backgroundColorOtherButton}/>
+                        name= {this.props.nameProjectOther2}
+                        backgroundColor={this.props.backgroundColorOtherButton}
+                        link={this.props.linkOtherProject2}/>
     
                         </div>
                     </Link>

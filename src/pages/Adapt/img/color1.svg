@@ -1,10 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #00705b;
-      }
-    </style>
-  </defs>
-  <circle id="Ellipse_24" data-name="Ellipse 24" class="cls-1" cx="75" cy="75" r="75"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="218" height="218" viewBox="0 0 218 218">
+  <g id="Groupe_71" data-name="Groupe 71" transform="translate(-76.157 -116.157)">
+    <circle id="Ellipse_17" data-name="Ellipse 17" cx="109" cy="109" r="109" transform="translate(76.157 116.157)" fill="#ffe9d2"/>
+    <text id="_FFE9D2" data-name="#FFE9D2" transform="translate(115.157 211.157)" fill="#aa6057" font-size="20" font-family="Avenir-Black, Avenir" font-weight="800"><tspan x="-43.51" y="20">#FFE9D2</tspan></text>
+  </g>
 </svg>

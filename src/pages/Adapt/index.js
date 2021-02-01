@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Adapt.module.css'
 import ProjectPageTemplate from '../../components/ProjectPageTemplate';
-import HeaderImage from '../Libow/img/headerTest.png'
+import HeaderImage from '../Adapt/img/headerImage.png'
 import imageUx1 from '../Adapt/img/img_ux/adapt.png'
 import imageUx2 from '../Adapt/img/img_ux/adapt1.png'
 import imageUx3 from '../Adapt/img/img_ux/adapt2.png'
@@ -10,15 +10,11 @@ import imageUx5 from '../Adapt/img/img_ux/adapt4.png'
 import imageUx6 from '../Adapt/img/img_ux/adapt5.png'
 import imageUx7 from '../Adapt/img/img_ux/adapt6.png'
 import imageUx8 from '../Adapt/img/img_ux/adapt7.png'
-import color1 from '../Libow/img/color1.svg'
-import color2 from '../Libow/img/color2.svg'
-import color3 from '../Libow/img/color3.svg'
-import wireframeImage1 from '../Libow/img/sketchImage.png'
-import wireframeImage2 from '../Libow/img/ImageUx5.png'
-
-
-
-import typo from '../Libow/ressources/typographie.png'
+import color1 from '../Adapt/img/color1.png'
+import color2 from '../Adapt/img/color2.png'
+import wireframeImage1 from '../Adapt/img/wireframeAdapt.png'
+import wireframeImage2 from '../Adapt/img/maquetteAdapt.png'
+import typo from '../Adapt/img/typo.png'
 
 
 
@@ -88,15 +84,23 @@ const Adapt = () => {
 
           color2={color2}
 
-          color3={color3}
+          
 
           
          
           typoImg={typo}
 
-          linkOther1='/Home'
-          linkOther2='/Home'
-          backgroundColorOtherButton='rgba(2, 52, 42, 0.70)'
+          widthProto="375"
+          heightProto="812"
+          linkProto="https://xd.adobe.com/embed/f27cc361-4c5e-43af-9b00-458a4822cebb-a72f/?fullscreen"
+
+          
+          linkOtherProject1="/libow-project"
+          linkOtherProject2="/nilk2go-project"
+          nameProjectOther1="LIBOW_"
+          nameProjectOther2="NILK2GO_"
+          
+          backgroundColorOtherButton='RGBA(252,173,145,0.39)'
 
         />
         
