@@ -137,7 +137,7 @@ const RightNav = ({open}) => {
             <div className='circleButton'></div>
     </div>
     <div className='item' >
-            <NavLink onClick="open={open}"
+            <NavLink 
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
                 to="/tous-mes-travaux"
