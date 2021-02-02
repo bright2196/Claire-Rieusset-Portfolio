@@ -151,7 +151,7 @@ class ProjectPageTemplate extends React.Component {
 
           <div className={styles.sectionPrototype}>
                   <h2 className={styles.titlePrototype}>
-                  Prototype_
+                  {this.props.titlePrototypeSection}
                   </h2>
               
               <div className={styles.ProtoVideo}>
@@ -212,7 +212,7 @@ class ProjectPageTemplate extends React.Component {
           <div className={styles.typoSection}>
               <div className={styles.typo}>
                   <h2 className={styles.typo}>
-                  Typographie_
+                  {this.props.typoSectionTitle}
                   </h2>
               </div>
               

@@ -4,7 +4,17 @@ import ProjectPageTemplate from '../../components/ProjectPageTemplate';
 import HeaderImage from '../Libow/img/headerTest.png'
 import wireframeImage1 from '../Libow/img/sketchImage.png'
 import wireframeImage2 from '../Libow/img/ImageUx5.png'
-
+import imageUx1 from '../Libow/img/carousel/libow1.png'
+import imageUx2 from '../Libow/img/carousel/libow2.png'
+import imageUx3 from '../Libow/img/carousel/libow3.png'
+import imageUx4 from '../Libow/img/carousel/libow4.png'
+import imageUx5 from '../Libow/img/carousel/libow5.png'
+import imageUx6 from '../Libow/img/carousel/libow6.png'
+import imageUx7 from '../Libow/img/carousel/libow7.png'
+import imageUx8 from '../Libow/img/carousel/libow8.png'
+import color1 from '../Libow/img/carousel/article1.png'
+import color2 from '../Libow/img/carousel/article2.png'
+import color3 from '../Libow/img/carousel/article3.png'
 
 const Libow = () => {
   return (
@@ -48,6 +58,17 @@ const Libow = () => {
           L’objectif de mon stage était de réaliser plusieurs articles pour le blog du site. Ils devaient donc respecter un certain nombre de caractères et booster le SEO. 
           Face à mon profil créatif, l’entreprise m’a proposé de réaliser les illustrations des articles ainsi que le design de certaines pages web.  "
 
+          imageUx1={imageUx1}
+          imageUx2={imageUx2}
+          imageUx3={imageUx3}
+          imageUx4={imageUx4}
+          imageUx5={imageUx5}
+          imageUx6={imageUx6}
+          imageUx7={imageUx7}
+          imageUx8={imageUx8}
+
+
+
           widthProto=""
           heightProto=""
           linkProto=""
@@ -56,6 +77,12 @@ const Libow = () => {
           wireframeImage1={wireframeImage1}
           wireframeImage2={wireframeImage2}
           
+
+          sectionTitle3="Redaction web_"
+          color1={color1}
+
+          color2={color2}
+          color3={color3}
 
           linkOther1='/Home'
           linkOther2='/Home'

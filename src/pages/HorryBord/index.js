@@ -8,9 +8,6 @@ import color2 from '../Libow/img/color2.svg'
 import color3 from '../Libow/img/color3.svg'
 import wireframeImage1 from '../Libow/img/sketchImage.png'
 import wireframeImage2 from '../Libow/img/ImageUx5.png'
-
-
-
 import typo from '../Libow/ressources/typographie.png'
 
 

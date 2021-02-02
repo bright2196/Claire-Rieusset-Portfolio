@@ -8,3 +8,28 @@
     background-color:RGBA(0,112,91,0.096) ;
 }
 
+.ProjectPageTemplate.sectionPrototype {
+    display: none;
+}
+
+
+.ProjectPageTemplate.ProtoVideo {
+    display: none;
+}
+
+.ProjectPageTemplate.titlePrototype {
+    display: none;
+}
+
+
+.ProjectPageTemplate.typoSection {
+    display: none;
+}
+
+.ProjectPageTemplate.typo {
+    display: none;
+}
+
+.ProjectPageTemplate.TypoImage {
+    display: none;
+}
