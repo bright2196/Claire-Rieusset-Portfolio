@@ -23,10 +23,7 @@ const Ul = styled.ul`
    
     transition: transform 0.5s ease-in-out;
 
-    .ul:hover {
-      transform: ${({ close }) => close ? 'translateX(100%)' : 'translateX(0)'};
-
-    }
+   
     .navbar__link {
       color: #E0CF04;
       margin: 50px 10px;
@@ -115,11 +112,11 @@ const Ul = styled.ul`
   
 
 
-const RightNav = ({open}, {close}) => {
+const RightNav = ({open}) => {
   return (
     <div className='container'>
-    <Ul open={open}  onClick={close={close}} >
-    <div className='item' onClick={close={close}} >
+    <Ul open={open} >
+    <div className='item' >
             <NavLink
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
