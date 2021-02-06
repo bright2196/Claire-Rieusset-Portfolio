@@ -313,11 +313,26 @@
         margin-top: 50px;
         align-items: center;
         margin-bottom: 50px;
+        justify-content: center;
     }
 
     .bubbles1 {
         margin-bottom: 15px;
     }
+
+    .titleArticle1, .titleArticle2, .titleArticle3 {
+        
+        font-size: 16px;
+        font-family: roboto-condensed,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #E0E0E0;
+        margin-top: 10px;
+        width: 500px;
+
+    }
+
+
 
     .typoImage {
         margin-top: 50px;

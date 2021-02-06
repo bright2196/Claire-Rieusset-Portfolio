@@ -79,6 +79,11 @@ const Libow = () => {
           
 
           sectionTitle3="Redaction web_"
+          titleArticle1="La vérité sur les batteries solaires."
+          titleArticle2="Quelles sont les démarches administratives pour installer des panneaux solaires ?"
+
+
+          titleArticle3="Carports solaires : comment fonctionnent-ils et combien coûtent-ils ? "
           color1={color1}
 
           color2={color2}

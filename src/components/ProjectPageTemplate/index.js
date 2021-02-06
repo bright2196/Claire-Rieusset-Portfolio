@@ -189,20 +189,31 @@ class ProjectPageTemplate extends React.Component {
               <div className={styles.bubbles}>
                <a href={this.props.linkArticle1} >     
                     <div className={styles.bubbles1}>
-                    <img src={this.props.color1} alt='' className={styles.bubble}/>
+                    <img src={this.props.color1} alt='' className={styles.bubble}/> 
+                    <label className={styles.titleArticle1}>{this.props.titleArticle1}</label>
                   </div>
+                  
                 </a>
+               
             
                 <a href={this.props.linkArticle2} > 
                   <div className={styles.bubbles1}>
-                      <img src={this.props.color2} alt='' className={styles.bubble}/>
+                        <img src={this.props.color2} alt='' className={styles.bubble}/>
+                        <label className={styles.titleArticle2}>{this.props.titleArticle2}</label>
                   </div>
+    
+
                 </a>
 
                 <a href={this.props.linkArticle3} > 
                   <div className={styles.bubbles1}>
                       <img src={this.props.color3} alt='' className={styles.bubble}/>
+                    <div className={styles.titleArticle3}>
+                    <p className={styles.titleArticle3}>{this.props.titleArticle3}</p>
+                 </div>
                   </div>
+                 
+
                   </a>
               </div>
              

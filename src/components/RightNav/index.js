@@ -22,6 +22,11 @@ const Ul = styled.ul`
     justify-content: center;
    
     transition: transform 0.5s ease-in-out;
+
+    .ul:hover {
+      transform: ${({ close }) => close ? 'translateX(100%)' : 'translateX(0)'};
+
+    }
     .navbar__link {
       color: #E0CF04;
       margin: 50px 10px;
@@ -72,11 +77,11 @@ const Ul = styled.ul`
         transform: scale(1.5);
         background-color: #e0ce0446;
       }
+ 
 
       @media (max-width: 768px) {
         flex-flow: column nowrap;
         position: fixed;
-        transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
 
         top: 0;
         right: 0;
@@ -110,11 +115,11 @@ const Ul = styled.ul`
   
 
 
-const RightNav = ({open}) => {
+const RightNav = ({open}, {close}) => {
   return (
     <div className='container'>
-    <Ul open={open}>
-    <div className='item' >
+    <Ul open={open}  onClick={close={close}} >
+    <div className='item' onClick={close={close}} >
             <NavLink
                 activeClassName="navbarLinkActive"
                 className="navbar__link"

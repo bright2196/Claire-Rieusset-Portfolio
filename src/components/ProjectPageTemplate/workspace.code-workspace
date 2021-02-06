@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../reve-et-ville"
+		},
+		{
+			"path": "../../../../reve-et-ville-react"
+		}
+	],
+	"settings": {}
+}
