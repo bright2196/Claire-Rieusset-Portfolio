@@ -123,6 +123,17 @@
     width: 500px;
 }
 
+.textSectionProto {
+    font-size: 16px;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #E0E0E0;
+    margin-bottom: 80px;
+   
+    width: 500px;
+}
+
 .carouselContainer {
     margin-top: 70px;
     width: 70%;
@@ -157,7 +168,6 @@
     font-size: 25px;
     font-style: normal;
     color: #E0CF04 ; 
-    margin-top: 50px;
     display: flex;
     
 }
@@ -187,6 +197,48 @@
     
 }
 
+.titleArticle3, .titleArticle2, .titleArticle1 {
+    font-size: 16px;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #E0E0E0;
+    text-align: center;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+
+
+.bubbles1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 330ms ease-in-out;
+
+}
+
+.bubble {
+max-width: 200px;
+max-height: 200px;
+transition: transform 330ms ease-in-out;
+
+}
+
+.bubbles1:hover {
+    transform: translateY(-15px);
+}
+
+
+.LinkArticle {
+    transition: transform 330ms ease-in-out;
+}
+
+.LinkArticle:hover {
+    transform: translateY(-50px);
+}
+
 .typoImage {
     margin-top: 100px;
     margin-left: 150px;
@@ -199,9 +251,8 @@
     font-size: 25px;
     font-style: normal;
     color: #E0CF04 ; 
-    margin-top: 50px;
+    margin-top: 190px;
     display: flex;
-    margin-bottom: 50px;
 
 } 
 

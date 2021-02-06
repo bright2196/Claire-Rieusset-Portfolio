@@ -2,8 +2,8 @@ import React from 'react';
 import styles from './Libow.module.css'
 import ProjectPageTemplate from '../../components/ProjectPageTemplate';
 import HeaderImage from '../Libow/img/headerTest.png'
-import wireframeImage1 from '../Libow/img/sketchImage.png'
-import wireframeImage2 from '../Libow/img/ImageUx5.png'
+// import wireframeImage1 from '../Libow/img/sketchImage.png'
+// import wireframeImage2 from '../Libow/img/ImageUx5.png'
 import imageUx1 from '../Libow/img/carousel/libow1.png'
 import imageUx2 from '../Libow/img/carousel/libow2.png'
 import imageUx3 from '../Libow/img/carousel/libow3.png'
@@ -68,29 +68,37 @@ const Libow = () => {
           imageUx8={imageUx8}
 
 
+          titlePrototypeSection="Motion design : explication de l'étude solaire_"
+          textSectionProto="J'ai réalisé cette vidéo pour faciliter la compréhension des leads. Certaines informations de la vidéo sont personnalisables. Cette technique d'intégration est possible grâce à l'outil Pirsonal. "
+          widthProto="90%"
+          heightProto="516"
+          linkProto="https://www.youtube.com/embed/0VCbTQ1Zgok"
 
-          widthProto=""
-          heightProto=""
-          linkProto=""
-
-          section2Title="Prototype_"
-          wireframeImage1={wireframeImage1}
-          wireframeImage2={wireframeImage2}
+          // section2Title="Prototype_"
+          // wireframeImage1={wireframeImage1}
+          // wireframeImage2={wireframeImage2}
           
 
           sectionTitle3="Redaction web_"
           titleArticle1="La vérité sur les batteries solaires."
+          linkArticle1="https://www.libow.fr/blog-avis/blog/la-verite-sur-les-batteries-virtuelles/"
+
           titleArticle2="Quelles sont les démarches administratives pour installer des panneaux solaires ?"
+          linkArticle2="https://www.libow.fr/blog-avis/blog/quelles-sont-les-demarches-administratives-pour-installer-des-panneaux-solaires/"
+
+          titleArticle3="Carports solaires : comment fonctionnent-ils et combien coûtent-ils ?"
+          linkArticle3="https://www.libow.fr/blog-avis/blog/carports-solaires-comment-fonctionnent-ils-et-combien-coutent-ils/"
 
 
-          titleArticle3="Carports solaires : comment fonctionnent-ils et combien coûtent-ils ? "
           color1={color1}
-
           color2={color2}
           color3={color3}
 
-          linkOther1='/Home'
-          linkOther2='/Home'
+          linkOtherProject1="/adapt-project"
+          linkOtherProject2="/mes-petites-adresses-project"
+          nameProjectOther1="ADAPT_"
+          nameProjectOther2="MES ADRESSES_"
+          
           backgroundColorOtherButton='rgba(2, 52, 42, 0.70)'
 
         />

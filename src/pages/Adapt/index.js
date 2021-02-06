@@ -76,7 +76,7 @@ const Adapt = () => {
           wireframeImage1={wireframeImage1}
           wireframeImage2={wireframeImage2}
           
-
+          titlePrototypeSection="Prototype de l'application sur XD_"
 
           sectionTitle3="Couleurs_"
 
@@ -87,7 +87,7 @@ const Adapt = () => {
           
 
           
-         
+          typoSectionTitle="Typographie_"
           typoImg={typo}
 
           width="auto"

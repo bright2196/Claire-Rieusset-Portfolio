@@ -153,6 +153,7 @@ class ProjectPageTemplate extends React.Component {
                   <h2 className={styles.titlePrototype}>
                   {this.props.titlePrototypeSection}
                   </h2>
+                  <p className={styles.textSectionProto}>{this.props.textSectionProto}</p>
               
               <div className={styles.ProtoVideo}>
               <iframe title="proto" width={this.props.widthProto} height={this.props.heightProto} src={this.props.linkProto} frameborder="0" allowfullscreen></iframe>
@@ -187,7 +188,7 @@ class ProjectPageTemplate extends React.Component {
               
             
               <div className={styles.bubbles}>
-               <a href={this.props.linkArticle1} >     
+               <a  classname={styles.LinkArticle} href={this.props.linkArticle1} target="_blank" rel="noreferrer">     
                     <div className={styles.bubbles1}>
                     <img src={this.props.color1} alt='' className={styles.bubble}/> 
                     <label className={styles.titleArticle1}>{this.props.titleArticle1}</label>
@@ -196,7 +197,7 @@ class ProjectPageTemplate extends React.Component {
                 </a>
                
             
-                <a href={this.props.linkArticle2} > 
+                <a href={this.props.linkArticle2} target="_blank" rel="noreferrer"> 
                   <div className={styles.bubbles1}>
                         <img src={this.props.color2} alt='' className={styles.bubble}/>
                         <label className={styles.titleArticle2}>{this.props.titleArticle2}</label>
@@ -205,7 +206,7 @@ class ProjectPageTemplate extends React.Component {
 
                 </a>
 
-                <a href={this.props.linkArticle3} > 
+                <a href={this.props.linkArticle3} target="_blank" rel="noreferrer"> 
                   <div className={styles.bubbles1}>
                       <img src={this.props.color3} alt='' className={styles.bubble}/>
                     <div className={styles.titleArticle3}>
@@ -292,7 +293,7 @@ class ProjectPageTemplate extends React.Component {
                     </Link>
                     
                         
-                    <Link to='/Libow' className={styles.linkCV}>
+                    <Link to='/contact' className={styles.linkCV}>
                         <div className={styles.myCV}>
         
                                 <ButtonProject
