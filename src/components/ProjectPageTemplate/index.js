@@ -278,33 +278,32 @@ class ProjectPageTemplate extends React.Component {
                   </h2>
               </div>
               <div className={styles.buttonContainer}>
-                     
-                    <Link to='/Libow' className={styles.linkCV}>
-                        <div className={styles.myCV}>
-        
-                                <ButtonProject
-                                name='Explorez mon CV'
-                                fontWeight= '600'
-                                fontSize= '18px'
-                                color= "#E0E0E0"
-                                />
-        
-                        </div>
-                    </Link>
-                    
+              <div className={styles.ButtonContainer}>
+            <ButtonProject
+            name="Explorez mon CV_" 
+            fontWeight= '600'
+            fontSize= '18px'
+            color= "#E0E0E0"
+            link="/cv-claire-rieusset"
+            
+            />
+    
+        </div>    
+                   
+                       
+                   
                         
-                    <Link to='/contact' className={styles.linkCV}>
-                        <div className={styles.myCV}>
-        
-                                <ButtonProject
-                                name='Contactez-moi'
-                                fontWeight= '600'
-                                fontSize= '18px'
-                                color= "#E0E0E0"
-                                />
-        
-                        </div>
-                    </Link>
+                   <div className={styles.ButtonContainer}>
+            <ButtonProject
+            name="Contactez-moi_" 
+            fontWeight= '600'
+            fontSize= '18px'
+            color= "#E0E0E0"
+            link="/contact"
+            
+            />
+    
+        </div>
                                         
               </div>
               

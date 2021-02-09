@@ -1,0 +1,35 @@
+
+.containerCV {
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+@media (max-width: 599px) {
+   
+  
+  }
+  
+  /*tablet portrait up*/
+  @media (max-width: 600px) {
+
+  }
+  
+  /*tablet landspace up*/
+  @media (max-width: 1100px) {
+  
+  }
+  /*desktop up*/
+  @media (min-width: 1200px) {
+    
+    
+  }
+  @media (max-width: 1800px) {
+   
+      
+  }
+  
+  
