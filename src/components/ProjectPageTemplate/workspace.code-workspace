@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "../../../../reve-et-ville-react"
+		},
+		{
+			"path": "../../../../sneakySnake"
 		}
 	],
 	"settings": {}

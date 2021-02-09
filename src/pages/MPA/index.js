@@ -1,17 +1,24 @@
 import React from 'react';
 import styles from './MPA.module.css'
 import ProjectPageTemplate from '../../components/ProjectPageTemplate';
-import HeaderImage from '../Libow/img/headerTest.png'
-import imageUx1 from '../Libow/img/imageUx1.png'
-import color1 from '../Libow/img/color1.svg'
-import color2 from '../Libow/img/color2.svg'
-import color3 from '../Libow/img/color3.svg'
-import wireframeImage1 from '../Libow/img/sketchImage.png'
-import wireframeImage2 from '../Libow/img/ImageUx5.png'
+import HeaderImage from '../MPA/img/headerMPA.png'
+import imageUx1 from '../MPA/img/imgUX/MPA1.png'
+import imageUx2 from '../MPA/img/imgUX/MPA2.png'
+import imageUx3 from '../MPA/img/imgUX/MPA3.png'
+import imageUx4 from '../MPA/img/imgUX/MPA4.png'
+import imageUx5 from '../MPA/img/imgUX/MPA5.png'
+import imageUx6 from '../MPA/img/imgUX/MPA6.png'
+import imageUx7 from '../MPA/img/imgUX/MPA7.png'
+import imageUx8 from '../MPA/img/imgUX/MPA8.png'
+import color1 from '../MPA/img/color1.png'
+import color2 from '../MPA/img/color2.png'
+import color3 from '../MPA/img/color3.png'
+import wireframeImage1 from '../MPA/img/MPAImg1.png'
+import wireframeImage2 from '../MPA/img/MPAImg2.png'
 
 
 
-import typo from '../Libow/ressources/typographie.png'
+import typo from '../MPA/img/typoImg.png'
 
 
 
@@ -62,17 +69,28 @@ const MPA = () => {
            sur ses habitudes de consommation. "
 
           imageUx1={imageUx1}
-          imageUx2={imageUx1}
-          imageUx3={imageUx1}
+          imageUx2={imageUx2}
+          imageUx3={imageUx3}
+          imageUx4={imageUx4}
+          imageUx5={imageUx5}
+          imageUx6={imageUx6}
+          imageUx7={imageUx7}
+          imageUx8={imageUx8}
 
 
-          section2Title="Prototype_"
+          titlePrototypeSection="Wireframe"
+          widthProto="90%"
+          heightProto="516"
+          linkProto="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FfL5s3XKMZVGUbQwHA8GTTz%2FArborescence%3Fnode-id%3D33%253A22%26viewport%3D3234%252C3262%252C0.12817013263702393%26scaling%3Dscale-down-width"
+
+          
+          section2Title="Identité visuelle_"
           wireframeImage1={wireframeImage1}
           wireframeImage2={wireframeImage2}
           
 
 
-
+          sectionTitle3="Couleurs_"
 
           color1={color1}
 
@@ -80,13 +98,15 @@ const MPA = () => {
 
           color3={color3}
 
-          
+          typoSectionTitle="Typographie_"
          
           typoImg={typo}
 
-          linkOther1='/Home'
-          linkOther2='/Home'
-          backgroundColorOtherButton='rgba(2, 52, 42, 0.70)'
+          linkOtherProject1="/adapt-project"
+          linkOtherProject2="/horrybord-project"
+          nameProjectOther1="ADAPT_"
+          nameProjectOther2="HORRYBORD_"
+          backgroundColorOtherButton='RGBA(244,134,52,0.44)'
 
         />
         
