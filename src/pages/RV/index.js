@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './HorryBord.module.css'
+import styles from './RV.module.css'
 import ProjectPageTemplate from '../../components/ProjectPageTemplate';
 import HeaderImage from '../Libow/img/headerTest.png'
 import imageUx1 from '../Libow/img/imageUx1.png'
@@ -15,7 +15,7 @@ import typo from '../Libow/ressources/typographie.png'
 
 
 
-const HorryBord = () => {
+const RV = () => {
   return (
     
 
@@ -25,34 +25,32 @@ const HorryBord = () => {
           
 
           headerImage={HeaderImage}
-          projectName="HorryBord_"
+          projectName="Rêve et ville_"
           designationProject="Projet Étudiant_"
           descriptionTitle1="Description"
-          description1="Le challenge de cette semaine : créer un blog basé sur le thème de 
-          « Bordeaux à travers… ». Pour réaliser ce projet, nous avions trois semaines par 
-          groupe de 6. Nous avons choisi de parler des histoires terrifiantes qui hantent 
-          la Belle Endormie. Nous avons créé ce blog de la recherche utilisateur 
-          à l’intégration finale.
+          description1="Imaginer, écrire et produire une histoire interactive
+           en seulement deux semaines. C’est ce que nous avons fait pour 
+           le Musée des Beaux-Arts de Bordeaux. Notre objectif ?
           "
 
         
-          description2=" J’ai eu l’occasion d’occuper différents rôles dans ce projet. 
-          Tout d’abord, j’ai mené une grande partie de la recherche utilisateur. 
-          De plus, j’ai eu l’occasion de participer à la réalisation des wireframes 
-          et de la maquette. Et pour finir, j’ai pris part à l’intégration du site (côté front).
+          description2=" Créer une expérience interactive pour mettre en avant
+           les oeuvres du musée. Répondre à cet appel d’offres nous a permis de 
+           mettre en oeuvre des compétences d’écriture, de direction artistique, 
+           mais aussi de développement web. 
           "
 
           titleInfo1="Client"
-          descriptionInfo1="IUT Bordeaux-Montaigne"
+          descriptionInfo1="Musée des Beaux-Arts de Bordeaux x IUT Bordeaux-Montaigne"
 
           titleInfo2="Date du projet"
-          descriptionInfo2="Avril 2020"
+          descriptionInfo2="Février 2021"
 
           titleInfo3="Catégories"
-          descriptionInfo3="Développement web, UX/UI design"
+          descriptionInfo3="Développement web, UX/UI design, écriture"
 
           titleInfo4="Technologies"
-          descriptionInfo4="Illustrator, XD, HTML5, CSS3"
+          descriptionInfo4="Illustrator, XD, HTML5, CSS3, ReactJS"
 
 
           titleSection1="Recherche utilisateur_"
@@ -99,4 +97,4 @@ const HorryBord = () => {
 
 
 
-export default HorryBord;
+export default RV;

@@ -6,7 +6,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Libow from "../pages/Libow";
 import Adapt from "../pages/Adapt"
-import HorryBord from "../pages/HorryBord"
+import ReV from "../pages/RV"
 import MPA from "../pages/MPA"
 import N2G from "../pages/N2G"
 import LinkBar from "../components/LinkBar";
@@ -38,7 +38,7 @@ const App = () => {
           <Route path="/a-propos" component={About} />
           <Route path="/libow-project" component={Libow} />
           <Route path="/adapt-project" component={Adapt} />
-          <Route path="/horrybord-project" component={HorryBord} />
+          <Route path="/reve-et-ville-project" component={ReV} />
           <Route path="/mes-petites-adresses-project" component={MPA} />
           <Route path="/nilk2go-project" component={N2G} />
           <Route path="/tous-mes-travaux" component={Work} />
