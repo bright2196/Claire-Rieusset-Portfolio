@@ -26,11 +26,12 @@ export default function AboutSection() {
 
     <div className={styles.TextCorps}>
           <CorpsText
-          name='Lorem ipsum dolor sit amet, consetetur 
-          sadipscing elitr, sed diam nonumy eirmod 
-          tempor invidunt ut labore et dolore magna 
-          aliquyam erat, sed diam voluptua. At vero eos 
-          et accusam et justo duo dolores et ea rebum. ' 
+          name='Je me présente, je m’appelle Claire. Je suis une grande passionnée 
+          de graphisme, mais aussi d’UX design. Mon passe-temps ? Faire ma petite 
+          enquête sur mon utilisateur pour répondre à ses besoins. Vrai couteau suisse
+           du digital, je m’intéresse aussi au développement web, à la rédaction web 
+           et à l’audiovisuel. Un projet ? Un stage ? Je serais honoré qu’on travaille 
+           ensemble ! ' 
           fontWeight= '400'
           fontSize= '16px'
           color= "#E0E0E0"

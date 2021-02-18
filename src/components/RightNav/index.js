@@ -113,11 +113,12 @@ const Ul = styled.ul`
 
 
 const RightNav = ({open}) => {
+
   return (
     <div className='container'>
     <Ul open={open} >
     <div className='item' >
-            <NavLink
+            <NavLink 
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
                 to="/"

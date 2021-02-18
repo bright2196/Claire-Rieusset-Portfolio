@@ -26,10 +26,10 @@
 }
 
 .TextCorps {
-    width: 350px;
+    width: 450px;
     font-family: roboto-condensed,sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 23px;
     font-style: normal;
     padding-left: 4.5vw;
     line-height: 1.5em;
@@ -43,9 +43,7 @@
     width: 28vw;
     height: 42vh;
     position: relative;
-    right: 23vw;
-    top: 12vh;
-  
+    right: 12vw;
    
 }
 
