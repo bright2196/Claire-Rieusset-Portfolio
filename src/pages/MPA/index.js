@@ -103,7 +103,7 @@ const MPA = () => {
           typoImg={typo}
 
           linkOtherProject1="/adapt-project"
-          linkOtherProject2="/reve-et-ville-project"
+          linkOtherProject2="/en-travaux"
           nameProjectOther1="ADAPT_"
           nameProjectOther2="RÊVE & VILLE_"
           backgroundColorOtherButton='RGBA(244,134,52,0.44)'

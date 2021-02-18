@@ -97,7 +97,7 @@ const Adapt = () => {
 
           
           linkOtherProject1="/libow-project"
-          linkOtherProject2="/nilk2go-project"
+          linkOtherProject2="/en-travaux"
           nameProjectOther1="LIBOW_"
           nameProjectOther2="NILK2GO_"
           

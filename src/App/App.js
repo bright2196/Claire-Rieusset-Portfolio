@@ -15,6 +15,7 @@ import Contact from "../pages/Contact";
 import Navbar2 from "../components/NavBar2";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CV from "../pages/CV/CV";
+import WaitingPage from "../pages/WaitingPage/WaitingPage";
 
 
 
@@ -44,6 +45,8 @@ const App = () => {
           <Route path="/tous-mes-travaux" component={Work} />
           <Route path="/contact" component={Contact} />
           <Route path="/cv-claire-rieusset" component={CV} />
+          <Route path="/en-travaux" component={WaitingPage} />
+
        
         </Switch>
        

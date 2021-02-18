@@ -95,7 +95,8 @@ export default function WorkSection() {
               name='See more projects' 
               fontWeight= '600'
               fontSize= '18px'
-              color= "#E0E0E0"/>
+              color= "#E0E0E0"
+              />
              
     </div>
   </div>

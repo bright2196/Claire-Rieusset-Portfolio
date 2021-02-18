@@ -10,7 +10,7 @@ class ButtonProject extends React.Component {
   render() {
     return (
     <div className= {styles.ContainerButton}>
-       
+      <a href={this.props.linkExterne}>
       <Link className={styles.Button} to = {this.props.link}
       style={{
     
@@ -22,7 +22,7 @@ class ButtonProject extends React.Component {
       {this.props.name} 
       <div className={styles.circleButton}></div>
       </Link>
-      
+      </a>
     
       </div>
    

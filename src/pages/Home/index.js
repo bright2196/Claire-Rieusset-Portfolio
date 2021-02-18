@@ -3,7 +3,7 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import HomeSection from '../../components/HomeSection';
 import LibowProject from '../../components/ProjectSection/LibowProject';
 import AdaptProject from '../../components/ProjectSection/AdaptProject'
-import HorryBordProject from '../../components/ProjectSection/HorryBordProject';
+// import HorryBordProject from '../../components/ProjectSection/HorryBordProject';
 
 
 const Home = () => (
@@ -39,9 +39,9 @@ const Home = () => (
                 <AdaptProject/>
               </div>
 
-              <div className="section" data-anchor='HorryBord' id='HorryBord' data-tooltip='Projet 3'>
+              {/* <div className="section" data-anchor='HorryBord' id='HorryBord' data-tooltip='Projet 3'>
               <HorryBordProject/>
-              </div>
+              </div> */}
           
         </ReactFullpage.Wrapper>
        
