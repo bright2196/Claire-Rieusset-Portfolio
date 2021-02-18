@@ -210,13 +210,37 @@
 
 /*phone only*/
 @media (max-width: 599px) {
-    
+    .leftContent {
+      
+        background-color: RGBA(224,224,224,0);
+        margin-left: -40px;
+    }
+
+    .rightContent {
+        display: none;
+    }
+
+    .TextGeneral {
+        width: 60vw;
+        padding-bottom: 60px;
+       
+    }
+
+    .ContactSectionContainer {
+       margin-left: 20px;
+        
+    }
+   
     
   }
   
   /*tablet portrait up*/
   @media (max-width: 900px) {
-   
+    .leftContent {
+      
+        background-color: RGBA(224,224,224,0);
+        margin-left: -40px;
+    }
   }
   
 
