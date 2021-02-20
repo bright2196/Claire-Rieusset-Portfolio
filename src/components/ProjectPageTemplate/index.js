@@ -216,6 +216,16 @@ class ProjectPageTemplate extends React.Component {
                  
 
                   </a>
+                  <a href={this.props.linkArticle4} target="_blank" rel="noreferrer"> 
+                  <div className={styles.bubbles1}>
+                      <img src={this.props.color4} alt='' className={styles.bubble}/>
+                    <div className={styles.titleArticle4}>
+                    <p className={styles.titleArticle4}>{this.props.titleArticle4}</p>
+                 </div>
+                  </div>
+                 
+
+                  </a>
               </div>
              
              

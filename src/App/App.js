@@ -16,6 +16,7 @@ import Navbar2 from "../components/NavBar2";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CV from "../pages/CV/CV";
 import WaitingPage from "../pages/WaitingPage/WaitingPage";
+import TheorieAnime from "../pages/TheorieAnime/TheorieAnime";
 
 
 
@@ -41,6 +42,7 @@ const App = () => {
           <Route path="/adapt-project" component={Adapt} />
           <Route path="/reve-et-ville-project" component={ReV} />
           <Route path="/mes-petites-adresses-project" component={MPA} />
+          <Route path="/theorie-animee" component={TheorieAnime} />
           <Route path="/nilk2go-project" component={N2G} />
           <Route path="/tous-mes-travaux" component={Work} />
           <Route path="/contact" component={Contact} />

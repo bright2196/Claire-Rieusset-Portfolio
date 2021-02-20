@@ -70,7 +70,7 @@ const Libow = () => {
 
           titlePrototypeSection="Motion design : explication de l'étude solaire_"
           textSectionProto="J'ai réalisé cette vidéo pour faciliter la compréhension des leads. Certaines informations de la vidéo sont personnalisables. Cette technique d'intégration est possible grâce à l'outil Pirsonal. "
-          widthProto="90%"
+          widthProto="auto"
           heightProto="516"
           linkProto="https://www.youtube.com/embed/0VCbTQ1Zgok"
 

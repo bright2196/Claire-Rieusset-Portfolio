@@ -97,9 +97,9 @@ const Adapt = () => {
 
           
           linkOtherProject1="/libow-project"
-          linkOtherProject2="/en-travaux"
+          linkOtherProject2="/theorie-animee"
           nameProjectOther1="LIBOW_"
-          nameProjectOther2="NILK2GO_"
+          nameProjectOther2="THÉORIE ANIMÉE_"
           
           backgroundColorOtherButton='RGBA(252,173,145,0.39)'
 

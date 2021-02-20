@@ -49,7 +49,7 @@ export default function WorkSection() {
     </Link>
 
 
- {/* <Link to='/horrybord-project' className={styles.LinkContainer}>
+ <Link to='/horrybord-project' className={styles.LinkContainer}>
     <div className={styles.Element}>
         
         <WorkElementButton
@@ -58,23 +58,23 @@ export default function WorkSection() {
       link='/reve-et-ville-project'/>
     
     </div>
-    </Link> */}
+    </Link>
 
 
     </div>
 
     <div className={styles.ContainerElementPart2}>
 
-    {/* <Link to='/nilk2go-project' className={styles.LinkContainer}>
+    <Link to='/theorie-animee' className={styles.LinkContainer}>
     <div className={styles.ElementR}>
         
         <WorkElementButton
-      name= 'NILK2GO_'
+      name= 'THÉORIE ANIMÉE_'
       backgroundColor='RGBA(207,192,5,0.3)'
-      link='/nilk2go-project'/>
+      link='/theorie-animee'/>
     
     </div>
-    </Link> */}
+    </Link>
 
 
  <Link to='/mes-petites-adresses-project' className={styles.LinkContainer}>
