@@ -17,14 +17,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import CV from "../pages/CV/CV";
 import WaitingPage from "../pages/WaitingPage/WaitingPage";
 import TheorieAnime from "../pages/TheorieAnime/TheorieAnime";
+import CursorProvider from "../components/Cursor/Cursor";
 
 
 
 
 const App = () => {
   return (
-    
+    <CursorProvider>
     <div className="App">
+  
       
       <div className='LinkBar'>
          <LinkBar/>
@@ -55,7 +57,7 @@ const App = () => {
 
       </BrowserRouter>
 -    </div>
-  
+  </CursorProvider>
   );
 };
 

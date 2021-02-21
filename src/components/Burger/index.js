@@ -12,12 +12,17 @@ const StyledBurger = styled.div`
   display: flex;
   justify-content: space-around;
   flex-flow: column nowrap;
-  
+   transition-property: transform;
+  transition-duration: 400ms;
+
+  StyledBurger:hover {
+    transform: translateX(2em);
+  }
   div {
     width: 2rem;
     height: 0.15rem;
     background-color: ${({ open }) => open ? '#E0E0E0' : '#E0CF04'};
-   
+  
     transform-origin: 2px;
     transition: all 0.3s linear;
     &:nth-child(1) {
@@ -38,7 +43,8 @@ const Burger = () => {
   
   return (
     <>
-      <StyledBurger open={open} onClick={() => setOpen(!open)}>
+      <StyledBurger open={open} onClick={() => setOpen(!open)} >
+        
         <div />
         <div />
         <div />
