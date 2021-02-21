@@ -4,8 +4,9 @@
   --secondary-color: #f68d28;
   background-color: #0E0E0E;
   scroll-behavior: smooth;
-  
-
+  cursor: url("./img/cursorHoverLink.svg"), pointer;
+  transition-property: transform;
+  transition-duration: 400ms;
 
  
 }
@@ -18,6 +19,7 @@
   min-width: 100vh;
   scroll-behavior: smooth;
   overflow-x: hidden;
+ 
   
 }
 .LinkBar {
@@ -31,7 +33,8 @@
 
 a {
   text-decoration: none;
-  cursor: url("./img/cursorHoverLink.svg"), pointer;
+  cursor: url("./img/cursorHoverLink1.svg"), pointer;
+  
   
 }
 
@@ -40,7 +43,8 @@ a:hover{
 }
 
 button {
-  cursor: url("./img/cursorHoverLink.svg"), pointer;
+  cursor: url("./img/cursorHoverLink1.svg"), pointer;
+  
 }
 
 /*phone only*/

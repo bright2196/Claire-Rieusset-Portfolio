@@ -306,6 +306,113 @@ transition: transform 330ms ease-in-out;
 }
 
 
+@media (max-width: 399px) {
+    .contentContainer {
+        
+        margin-left: 20px;
+        padding-top: 2vh;
+    
+        margin-right: 20px;
+       
+    }
+
+    .containerDescriptionProject {
+       
+        margin-top: 50px;
+    
+    }
+
+    .infoProjectContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .titleSection1 {
+       
+        margin-top: 90px;
+    
+    }
+
+    .textSection1 {
+    
+        width: 200px;
+    }
+
+    .section2Title {
+         
+        margin-top: 130px;
+        margin-bottom: 30px;
+    }
+
+    .wireframeImage2, .wireframeImage4 {
+        margin-left: 0;
+    }
+
+    .color {
+
+        margin-top: 20px;
+     
+    }
+
+    .bubbles {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+
+    .bubbles1 {
+        margin-bottom: 15px;
+    }
+
+    .titleArticle1, .titleArticle2, .titleArticle3 {
+        
+        font-size: 16px;
+        font-family: roboto-condensed,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #E0E0E0;
+        margin-top: 10px;
+        width: 500px;
+
+    }
+
+
+
+    .typoImage {
+        margin-top: 50px;
+        margin-left: 0;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .other {
+        margin-bottom: 20px;
+        }
+
+    .otherContainerButton {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 30px;
+        }
+
+        .carouselContainer {
+            
+            width: 100%;
+        }
+
+        .wireframeImage1, .wireframeImage2, .wireframeImage3, .wireframeImage4{
+            width:100%; 
+            
+        }
+  }
 /*tablet portrait up*/
 @media (max-width: 600px) {
     .contentContainer {
