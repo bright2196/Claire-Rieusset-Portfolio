@@ -5,7 +5,8 @@ import styles from "./ContactSection.module.css";
 import MailIcon from '../ContactSection/img/mailIcon.svg'
 import LinkedinIcon from '../ContactSection/img/linkedinIcon.svg'
 
-// import BehanceIcon from '../ContactSection/img/behanceIcon.svg'
+import BehanceIcon from '../ContactSection/img/behanceIcon.svg'
+import mediumIcon from '../ContactSection/img/mediumIcon.svg'
 
 import TelephoneIcon from '../ContactSection/img/telephoneIcon.svg'
 
@@ -72,7 +73,12 @@ export default function ContactSection() {
 
 
              <div className={styles.iconBehance}>
-                   {/* <a href="https://www.behance.net/clairerieusset1" target="blank"> <img className={styles.iconBehance} src={BehanceIcon} alt="Icon Behance"/></a> */}
+                   <a href="https://www.behance.net/clairerieusset1" target="blank"> <img className={styles.iconBehance} src={BehanceIcon} alt="Icon Behance"/></a>
+
+             </div>
+
+             <div className={styles.iconMedium}>
+                   <a href="https://www.behance.net/clairerieusset1" target="blank"> <img className={styles.iconBehance} src={mediumIcon} alt="Icon Behance"/></a>
 
              </div>
             

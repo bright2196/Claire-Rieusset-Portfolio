@@ -68,6 +68,13 @@
     top: 2vh;
    
 }
+
+.containerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
 .mailText {
     writing-mode: horizontal-tb;
     text-decoration: none;
@@ -148,6 +155,10 @@
 }
 .IconReseauSociaux {
     display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: -30%;
+   
     
     
 }
@@ -156,18 +167,15 @@
     padding-left: 1vw;
     padding-right: 1vw;
     padding-top: 2vh;
-    width: 30px;
-    height: 30px;
+   
     transition-property: transform;
     transition-duration: 400ms;
 }
 
 .iconLinkedin   {
-    padding-left: 1vw;
     padding-right: 1vw;
     padding-top: 2vh;
-    width: 30px;
-    height: 30px;
+    
     transition-property: transform;
     transition-duration: 400ms;
 }
@@ -176,8 +184,7 @@
     padding-left: 1vw;
     padding-right: 1vw;
     padding-top: 2vh;
-    width: 30px;
-    height: 30px;
+  
     transition-property: transform;
     transition-duration: 400ms;
 }
