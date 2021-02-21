@@ -2,8 +2,6 @@ import React from 'react';
 import styles from './Libow.module.css'
 import ProjectPageTemplate from '../../components/ProjectPageTemplate';
 import HeaderImage from '../Libow/img/headerTest.png'
-// import wireframeImage1 from '../Libow/img/sketchImage.png'
-// import wireframeImage2 from '../Libow/img/ImageUx5.png'
 import imageUx1 from '../Libow/img/carousel/libow1.png'
 import imageUx2 from '../Libow/img/carousel/libow2.png'
 import imageUx3 from '../Libow/img/carousel/libow3.png'
