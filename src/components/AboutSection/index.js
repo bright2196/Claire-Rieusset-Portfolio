@@ -3,6 +3,7 @@ import CorpsText from '../CorpsText';
 import SousTitre from '../Subtitles';
 import styles from "./AboutSection.module.css";
 import MyPortrait from '../AboutSection/img/MyPhoto.svg'
+import { Link } from 'react-router-dom';
 
 
 export default function AboutSection() {
@@ -24,7 +25,11 @@ export default function AboutSection() {
 
 
 
-    <div className={styles.TextCorps}>
+    <div className={styles.ContainerTextCvLink} >
+      <div className={styles.cvLink}>
+        <Link className={styles.styleCvLink} to="/cv-claire-rieusset">Explore mon CV</Link>
+      </div>
+      <div className={styles.TextCorps}>
           <CorpsText
           name='Je me présente, je m’appelle Claire. Je suis une grande passionnée 
           de graphisme, mais aussi d’UX design. Mon passe-temps ? Faire ma petite 
@@ -36,6 +41,7 @@ export default function AboutSection() {
           fontSize= '16px'
           color= "#E0E0E0"
           /> 
+        </div>
     </div>
     
   </div>

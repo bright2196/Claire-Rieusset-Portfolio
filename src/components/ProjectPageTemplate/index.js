@@ -288,6 +288,7 @@ class ProjectPageTemplate extends React.Component {
                   </h2>
               </div>
               <div className={styles.buttonContainer}>
+                  
               <div className={styles.ButtonContainer}>
             <ButtonProject
             name="Explorez mon CV_" 

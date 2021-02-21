@@ -25,14 +25,49 @@
     
 }
 
+.ContainerTextCvLink {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+
+.cvLink {
+    writing-mode: vertical-lr;
+    display: flex;
+    padding-left: 5vw;
+    text-decoration: none;
+    color: #E0CF04;
+    
+}
+
+.styleCvLink {
+    text-decoration: none;
+    color: #E0CF04;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    transition-property: transform;
+    transition-duration: 500ms;
+}
+
+.styleCvLink:hover {
+    text-decoration: none;
+    color: #928817;
+    
+    transform: translateY(0.5em);
+   
+}
+
 .TextCorps {
     width: 450px;
     font-family: roboto-condensed,sans-serif;
     font-weight: 400;
     font-size: 23px;
     font-style: normal;
-    padding-left: 4.5vw;
+    padding-left: 0.5vw;
     line-height: 1.5em;
+    display: flex;
 
 
 }
@@ -48,7 +83,44 @@
 }
 
 /*phone only*/
-@media (max-width: 599px) {
+@media (max-width: 399px) {
+    .MyPortrait {
+    display: none;   
+    }
+
+    .AboutSectionContainer {
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        left: 5vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+        
+    }
+
+    .TextCorps {
+        width: 230px;
+        padding-top: 10px;
+       
+    }
+
+    .cvLink {
+     
+        padding-left: 0;
+       
+        
+    }
+
+    .containerText {
+        
+        left: 2vw;
+        top: 5vh;
+    }
+  }
+
+  @media (max-width: 599px) {
     .MyPortrait {
     display: none;   
     }
@@ -64,13 +136,50 @@
         
         
     }
+
+    .TextCorps {
+        width: 260px;
+        padding-top: 10px;
+       
+    }
+
+    .cvLink {
+     
+        padding-left: 0;
+       
+        
+    }
+
+    .containerText {
+        
+        left: 7vw;
+        top: 2vh;
+    }
   }
   
   /*tablet portrait up*/
   @media (max-width: 800px) {
+    .AboutSectionContainer {
+       
+        flex-direction: column;
+        min-height: 100vh;
+        left: 1vw;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+
+    .containerText {
+        
+        left: 0;
+        top: 2vh;
+    }
     .MyPortrait {
         display: none;   
         }
+
+   
   }
   
   /*tablet landspace up*/
