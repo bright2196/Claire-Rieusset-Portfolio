@@ -49,7 +49,7 @@ export default function WorkSection() {
     </Link>
 
 
- <Link to='/horrybord-project' className={styles.LinkContainer}>
+ {/* <Link to='/horrybord-project' className={styles.LinkContainer}>
     <div className={styles.Element}>
         
         <WorkElementButton
@@ -58,7 +58,7 @@ export default function WorkSection() {
       link='/reve-et-ville-project'/>
     
     </div>
-    </Link>
+    </Link> */}
 
 
     </div>
