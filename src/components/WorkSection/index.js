@@ -65,13 +65,15 @@ export default function WorkSection() {
 
     <div className={styles.ContainerElementPart2}>
 
-    <Link to='/theorie-animee' className={styles.LinkContainer}>
+
+
+    <Link to='/vitrine-verte-project' className={styles.LinkContainer}>
     <div className={styles.ElementR}>
         
         <WorkElementButton
-      name= 'THÉORIE ANIMÉE_'
+      name= "VITRINE VERTE_"
       backgroundColor='RGBA(207,192,5,0.3)'
-      link='/theorie-animee'/>
+      link='/vitrine-verte-project'/>
     
     </div>
     </Link>
@@ -88,6 +90,16 @@ export default function WorkSection() {
     </div>
     </Link>
 
+    <Link to='/theorie-animee' className={styles.LinkContainer}>
+    <div className={styles.ElementR}>
+        
+        <WorkElementButton
+      name= 'THÉORIE ANIMÉE_'
+      backgroundColor='RGBA(207,192,5,0.3)'
+      link='/theorie-animee'/>
+    
+    </div>
+    </Link>
     </div>
     </div>
     <div className={styles.ButtonMore}> 

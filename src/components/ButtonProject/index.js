@@ -2,15 +2,19 @@ import React from "react";
 import styles from './ButtonProject.module.css';
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
+// import SelectorComponent from "../../HOCs/SelectorComponent";
+
 
 
 
 class ButtonProject extends React.Component {
   
   render() {
+   
+  
     return (
     <div className= {styles.ContainerButton}>
-      <a href={this.props.linkExterne}>
+  
       <Link className={styles.Button} to = {this.props.link}
       style={{
     
@@ -22,7 +26,7 @@ class ButtonProject extends React.Component {
       {this.props.name} 
       <div className={styles.circleButton}></div>
       </Link>
-      </a>
+
     
       </div>
    
