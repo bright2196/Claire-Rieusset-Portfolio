@@ -30,7 +30,8 @@ export default function WorkSection() {
             number= '1_Stage'
             name= 'LIBOW_'
             link='/libow-project'
-            backgroundColor='RGBA(207,192,5,0.3)'/>
+            backgroundColor='RGBA(207,192,5,0.3)'
+        />
        
     
     </div>

@@ -4,48 +4,39 @@
     position: relative;
     display: flex;
     flex-direction: column;
-  
-    
-
-
 }
 
 .LinkContainer .Element {
     transition: transform 330ms ease-in-out;
-   
 }
+
 .LinkContainer .ElementR {
     transition: transform 330ms ease-in-out;
-   
 }
+
 .LinkContainer .ElementR:hover {
-    transform: translateX(-50px);}
+    transform: translateX(-50px);
+}
 
 .LinkContainer .Element:hover {
-    transform: translateX(50px);}
+    transform: translateX(50px);
+}
 
 .ElementContainer {
     display: flex;
-    
     position: relative;
     width: 100%;
     height: auto;
     justify-content: space-around;
     align-items: center;
     margin-left: 5vw;
-
-
-   
-    
 }
 
-
-.ContainerElementPart1{
+.ContainerElementPart1 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
-
 
 .ContainerElementPart2 {
     display: flex;
@@ -53,11 +44,7 @@
     flex-direction: column;
 }
 
-
-
-
 .Subtitles {
-   
     margin-top: 12vh;
     margin-bottom: 10vh;
     display: flex;
@@ -72,34 +59,10 @@
 }
 
 
-/*phone only*/
-@media (max-width: 599px) {
+/*tablet portrait up*/
+
+@media (max-width: 900px) {
     .ElementContainer {
-       flex-direction: column;  
+        flex-direction: column !important;
     }
-  
-  
-  }
-  
-  /*tablet portrait up*/
-  @media (max-width: 800px) {
-    .ElementContainer {
-        flex-direction: column;  
-     }
-  }
-  
-  /*tablet landspace up*/
-  @media (min-width: 900px) {
-   
-  }
-  /*desktop up*/
-  @media (min-width: 1200px) {
-    
-    
-  
-  @media (max-width: 1800px) {
-  
-      
-  }
-  }
-  
+}

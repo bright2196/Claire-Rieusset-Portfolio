@@ -140,17 +140,17 @@ const Ul = styled.ul`
   
 
 
-const RightNav = ({open}) => {
+const RightNav = ({open, setOpen}) => {
 
   return (
     <div className='container'>
-    <Ul open={open} >
+    <Ul open={open}>
     <div className='item' >
             <NavLink 
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
                 to="/"
-               
+                onClick={() => setOpen(!open)}
             >
                     <li>Home</li>
             </NavLink>
@@ -162,6 +162,7 @@ const RightNav = ({open}) => {
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
                 to="/a-propos"
+                onClick={() => setOpen(!open)}
             >
                     <li>A propos</li>
             </NavLink>
@@ -172,6 +173,7 @@ const RightNav = ({open}) => {
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
                 to="/tous-mes-travaux"
+                onClick={() => setOpen(!open)}
             >
                     <li>Tous mes projets</li>
             </NavLink>
@@ -182,6 +184,7 @@ const RightNav = ({open}) => {
                 activeClassName="navbarLinkActive"
                 className="navbar__link"
                 to="/contact"
+                onClick={() => setOpen(!open)}
             >
                     <li>Contact</li>
             </NavLink>
