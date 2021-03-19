@@ -8,7 +8,7 @@ const Ul = styled.ul`
     display: flex;
     z-index: 1000;
     background-color: #020202;
-    border-radius: 30px 0 30px 0;
+    border-radius: 30px 0 0 30px;
     margin:0;
     flex-direction: column;
     position: fixed;

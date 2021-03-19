@@ -27,19 +27,14 @@ const App = () => {
   return (
     <CursorProvider>
     <div className="App">
-  
-      
-      <div className='LinkBar'>
-         <LinkBar/>
-         </div>
-
-         
+        <div className='LinkBar'>
+          <LinkBar/>
+        </div>
       <BrowserRouter>
-      <div className='NavBar'>
+        <div className='NavBar'>
           <Navbar2/>     
-         </div>
+        </div>
         <Switch>
-          <Route path="/" exact component={Home} />
           <Route path="/a-propos" component={About} />
           <Route path="/libow-project" component={Libow} />
           <Route path="/adapt-project" component={Adapt} />
@@ -52,11 +47,10 @@ const App = () => {
           <Route path="/contact" component={Contact} />
           <Route path="/cv-claire-rieusset" component={CV} />
           <Route path="/en-travaux" component={WaitingPage} />
+          <Route path="/" exact component={Home} />
         </Switch>
-       
-
       </BrowserRouter>
--    </div>
+-   </div>
   </CursorProvider>
   );
 };
