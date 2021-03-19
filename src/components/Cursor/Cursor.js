@@ -32,7 +32,7 @@ const CursorProvider = ({ children }) => {
 
   return (
     <CursorContext.Provider value={{ onCursor }}>
-      { x < (window.innerWidth-25) && y < (window.innerHeight-10) && x > 0 && y > 0 &&
+      { x < (window.innerWidth-25) && x > 0 && y > 0 &&
         <ins
         className={cx('movable', {
           'active': !!cursor,

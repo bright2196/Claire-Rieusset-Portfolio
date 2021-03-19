@@ -52,8 +52,6 @@ const App = () => {
           <Route path="/contact" component={Contact} />
           <Route path="/cv-claire-rieusset" component={CV} />
           <Route path="/en-travaux" component={WaitingPage} />
-
-       
         </Switch>
        
 
