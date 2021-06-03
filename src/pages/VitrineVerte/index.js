@@ -15,7 +15,7 @@ import color2 from '../VitrineVerte/img/color2.png'
 import color3 from '../VitrineVerte/img/color3.png'
 import wireframeImage1 from '../VitrineVerte/img/wireframe1.png'
 import wireframeImage2 from '../VitrineVerte/img/wireframe2.png'
-import typo from '../Libow/ressources/typographie.png'
+import typo from '../VitrineVerte/img/typo.png'
 
 
 

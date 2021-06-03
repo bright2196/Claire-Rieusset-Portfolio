@@ -7,24 +7,181 @@
     display: flex;
     flex-direction: column;
 
-    justify-content: center;
     position: relative;
-    left: 10vw;
+  
 }
 
+.MyPortrait {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.photoSection {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    width: 65vw;
+    margin-top: 15%;
+
+}
+
+.Subtitles0 {
+    margin-left: -2.1vw;
+}
 
 .AboutSectionContainer {
-    width: 95vw;
+    width: 100vw;
     min-height: 100vh;
-    position: relative;
-    left: 5vw;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
     
 }
+.topSectionContainer {
+width: 80vw;
+/* min-height: 80vh; */
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+padding-top: 15%;
+margin-right: 10%;
+margin-left: 2vw;
+width: 60vw;
+}
 
+.part1Education{
+width: 100vw;
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+padding-top: 15%;
+
+}
+
+.part2Experience {
+width: 100vw;
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+padding-top: 15%;
+}
+
+.texte1Exp {
+    text-decoration: none;
+    color: #E0CF04;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.subtitle1Exp {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 16px;
+    width: 25vw;
+    margin-top: -5px;
+}
+
+.titleTexte1Exp {
+    text-decoration: none;
+    color: #E0CF04;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.titleTexte1Comp {
+    text-decoration: none;
+    color: #E0CF04;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+
+}
+
+.titleTexte1Formation {
+    text-decoration: none;
+    color: #E0CF04;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.corpsTexte1Exp {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 25vw;
+    padding-left: 40px;
+}
+.corpsTexte1Comp {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 15vw;
+   
+    margin-bottom: 3px;
+}
+
+.corpsTexte2Comp {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 8vw;
+    margin-bottom: 3px;
+}
+
+.Subtitles1 {
+    margin-left: 4.5vw;
+}
+
+.Subtitles4 {
+    margin-left: 2vw;
+}
+.part3Competences {
+    width: 100vw;
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+padding-top: 15%;
+padding-bottom: 15%;
+}
+.corpsTexte1Formation {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 25vw;
+}
+
+.titleTexte2Formation {
+    text-decoration: none;
+    color: #E0CF04;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.corpsTexte2Formation {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-family: roboto-condensed,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 25vw;
+}
 .ContainerTextCvLink {
 display: flex;
 flex-direction: row;
@@ -35,7 +192,6 @@ align-items: center;
 .cvLink {
     writing-mode: vertical-lr;
     display: flex;
-    padding-left: 5vw;
     text-decoration: none;
     color: #E0CF04;
     
@@ -77,8 +233,8 @@ align-items: center;
     display: flex;
     width: 28vw;
     height: 42vh;
-    position: relative;
-    right: 12vw;
+    margin-top: -50px;
+   
    
 }
 
@@ -88,7 +244,7 @@ align-items: center;
     display: none;   
     }
 
-    .AboutSectionContainer {
+    /* .AboutSectionContainer {
         width: 100%;
         min-height: 100vh;
         position: relative;
@@ -98,6 +254,16 @@ align-items: center;
         align-items: flex-start;
         
         
+    } */
+
+    .topSectionContainer{
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        left: 5vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
     }
 
     .TextCorps {

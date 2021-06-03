@@ -3,6 +3,7 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import HomeSection from '../../components/HomeSection';
 import LibowProject from '../../components/ProjectSection/LibowProject';
 import AdaptProject from '../../components/ProjectSection/AdaptProject'
+import ContactSection from '../../components/ContactSection';
 // import HorryBordProject from '../../components/ProjectSection/HorryBordProject';
 
 
@@ -37,6 +38,10 @@ const Home = () => (
               </div>
               <div className="section" data-anchor='Adapt' id='Adapt' data-tooltip='Projet 2'>
                 <AdaptProject/>
+              </div>
+
+              <div className="section" data-anchor='Contact' id='Contact' data-tooltip='Contact'>
+                <ContactSection/>
               </div>
 
               {/* <div className="section" data-anchor='HorryBord' id='HorryBord' data-tooltip='Projet 3'>

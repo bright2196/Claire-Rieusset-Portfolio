@@ -1,5 +1,16 @@
 /* Global styles */
 
+
+ @font-face {
+  font-family: "Calton Italic";
+  src: url("./App/assets/Calton-italic.otf");
+ }
+
+ @font-face {
+  font-family: "Calton Regular";
+  src: url("./App/assets/Calton-regular.otf");
+ }
+ 
 /* variables */
 
 body {
