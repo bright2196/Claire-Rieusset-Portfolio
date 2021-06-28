@@ -12,6 +12,8 @@ import imageUx7 from '../Adapt/img/img_ux/adapt6.png'
 import imageUx8 from '../Adapt/img/img_ux/adapt7.png'
 import color1 from '../Adapt/img/color1.png'
 import color2 from '../Adapt/img/color2.png'
+import color3 from '../Adapt/img/color3.png'
+import color4 from '../Adapt/img/color4.png'
 import wireframeImage1 from '../Adapt/img/wireframeAdapt.png'
 import wireframeImage2 from '../Adapt/img/maquetteAdapt.png'
 import typo from '../Adapt/img/typo.png'
@@ -83,6 +85,10 @@ const Adapt = () => {
           color1={color1}
 
           color2={color2}
+
+          color3={color3}
+
+          color4={color4}
 
           
 
