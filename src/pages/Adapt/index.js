@@ -93,7 +93,7 @@ const Adapt = () => {
           width="auto"
           heightProto="812"
       
-          linkProto="https://xd.adobe.com/embed/f27cc361-4c5e-43af-9b00-458a4822cebb-a72f/?fullscreen"
+          linkProto="https://xd.adobe.com/embed/ada916b1-159b-4ee9-aa7a-ed3f63eca12d-f8fa/?fullscreen&hints=off"
 
           
           linkOtherProject1="/libow-project"
